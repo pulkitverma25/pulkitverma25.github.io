@@ -1,45 +1,33 @@
 ---
 layout: page
 permalink: /
-title: about
-nav: about
+title: About
+nav: About
 ---
 
-<div class="text-center mt-5">
-  <img class="profile-img" src="{{ 'prof_pic.jpg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
-</div>
-
 <div class="col mt-4">
-  <h1 class="title text-center font-weight-bold">Anthony Platanios</h1>
-  <div class="row mt-3 mb-3">
-    <div class="col-sm-6">
-      <h6 class="mt-1 text-left text-sm-right" style="font-stretch: ultra-condensed;">
-        <a style="color: rgb(60, 72, 88);" href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a><br/>
-        <a style="color: rgb(60, 72, 88);" href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a><br/>
-        <a style="color: rgb(60, 72, 88);" href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>
-      </h6>
-    </div>
-    <div class="col-sm-6">
-      <h6 class="mt-1 text-left text-sm-left" style="font-stretch: ultra-condensed;">
-        8221 Gates Hillman Center<br/>
-        5000 Forbes Ave<br/>
-        Pittsburgh, PA 15213
-      </h6>
-    </div>
-  </div>
+    <header class="post-header">
+    <h1 class="post-title">
+      <strong>Pulkit</strong> Verma</h1>
+    <h5>Ph.D. Student @ AAIR LAB, ASU</h5>
+  </header>
 </div>
 
-<!-- Introduction -->
+<div class="row">
+  <div class="col text-justify">
+    <p>I am a Ph.D. student in the <a href="https://cidse.engineering.asu.edu/" target="\_blank">School of Computing, Informatics, and Decision Systems Engineering</a> at <a href="https://www.asu.edu/" target="\_blank">Arizona State University</a>, advised by <a href="http://siddharthsrivastava.net/" target="\_blank">Dr. Siddharth Srivastava</a>. I have completed M.Tech. from <a href="http://www.iitg.ac.in/cse/" target="\_blank">Department of Computer Science &amp; Engineering</a> at <a href="http://www.iitg.ac.in/" target="\_blank">IIT Guwahati</a>, advised by <a href="http://www.iitg.ernet.in/pkdas/" target="\_blank">Dr. Pradip K. Das</a>.</p>
+    <p>My primary interests lies in AI planning, model learning, and analysis of abstractions. I am working on interrogation of autonomous agents where based on agent’s responses, we can reason about its internal model.</p>
+    <p>In the past I have worked in the area of bio-inspired robotics, speech processing and internet of things.</p>
+  </div>
+  <div class="col">
+    <img class="profile-img" src="{{ 'pulkit_verma.jpg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
+  </div>
 
-<div class="col text-justify p-0">
-  I am a PhD student in the <a href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a> of the <a href="https://www.scs.cmu.edu/" target="_blank">School of Computer Science</a> at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>. My advisor is <a href="http://www.cs.cmu.edu/~tom/" target="_blank">Tom Mitchell</a> and I work on <a href="http://rtw.ml.cmu.edu/rtw/" target="_blank">Never-Ending Learning</a>. My current research is motivated by the fact that real-world problems require integrating multiple, distinct modalities of information (e.g., image, audio, language, etc.) in ways that machine learning models cannot currently handle well. Most deep learning approaches are not able to utilize information learned from solving one problem to directly help in solving another. They are also not capable of <span class="font-weight-bold">never-ending learning</span>, failing on problems that are dynamic, ever-changing, and not fixed a priori, which is true of problems in the real world due to the dynamicity of nature. With my research, I aim to bridge the gap between UTCs, deep learning, and never-ending learning, by proposing <span class="font-weight-bold">neural cognitive architectures (NCAs)</span> that are inspired by human cognition and that can learn to continuously solve multiple problems that can grow in number over time, across multiple distinct perception and action modalities, and from multiple noisy sources of supervision combined with self-supervision. Their experience from learning to solve past problems can also be leveraged to learn to solve future ones. If you are interested to read more about NCAs, my <a href="{{ '/assets/pdf/thesis/proposal.pdf' | prepend: site.baseurl }}" target="_blank">thesis proposal</a> would be a good place to start. Throughout my PhD I have also worked on <a href="{{ '/projects/' }}">multiple other projects</a> related to artificial intelligence and machine learning.
-  <br/><br/>
-  Before I joined CMU, I graduated with an M.Eng. in <a href="http://www.imperial.ac.uk/electrical-engineering" target="_blank">Electrical and Electronic Engineering</a> from <a href="https://www.imperial.ac.uk/" target="_blank">Imperial College London</a>. For my Master's thesis I proposed a way to use topic modelling methods in order to perform human motion classification.
 </div>
 
 <!-- News -->
 <div class="news mt-3 p-0">
-  <h1 class="title mb-4 p-0">news</h1>
+  <h1 class="title mb-4 p-0">News</h1>
   {% assign news = site.news | reverse %}
   {% for item in news limit: site.news_limit %}
     <div class="row p-0">
@@ -53,4 +41,24 @@ nav: about
       </div>
     </div>
   {% endfor %}
+</div>
+
+
+<div class="social">
+  <center>
+  <span class="contacticon center">
+    {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+    {% if site.orcid_id %}<a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>{% endif %}
+    {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+    {% if site.publons_id %}<a href="https://publons.com/a/{{ site.publons_id }}/" target="_blank" title="Publons"><i class="ai ai-publons"></i></a>{% endif %}
+    {% if site.research_gate_profile %}<a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" target="_blank" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{% endif %}
+    {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+    {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+    {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+    {% if site.strava_userid %}<a href="https://www.strava.com/athletes/{{ site.strava_userid }}" target="_blank" title="Strava"><i class="fab fa-strava"></i></a>{% endif %}
+    {% if site.medium_username %}<a href="https://medium.com/@{{ site.medium_username }}" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>{% endif %}
+    {% if site.quora_username %}<a href="https://www.quora.com/profile/{{ site.quora_username }}" target="_blank" title="Quora"><i class="fab fa-quora"></i></a>{% endif %}
+    {% if site.blogger_url %}<a href="{{ site.blogger_url }}" target="_blank" title="Blogger"><i class="fab fa-blogger-b"></i></a>{% endif %}
+  </span>
+</center>
 </div>

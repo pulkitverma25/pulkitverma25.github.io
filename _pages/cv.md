@@ -1,13 +1,12 @@
 ---
 layout: page
 permalink: /cv/
-title: cv
+title: CV
 nav: cv
 ---
 
-<!-- Place PDF download link at the top right. -->
 <div class="row" style="margin-top: -3.5em;">
-	<a class="ml-auto mr-2" href="/assets/pdf/vitae.pdf" target="_blank">
+	<a class="ml-auto mr-2" href="/assets/pdf/Pulkit_Verma_CV.pdf" target="_blank">
 	  <img height="60px" src="/assets/img/pdf_icon.svg">
 	</a>
 </div>

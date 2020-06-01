@@ -29,6 +29,7 @@ body {
 
 .content {
   @extend .container-fluid, .mt-4;
+  padding: 25px;
 }
 
 footer {
@@ -76,9 +77,8 @@ progress {
 }
 
 .profile-img {
-  @include img-fluid;
-  @include rounded-circle;
-  @include shadow;
+  box-shadow: 0 0 5px $grey-color;
+  width: 100%;
 
   max-width: 200px;
 }
@@ -96,6 +96,33 @@ progress {
   .text p, .text a {
     padding-left: .2em;
   }
+}
+
+.post-header { 
+  margin-bottom: 40px; 
+}
+
+.post-title { 
+  font-size: 42px; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  margin-bottom: 10px; 
+  margin-top: 0; 
+}
+
+.social { 
+  border-top: 1px solid; 
+  margin-top: 50px; 
+  padding-top: 20px; 
+}
+
+.social a { color: #333; }
+.social a:hover { color: #cf0000; }
+
+.contacticon { 
+  display: block; 
+  font-size: 60px; 
+  margin: 10px; 
 }
 
 /* Projects */

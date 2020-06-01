@@ -20,18 +20,10 @@
   <!-- Header -->
   <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
     <div class="container-fluid p-0">
-      {% if page.title != "about" %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/"><span class="font-weight-bold">Anthony</span> Platanios</a>
+      {% if page.title != "About" %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/"><span class="font-weight-bold">Pulkit</span> Verma</a>
       {% else %}
         <div class="row ml-1 ml-sm-0">
-          <span class="contact-icon text-center" style="line-height: 1em;">
-            <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square gm-icon"></i></a>
-            <a href="https://scholar.google.com/citations?userid={{ site.scholar_userid }}&user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar-square gs-icon"></i></a>
-            <a href="https://www.github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github-square gh-icon"></i></a>
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin li-icon"></i></a>
-            <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" title="Facebook"><i class="fab fa-facebook-square fb-icon"></i></a>
-            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter-square tw-icon"></i></a>
-          </span>
         </div>
       {% endif %}
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,10 +31,10 @@
       </button>
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item {% if page.title == "about" %}navbar-active font-weight-bold{% endif %}">
+          <li class="nav-item {% if page.title == "About" %}navbar-active font-weight-bold{% endif %}">
             <a class="nav-link" href="{{ site.baseurl }}/">
-              about
-              {% if page.title == "about" %}
+              About
+              {% if page.title == "About" %}
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
@@ -65,11 +57,11 @@
   </nav>
 
   <!-- Scrolling Progress Bar -->
-  <progress id="progress" value="0">
+<!--   <progress id="progress" value="0">
     <div class="progress-container">
       <span class="progress-bar"></span>
     </div>
-  </progress>
+  </progress> -->
 
   <!-- Content -->
   <div class="content">
