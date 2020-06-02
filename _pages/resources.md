@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Links
-nav: links
-permalink: /links/
+title: Resources
+nav: resources
+permalink: /resources/
 description: Some links for personal book-keeping
 ---
 
@@ -23,7 +23,7 @@ description: Some links for personal book-keeping
             <li class="list-group-item"><a href="http://www.iitg.ac.in/cse/robotics/" >IITG Robotics Lab</a></li>
             <li class="list-group-item"><a href="http://www.iitg.ac.in/cse/" >IITG CSE</a></li>
             <li class="list-group-item"><a href="http://www.svvv.edu.in/" >SVITS Indore</a></li>
-            <li class="list-group-item"><a href="http://www.modikota.com" >Modi Public School, Kota</a></li>
+            <!-- <li class="list-group-item"><a href="http://www.modikota.com" >Modi Public School, Kota</a></li> -->
             <!-- <li class="list-group-item"><a href="http://oxfordjuniorcollege.co.in" >Oxford Junior College, Ujjain</a></li> -->
     </ul>
   </div>

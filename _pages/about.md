@@ -9,20 +9,22 @@ nav: About
     <header class="post-header">
     <h1 class="post-title">
       <strong>Pulkit</strong> Verma</h1>
-    <h5>Ph.D. Student @ AAIR LAB, ASU</h5>
+    <h5>Ph.D. Student @ <a href="http://aair-lab.github.io/" target="_blank">AAIR LAB</a>, <a href="https://www.asu.edu/" target="\_blank">ASU</a></h5>
   </header>
 </div>
 
-<div class="row">
-  <div class="col text-justify">
-    <p>I am a Ph.D. student in the <a href="https://cidse.engineering.asu.edu/" target="\_blank">School of Computing, Informatics, and Decision Systems Engineering</a> at <a href="https://www.asu.edu/" target="\_blank">Arizona State University</a>, advised by <a href="http://siddharthsrivastava.net/" target="\_blank">Dr. Siddharth Srivastava</a>. I have completed M.Tech. from <a href="http://www.iitg.ac.in/cse/" target="\_blank">Department of Computer Science &amp; Engineering</a> at <a href="http://www.iitg.ac.in/" target="\_blank">IIT Guwahati</a>, advised by <a href="http://www.iitg.ernet.in/pkdas/" target="\_blank">Dr. Pradip K. Das</a>.</p>
-    <p>My primary interests lies in AI planning, model learning, and analysis of abstractions. I am working on interrogation of autonomous agents where based on agent’s responses, we can reason about its internal model.</p>
-    <p>In the past I have worked in the area of bio-inspired robotics, speech processing and internet of things.</p>
+<div class="container">
+  <div class="row">
+    <!-- <div class="col-xs-12 col-sm-3 col-sm-push-9"> -->
+<!--       <img class="profile-img float-right mr-2" src="{{ 'pulkit_verma.jpg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
+ --><!--     </div> -->
+    <div class="col-12 text-justify">
+      <img class="profile-img float-right mr-2" src="{{ 'pulkit_verma.jpg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
+      <p>I am a Ph.D. student in the <a href="https://cidse.engineering.asu.edu/" target="\_blank">School of Computing, Informatics, and Decision Systems Engineering</a> at <a href="https://www.asu.edu/" target="\_blank">Arizona State University</a>, advised by <a href="http://siddharthsrivastava.net/" target="\_blank">Dr. Siddharth Srivastava</a>. I have completed M.Tech. from <a href="http://www.iitg.ac.in/cse/" target="\_blank">Department of Computer Science &amp; Engineering</a> at <a href="http://www.iitg.ac.in/" target="\_blank">IIT Guwahati</a>, advised by <a href="http://www.iitg.ernet.in/pkdas/" target="\_blank">Dr. Pradip K. Das</a>.</p>
+      <p>My primary interests lies in AI planning, model learning, and analysis of abstractions. I am working on interrogation of autonomous agents where based on agent’s responses, we can reason about its internal model.</p>
+      <p>In the past I have worked in the area of bio-inspired robotics, speech processing and internet of things.</p>
+    </div>
   </div>
-  <div class="col">
-    <img class="profile-img" src="{{ 'pulkit_verma.jpg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
-  </div>
-
 </div>
 
 <!-- News -->

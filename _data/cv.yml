@@ -1,7 +1,7 @@
 - title: Research Areas
   type: list
   contents:
-    - AI Planning, Model learning, and Analysis of Abstractions. 
+    - AI Planning, Model Learning, and Analysis of Abstractions. 
     - I am working on interrogation of autonomous agents where based on agent’s responses, we can reason about its internal model. In the past I have worked in the area of bio-inspired robotics, speech processing and internet of things.
 
 - title: Education
@@ -12,7 +12,7 @@
       description:
         - '<u>GPA</u>: 4.11 (4.0 scale).'
         - '<u>Advisor</u>: <a href="http://siddharthsrivastava.net/" target="_blank"><b>Dr. Siddharth Srivastava</b></a>.'
-        - 'I work in <a href="http://aairlab.github.io/" target="_blank"><b>Autonomous Agents and Intelligent Robots (AAIR) Lab</b></a>.'
+        - 'I work in <a href="http://aair-lab.github.io/" target="_blank"><b>Autonomous Agents and Intelligent Robots (AAIR) Lab</b></a>.'
     - title: M.Tech. in Computer Science &amp; Engineering <br><a href="https://www.iitg.ac.in/">Indian Institute of Technology Guwahati, India</a>
       year: 2013-2015
       description:
@@ -84,7 +84,7 @@
     - year: 2014
       items:
         - 'Volunteer at <a href="/assets/pdf/gpa2014workshopPosterV4.pdf" target="_blank">National Workshop on GPU Programming and Applications</a>, IIT Guwahati'
-        - 'Point of Contact, Training and Placement Cell, IIT Guwahati.'
+        - 'Point of Contact, <a href="https://www.iitg.ac.in/ccd/" target="_blank">Center for Career Development</a>, IIT Guwahati.'
 
 - title: Software Development Skills
   type: list

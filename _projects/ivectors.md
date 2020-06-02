@@ -11,6 +11,7 @@ Resource usage of a software is an important factor to be taken into considerati
 
 <div class="col p-0">
 	<a class="badge grey waves-effect font-weight-light mr-1" href="https://doi.org/10.1109/ICSPCom.2016.7980598" target="_blank">Paper</a>
-	<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/vd_icsc16/vd_icsc16_slides.pdf" target="_blank">Slides</a>
 	<a class="badge grey waves-effect font-weight-light mr-1" href="https://doi.org/10.1007/s10772-015-9295-3" target="_blank">Survey Paper</a>
+	<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/projects/masters_thesis.pdf" target="_blank">Masters Thesis</a>
+	<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/vd_icsc16/vd_icsc16_slides.pdf" target="_blank">Slides</a>
 </div>
