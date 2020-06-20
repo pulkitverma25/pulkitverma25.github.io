@@ -23,6 +23,7 @@
       year: 2007-2011
       description:
         - '<u>Grade</u>: 69.88%'
+        - '<u>Capstone Project</u>: <b>Smart Analyzer - A Tool to Predict and Cache Webpages based on Internet Usage History</b>.'
 
 - title: Work Experience
   type: table
@@ -73,7 +74,7 @@
         - '<a href="https://graduate.engineering.asu.edu/experiential-learning-grant/" target="_blank">Fulton Schools Experiential Learning Grant</a>, Arizona State University.'
     - year: 2013 - 2015
       items: 
-        - <b>Post Graduation Fellowship</b>, Ministry of Human Resource Development,Government of India.
+        - '<a href="https://www.aicte-india.org/schemes/students-development-schemes/PG-Scholarship-Scheme" target="_blank">Post Graduation Scholarship</a>, All India Council for Technical Education, MHRD, Government of India.'
 
 - title: Services
   type: table

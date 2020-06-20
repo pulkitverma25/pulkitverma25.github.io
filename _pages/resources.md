@@ -16,12 +16,13 @@ description: Some links for personal book-keeping
     <ul class="card-text font-weight-light list-group list-group-flush">
             <li class="list-group-item"><a href="https://aair-lab.github.io">AAIR Lab</a></li>
             <li class="list-group-item"><a href="https://cidse.engineering.asu.edu/">CIDSE, ASU</a></li>
-            <li class="list-group-item"><a href="https://sites.usc.edu/cognitive-robotics/">Symmer School on Cognitive Robotics</a></li>
+            <li class="list-group-item"><a href="https://sites.usc.edu/cognitive-robotics/">Summer School on Cognitive Robotics</a></li>
             <li class="list-group-item"><a href="http://scholar.stanford.edu/">Stanford Scholar</a></li>
-            <li class="list-group-item"><a href="http://www.netapp.com">NetApp Inc</a></li>
+            <li class="list-group-item"><a href="http://www.netapp.com">NetApp Inc.</a></li>
             <li class="list-group-item"><a href="http://crowdresearchinitiative.stanford.edu/">The Crowd Research Initiative</a></li>
             <li class="list-group-item"><a href="http://www.iitg.ac.in/cse/robotics/" >IITG Robotics Lab</a></li>
             <li class="list-group-item"><a href="http://www.iitg.ac.in/cse/" >IITG CSE</a></li>
+            <li class="list-group-item"><a href="http://www.tcs.com">TCS Pvt. Ltd.</a></li>
             <li class="list-group-item"><a href="http://www.svvv.edu.in/" >SVITS Indore</a></li>
             <!-- <li class="list-group-item"><a href="http://www.modikota.com" >Modi Public School, Kota</a></li> -->
             <!-- <li class="list-group-item"><a href="http://oxfordjuniorcollege.co.in" >Oxford Junior College, Ujjain</a></li> -->
