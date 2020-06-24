@@ -81,6 +81,9 @@
         {% if entry.abstract %}
           <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#{{entry_id}}-abstract" role="button" aria-expanded="false" aria-controls="{{entry_id}}-abstract">Abstract</a>
         {% endif %}
+        {% if entry.bibtex %}
+          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#{{entry_id}}-bibtex" role="button" aria-expanded="false" aria-controls="{{entry_id}}-bibtex">BibTeX</a>
+        {% endif %}
         {% if entry.url %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.url }}" target="_blank">Paper</a>
         {% endif %}
@@ -116,6 +119,26 @@
         </div>
       </div>
       {% endif %}
+      {% if entry.bibtex %}
+      <div class="col mt-2 p-0">
+        <div id="{{entry_id}}-bibtex" class="collapse">
+          <div class="bibtex card card-body font-weight-light mr-0 mr-sm-3 p-3">
+            {{ entry.bibtex }}
+          </div>
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
 </div>
+
+<script>
+function copyBibTeX(entry_id) {
+  alert("Will Copy the text");
+  var copyText = document.getElementById(entry_id);
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+}
+</script>

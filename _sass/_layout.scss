@@ -216,7 +216,13 @@ progress {
     }
 
     .abstract {
+      text-align: justify;
       font-size: 14px;
+    }
+
+    .bibtex {
+      font-size: 14px;
+      overflow-wrap: normal;
     }
   }
 }
