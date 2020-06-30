@@ -28,7 +28,7 @@
 - title: Work Experience
   type: table
   contents:
-    - title: 'Stograge Efficiency Developer <br ><a href="https://www.netapp.in/" target="_blank">NetApp Inc.</a>'
+    - title: 'Storage Efficiency Developer <br ><a href="https://www.netapp.in/" target="_blank">NetApp Inc.</a>'
       year: 2015-2018
       description:
         - '<u>Workload Prediction</u>: Predicting workload on a storage volume, based on I/O patterns for All Flash systems.'
