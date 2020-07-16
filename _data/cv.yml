@@ -62,7 +62,7 @@
       year: 2013-2015
       description:
         - 'CS 513 Programming Lab.; Taught by <b><a href="https://www.iitg.ac.in/sushantak/" target="_blank">Dr. Sushanta Karmakar</a></b>.'
-        - 'CS 462 Graphics Lab.; Taught by <b><a href="http://www.iitg.ernet.in/samit/" target="_blank">Dr. Samit Bhattacharya</a></b> and <b><a href="http://www.iitg.ernet.in/pinaki/" target="_blank">Dr. Pinaki Mitra</a></b>.'
+        - 'CS 462 Graphics Lab.; Taught by <b><a href="http://www.iitg.ernet.in/samit/" target="_blank">Dr. Samit Bhattacharya</a></b> and <b><a href="http://www.iitg.ac.in/cse/internet-pages/pinaki" target="_blank">Dr. Pinaki Mitra</a></b>.'
         - 'CS 243 Software Engineering Lab.; Taught by <b><a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Dr. Pradip K. Das</a></b>.'
         - Mentored students working on class projects and homeworks.
 
@@ -84,13 +84,13 @@
         - 'Volunteer with <a href="https://www.cry.org/" target="_blank">Child Rights and You</a>, Bengaluru, India.'
     - year: 2014
       items:
-        - 'Volunteer at <a href="/assets/pdf/gpa2014workshopPosterV4.pdf" target="_blank">National Workshop on GPU Programming and Applications</a>, IIT Guwahati'
+        - 'Volunteer at <a href="https://www.iitg.ac.in/eee/gpa3_2014/" target="_blank">National Workshop on GPU Programming and Applications</a>, IIT Guwahati'
         - 'Point of Contact, <a href="https://www.iitg.ac.in/ccd/" target="_blank">Center for Career Development</a>, IIT Guwahati.'
 
 - title: Software Development Skills
   type: list
   contents:
-    - '<u>GitHub</u>: <a href="https://github.com/eaplatanios" target="_blank">https://github.com/pulkitverma25</a>'
+    - '<u>GitHub</u>: <a href="https://github.com/pulkitverma25" target="_blank">https://github.com/pulkitverma25</a>'
     - '<u>High Level Programming Languages</u>: C, C++, Python, Prolog, Java.'
     - '<u>Programming Environments (IDEs)</u>: PyCharm, Visual Studio, MATLAB'
     - '<u>Database Systems</u>: PostgreSQL, MS SQL Server, MySQL.'
