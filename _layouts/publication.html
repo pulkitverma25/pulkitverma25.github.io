@@ -97,12 +97,7 @@
           {% endif %}
         {% endif %}
         {% if entry.pdf %}
-          {% if entry.type == "preprint" %}
-            <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.pdf }}" target="_blank">PDF</a>
-          {% else %}
             <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">PDF</a>
-          {% endif %}
-          
         {% endif %}
         {% if entry.supp %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Supplementary</a>
