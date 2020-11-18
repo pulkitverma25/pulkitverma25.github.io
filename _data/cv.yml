@@ -10,14 +10,14 @@
     - title: Ph.D. in Computer Science <br ><a href="https://www.asu.edu/">Arizona State University</a>
       year: 2018-now
       description:
-        - '<u>GPA</u>: 4.11 (4.0 scale).'
-        - '<u>Advisor</u>: <a href="https://www.public.asu.edu/~ssriva43/" target="_blank"><b>Dr. Siddharth Srivastava</b></a>.'
+        - '<u>GPA</u>: 4.0 (4.0 scale).'
+        - '<u>Advisor</u>: <a href="https://www.public.asu.edu/~ssriva43/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
         - 'I work in <a href="http://aair-lab.github.io/" target="_blank"><b>Autonomous Agents and Intelligent Robots (AAIR) Lab</b></a>.'
     - title: M.Tech. in Computer Science &amp; Engineering <br><a href="https://www.iitg.ac.in/">Indian Institute of Technology Guwahati, India</a>
       year: 2013-2015
       description:
         - '<u>GPA</u>: 9.07 (10.0 scale).'
-        - '<u>Advisor</u>: <a href="http://www.iitg.ernet.in/pkdas/" target="\_blank">Dr. Pradip K. Das</a>.'
+        - '<u>Advisor</u>: <a href="http://www.iitg.ernet.in/pkdas/" target="\_blank">Prof. Pradip K. Das</a>.'
         - '<u>Thesis</u>: <b>Resource Usage Analysis for Speech Recognition Techniques</b>.'
     - title: B.E. in Information Technology <br ><a href="http://www.svvv.edu.in/">Shri Vaishnav Institute of Technology &amp; Science, India</a>
       year: 2007-2011
@@ -46,7 +46,7 @@
       year: Fall 2019
       description:
         - '<a href="https://aair-lab.github.io/teaching/571_f19.html" target="_blank">CSE 571 Artificial Intelligence</a>.'
-        - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Dr. Siddharth Srivastava</b></a>.'
+        - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
         - Gave tutorials on Constraint Satisfaction Problems, PDDL, First Order Logic, and Dynamic Bayesian Networks.
         - Co-created the software testbed used to support the course projects.
         - Created and graded homework assignments.
@@ -55,15 +55,15 @@
       year: Fall 2014
       description:
         - 'CS 566 Speech Processing.'
-        - 'Taught by <b><a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Dr. Pradip K. Das</a></b>.'
+        - 'Taught by <b><a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a></b>.'
         - Mentored students working on class projects and homeworks.
         - Graded homework assignments and exams.
     - title: '<b>Teaching Assistant for several undergraduate-level Computer Science Lab-Courses at IIT Guwahati, India.</b>' 
       year: 2013-2015
       description:
-        - 'CS 513 Programming Lab.; Taught by <b><a href="https://www.iitg.ac.in/sushantak/" target="_blank">Dr. Sushanta Karmakar</a></b>.'
-        - 'CS 462 Graphics Lab.; Taught by <b><a href="http://www.iitg.ernet.in/samit/" target="_blank">Dr. Samit Bhattacharya</a></b> and <b><a href="http://www.iitg.ac.in/cse/internet-pages/pinaki" target="_blank">Dr. Pinaki Mitra</a></b>.'
-        - 'CS 243 Software Engineering Lab.; Taught by <b><a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Dr. Pradip K. Das</a></b>.'
+        - 'CS 513 Programming Lab.; Taught by <b><a href="https://www.iitg.ac.in/sushantak/" target="_blank">Prof. Sushanta Karmakar</a></b>.'
+        - 'CS 462 Graphics Lab.; Taught by <b><a href="http://www.iitg.ernet.in/samit/" target="_blank">Prof. Samit Bhattacharya</a></b> and <b><a href="http://www.iitg.ac.in/cse/internet-pages/pinaki" target="_blank">Prof. Pinaki Mitra</a></b>.'
+        - 'CS 243 Software Engineering Lab.; Taught by <b><a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a></b>.'
         - Mentored students working on class projects and homeworks.
 
 - title: Honors and Awards
@@ -92,7 +92,7 @@
   contents:
     - '<u>GitHub</u>: <a href="https://github.com/pulkitverma25" target="_blank">https://github.com/pulkitverma25</a>'
     - '<u>High Level Programming Languages</u>: C, C++, Python, Prolog, Java.'
-    - '<u>Programming Environments (IDEs)</u>: PyCharm, Visual Studio, MATLAB'
+    - '<u>Programming Environments (IDEs)</u>: PyCharm, VS Code, MATLAB'
     - '<u>Database Systems</u>: PostgreSQL, MS SQL Server, MySQL.'
 
 - title: Certifications and Training
