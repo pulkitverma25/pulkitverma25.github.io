@@ -3,6 +3,7 @@ layout: project
 title: Mobile Robotics with IoT
 nav: projects
 importance: 70
+type: research
 description: Analysing how Mobile Agents/Robots might interact in Environments with IoT
 img: /assets/img/projects/mobile_agents/mobile_agents_iot.png
 ---

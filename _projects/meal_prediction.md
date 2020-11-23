@@ -3,6 +3,7 @@ layout: project
 title: Meal Prediction using CGM Data
 nav: projects
 importance: 80
+type: academic
 description: Predicting Meal Times for Automated Insulin Delivery
 img: /assets/img/projects/meal_detection/cgm_results.png
 ---

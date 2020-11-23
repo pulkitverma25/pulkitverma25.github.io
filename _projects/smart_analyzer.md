@@ -3,6 +3,7 @@ layout: project
 title: Smart Analyzer
 nav: projects
 importance: 70
+type: academic
 description: Smart Analyzer - Predict and Cache Webpages based on Usage
 img: /assets/img/projects/smart_analyzer/analyzer_flow.png
 ---

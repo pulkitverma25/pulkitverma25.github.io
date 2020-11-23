@@ -3,6 +3,7 @@ layout: project
 title: Agent Interrogation
 nav: projects
 importance: 110
+type: research
 description: Asking the Right Questions - Interpretable Action Model Learning using Query-Answering
 img: /assets/img/projects/iaa/iaa.png
 ---

@@ -3,6 +3,7 @@ layout: project
 title: AIS based Dynamic Obstacle Avoidance
 nav: projects
 importance: 30
+type: academic
 description: Artificial Immune System Based Obstacle Avoidance Robot
 img: /assets/img/projects/ais_robot/ais_robot.png
 ---

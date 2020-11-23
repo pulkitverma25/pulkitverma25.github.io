@@ -3,6 +3,7 @@ layout: project
 title: Stigmergic Communication
 nav: projects
 importance: 30
+type: academic
 description: Robot Cooperation Through Stigmergic Communication
 img: /assets/img/projects/stigmergy/stigmergy_map.png
 ---

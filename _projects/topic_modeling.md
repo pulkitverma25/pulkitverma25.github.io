@@ -3,6 +3,7 @@ layout: project
 title: Automatic Image Captioning
 nav: projects
 importance: 80
+type: academic
 description: Generating automatic caption of images using Topic Modeling
 img: /assets/img/projects/topic_modeling/topic_modeling.png
 ---

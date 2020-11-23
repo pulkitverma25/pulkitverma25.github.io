@@ -3,6 +3,7 @@ layout: project
 title: i-vectors Resource Usage
 nav: projects
 importance: 100
+type: research
 description: Resource usage comparison of i-vectors with other Speech Processing Techniques
 img: /assets/img/projects/ivectors/gmm_overview.png
 ---

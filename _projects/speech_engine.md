@@ -3,6 +3,7 @@ layout: project
 title: Distributed Speech Engine
 nav: projects
 importance: 80
+type: research
 description: Distributed Speech Recognition Engine for Controlling Multiple Robots
 img: /assets/img/projects/speech_engine/speech_engine.png
 ---

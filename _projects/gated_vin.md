@@ -3,6 +3,7 @@ layout: project
 title: Gated Updates for Value Iteration Networks
 nav: projects
 importance: 90
+type: academic
 description: Analysis of Gated Updates for Value Iteration Networks
 img: /assets/img/projects/gated_vin/time_vin.png
 ---
