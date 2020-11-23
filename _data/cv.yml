@@ -1,38 +1,49 @@
 - title: Research Areas
   type: list
   contents:
-    - AI Planning, Model Learning, and Analysis of Abstractions. 
-    - I am working on interrogation of autonomous agents where based on agent’s responses, we can reason about its internal model. In the past I have worked in the area of bio-inspired robotics, speech processing and internet of things.
+    - AI Safety, AI Planning, Action-Model Learning, and Analysis of Abstractions.
+    - My research focuses on safe and reliable behavior of AI agents. I am currently investigating the minimal set of interfaces in an AI system that would enable a user to assess and understand the limits of its safe operability. In the past I have worked in the area of bio-inspired robotics, speech processing and internet of things.
 
 - title: Education
   type: table
   contents:
-    - title: Ph.D. in Computer Science <br ><a href="https://www.asu.edu/">Arizona State University</a>
+    - title: Ph.D. in Computer Science <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University</a>
       year: 2018-now
       description:
         - '<u>GPA</u>: 4.0 (4.0 scale).'
         - '<u>Advisor</u>: <a href="https://www.public.asu.edu/~ssriva43/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
         - 'I work in <a href="http://aair-lab.github.io/" target="_blank"><b>Autonomous Agents and Intelligent Robots (AAIR) Lab</b></a>.'
-    - title: M.Tech. in Computer Science &amp; Engineering <br><a href="https://www.iitg.ac.in/">Indian Institute of Technology Guwahati, India</a>
+    - title: M.Tech. in Computer Science &amp; Engineering <br><a href="https://www.iitg.ac.in/" target="_blank">Indian Institute of Technology Guwahati, India</a>
       year: 2013-2015
       description:
         - '<u>GPA</u>: 9.07 (10.0 scale).'
-        - '<u>Advisor</u>: <a href="http://www.iitg.ernet.in/pkdas/" target="\_blank">Prof. Pradip K. Das</a>.'
-        - '<u>Thesis</u>: <b>Resource Usage Analysis for Speech Recognition Techniques</b>.'
-    - title: B.E. in Information Technology <br ><a href="http://www.svvv.edu.in/">Shri Vaishnav Institute of Technology &amp; Science, India</a>
+        - '<u>Advisor</u>: <a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a>.'
+        - '<u>Thesis</u>: <b><a href="https://pulkitverma.net/projects/ivectors/" target="_blank">Resource Usage Analysis for Speech Recognition Techniques</a></b>.'
+    - title: B.E. in Information Technology <br ><a href="http://www.svvv.edu.in/" target="_blank">Shri Vaishnav Institute of Technology &amp; Science, India</a>
       year: 2007-2011
       description:
         - '<u>Grade</u>: 69.88%'
-        - '<u>Capstone Project</u>: <b>Smart Analyzer - A Tool to Predict and Cache Webpages based on Internet Usage History</b>.'
+        - '<u>Capstone Project</u>: <b><a href="https://pulkitverma.net/projects/smart_analyzer/" target="_blank">Smart Analyzer - Predict and Cache Webpages based on Usage</a></b>.'
 
 - title: Work Experience
   type: table
   contents:
+    - title: 'Graduate Research Associate <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University.</a>'
+      year: 2015-2018
+      description:
+        - 'Investigating the minimal set of interfaces in an AI system that would enable a user to assess and understand the limits of its safe operability.'
+        - 'Developed a framework which generates interrogation policies to derive the human interpretable model of an autonomous agent.'
+        - 'Reduced the STRIPS-model comparison to a planning problem which enabled identifying if two models are not same.'
+        - 'Modified FF-planner to take PDDL models, initial state, plan as input, and give the final state as output.'
+        - 'Co-designed the experiments showcasing possible use-case of an NSF project on training lay people to use adaptive AI systems which are safe, robust and reliable.'
+
     - title: 'Storage Efficiency Developer <br ><a href="https://www.netapp.in/" target="_blank">NetApp Inc.</a>'
       year: 2015-2018
       description:
-        - '<u>Workload Prediction</u>: Predicting workload on a storage volume, based on I/O patterns for All Flash systems.'
-        - '<u>File and Volume Clones</u>: Developed features and managed issues related to file and volume clones on UNIX-based NetApp proprietary WAFL file system so as to improve the storage efficiency of data.'
+        - '<u>Workload Prediction</u>: Predicted workload on a storage volume based on I/O patterns for All Flash systems. This helped in optimizing data storage and management while keeping the nature of data private to the users.'
+        - '<u>File and Volume Clones</u>: Developed features and managed issues related to file and volume clones on UNIX-based NetApp proprietary WAFL file system so as to improve the storage efficiency of enterprise data servers.'
+        - 'Co-developed a file system component which prevented data loss if files and volumes are cloned or modified when cloud backup is offline.'
+
     - title: 'iOS Applications Developer <br ><a href="https://www.tcs.com" target="_blank">Tata Consultancy Services Ltd.</a>'
       year: 2012-2013
       description:
@@ -47,7 +58,7 @@
       description:
         - '<a href="https://aair-lab.github.io/teaching/571_f19.html" target="_blank">CSE 571 Artificial Intelligence</a>.'
         - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
-        - Gave tutorials on Constraint Satisfaction Problems, PDDL, First Order Logic, and Dynamic Bayesian Networks.
+        - Delivered tutorials on Constraint Satisfaction Problems, PDDL, First Order Logic, and Dynamic Bayesian Networks.
         - Co-created the software testbed used to support the course projects.
         - Created and graded homework assignments.
         - Mentored project groups working on class projects.
@@ -70,10 +81,10 @@
   type: table
   contents:
     - year: 2018
-      items: 
+      items:
         - '<a href="https://graduate.engineering.asu.edu/experiential-learning-grant/" target="_blank">Fulton Schools Experiential Learning Grant</a>, Arizona State University.'
     - year: 2013 - 2015
-      items: 
+      items:
         - '<a href="https://www.aicte-india.org/schemes/students-development-schemes/PG-Scholarship-Scheme" target="_blank">Post Graduation Scholarship</a>, All India Council for Technical Education, MHRD, Government of India.'
 
 - title: Services
