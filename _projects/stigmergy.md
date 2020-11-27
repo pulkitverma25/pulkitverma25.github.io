@@ -5,7 +5,7 @@ nav: projects
 importance: 30
 type: academic
 description: Robot Cooperation Through Stigmergic Communication
-img: /assets/img/projects/stigmergy/stigmergy_map.png
+img: /assets/img/projects/stigmergy/stigmergy_network.png
 ---
 
 <h5>This work was done at <a href="http://www.iitg.ac.in/cse/robotics/" target="_blank">Robotics Lab, IIT Guwahati</a>.</h5>
@@ -62,4 +62,12 @@ The aim of this work is to enable the robots to perform sequential tasks by coop
     <div class="card-text font-weight-light">
         This work was done under the guidance of <a href="http://www.iitg.ac.in/cse/internet-pages/sbnair" target="_blank">Dr. Shivashankar B. Nair</a> and <a href="https://sites.google.com/view/shashi-iitrpr/" target="_blank">Dr. Shashi Shekhar Jha</a> at <a href="http://www.iitg.ac.in/cse/robotics/" target="_blank">Robotics Lab, IIT Guwahati</a>.
     </div>
+</div>
+
+<div class="card mt-3 p-3">
+    <h3 class="card-title" style="color:#b71c1c;">References</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+        <li class="list-group-item">Shashi Shekhar Jha, W. Wilfred Godfrey, and Shivashankar B. Nair. <b><a href="https://www.tandfonline.com/doi/abs/10.1080/01969722.2014.917235" target="_blank">"Stigmergy-Based Synchronization of a Sequence of Tasks in a Network of Asynchronous Nodes"</a></b>, Cybernetics and Systems, 45(5), pp.373-406, 2014.</li>
+        <li class="list-group-item">Shashi Shekhar Jha, and Shivashankar B. Nair. <b><a href="https://link.springer.com/chapter/10.1007/978-3-319-11584-9_8" target="_blank">"Orchestrating the sequential execution of tasks by a heterogeneous set of asynchronous mobile agents"</a></b>, In German Conference on Multiagent System Technologies, pp.103-120, 2014.</li>
+    </ul>
 </div>
