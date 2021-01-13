@@ -22,7 +22,6 @@
     - title: B.E. in Information Technology <br ><a href="http://www.svvv.edu.in/" target="_blank">Shri Vaishnav Institute of Technology &amp; Science, India</a>
       year: 2007-2011
       description:
-        - '<u>Grade</u>: 69.88%'
         - '<u>Capstone Project</u>: <b><a href="https://pulkitverma.net/projects/smart_analyzer/" target="_blank">Smart Analyzer - Predict and Cache Webpages based on Usage</a></b>.'
 
 - title: Work Experience
@@ -87,24 +86,24 @@
       items:
         - '<a href="https://www.aicte-india.org/schemes/students-development-schemes/PG-Scholarship-Scheme" target="_blank">Post Graduation Scholarship</a>, All India Council for Technical Education, MHRD, Government of India.'
 
-- title: Services
+- title: Service
   type: table
   contents:
-    - year: 2016-2018
+    - year: 2019
       items:
-        - 'Volunteer with <a href="https://www.cry.org/" target="_blank">Child Rights and You</a>, Bengaluru, India.'
+        - 'Volunteer, <a href="https://swrobotics.engineering.asu.edu/wp-content/uploads/2019/10/SWRS_Program_2019_final.pdf" target="_blank">Southwest Robotics Symposium 2019</a>, Tempe, AZ.'
+    - year: 2018
+      items:
+        - 'Volunteer, <a href="http://reasoning.eas.asu.edu/kr2018/" target="_blank">16th International Conference on Principles of Knowledge Representation and Reasoning</a>, Tempe, AZ.'
     - year: 2014
       items:
-        - 'Volunteer at <a href="https://www.iitg.ac.in/eee/gpa3_2014/" target="_blank">National Workshop on GPU Programming and Applications</a>, IIT Guwahati'
-        - 'Point of Contact, <a href="https://www.iitg.ac.in/ccd/" target="_blank">Center for Career Development</a>, IIT Guwahati.'
+        - 'Volunteer, <a href="https://www.iitg.ac.in/eee/gpa3_2014/" target="_blank">National Workshop on GPU Programming and Applications</a>, IIT Guwahati'
 
 - title: Software Development Skills
   type: list
   contents:
     - '<u>GitHub</u>: <a href="https://github.com/pulkitverma25" target="_blank">https://github.com/pulkitverma25</a>'
     - '<u>High Level Programming Languages</u>: C, C++, Python, Prolog, Java.'
-    - '<u>Programming Environments (IDEs)</u>: PyCharm, VS Code, MATLAB'
-    - '<u>Database Systems</u>: PostgreSQL, MS SQL Server, MySQL.'
 
 - title: Certifications and Training
   type: list
@@ -113,16 +112,3 @@
     - 'Microsoft First Look Clinic Training - Microsoft Windows Server 2009.'
     - 'Use Case Modeling and Analysis - IBM Center of Excellence.'
 
-
-- title: Online Courses
-  type: table
-  contents:
-    - year: edX
-      items:
-        - '<a href="https://www.edx.org/course/mitx/mitx-6-00-1x-introduction-computer-2841" target="_blank">MITx 6.00.1x Introduction to Computer Science and Programming Using Python</a>'
-    - year: Coursera
-      items:
-        - '<a href="https://www.coursera.org/course/patterndiscovery" target="_blank">Pattern Discovery in Data Mining</a>'
-    - year: Coursera
-      items:
-        - '<a href="https://www.coursera.org/course/ml" target="_blank">Machine Learning</a>'
