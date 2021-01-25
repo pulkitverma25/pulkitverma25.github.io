@@ -79,6 +79,9 @@
 - title: Honors and Awards
   type: table
   contents:
+    - year: 2021
+      items:
+        - '<a href="https://gpsa.asu.edu/funding/travel/" target="_blank">GPSA Individual Travel Grant</a>, Arizona State University.'
     - year: 2018
       items:
         - '<a href="https://graduate.engineering.asu.edu/experiential-learning-grant/" target="_blank">Fulton Schools Experiential Learning Grant</a>, Arizona State University.'
