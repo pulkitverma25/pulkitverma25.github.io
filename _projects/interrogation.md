@@ -12,6 +12,6 @@ This paper develops a new approach for estimating an interpretable, relational m
 
 <div class="col p-0">
 	<a class="badge grey waves-effect font-weight-light mr-1" href="{{ '/assets/pdf/vms_aaai21/vms_aaai21.pdf' | prepend: site.baseurl }}" target="_blank">PDF</a>
-	<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/vs_genplan20/vs_genplan20_poster.pdf" target="_blank">Poster</a>
-	<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/vs_genplan20/vs_genplan20_slides.pdf" target="_blank">Slides</a>
+	<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/vms_aaai21/vms_aaai21_slides.pdf" target="_blank">Slides</a>
+	<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/vms_aaai21/vms_aaai21_poster.pdf" target="_blank">Poster</a>
 </div>
