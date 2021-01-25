@@ -34,7 +34,7 @@
         - 'Developed a framework which generates interrogation policies to derive the human interpretable model of an autonomous agent.'
         - 'Reduced the STRIPS-model comparison to a planning problem which enabled identifying if two models are not same.'
         - 'Modified FF-planner to take PDDL models, initial state, plan as input, and give the final state as output.'
-        - 'Co-designed the experiments showcasing possible use-case of an NSF project on training lay people to use adaptive AI systems which are safe, robust and reliable.'
+        - 'Co-designed the experiments showcasing possible use-case of an NSF project on training lay people to use adaptive AI systems which are safe, robust, and reliable.'
 
     - title: 'Storage Efficiency Developer <br ><a href="https://www.netapp.in/" target="_blank">NetApp Inc.</a>'
       year: 2015-2018
@@ -46,7 +46,7 @@
     - title: 'iOS Applications Developer <br ><a href="https://www.tcs.com" target="_blank">Tata Consultancy Services Ltd.</a>'
       year: 2012-2013
       description:
-        - '<u>Portfolio Management Applications</u>:  Built applications for iPhone and iPad and developed tools so as to analyze the user portfolio in an interactive way.'
+        - '<u>Portfolio Management Applications</u>:  Built applications for iPhone and iPad, and developed tools so as to analyze the user portfolio in an interactive way.'
         - '<u>Cross-platform Applications</u>: Cross-platform mobile application development of mobile applications supported on both Android and iOS.'
 
 - title: Teaching Experience
