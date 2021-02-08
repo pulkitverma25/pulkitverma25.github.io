@@ -2,7 +2,7 @@
   type: list
   contents:
     - AI Safety, AI Planning, Action-Model Learning, and Analysis of Abstractions.
-    - My research focuses on safe and reliable behavior of AI agents. I am currently investigating the minimal set of interfaces in an AI system that would enable a user to assess and understand the limits of its safe operability. In the past I have worked in the area of bio-inspired robotics, speech processing and internet of things.
+    - My research focuses on safe and reliable behavior of AI agents. I am currently investigating the minimal set of interfaces in an AI system that would enable a user to assess and understand the limits of its safe operability. In the past, I have worked in the area of bio-inspired robotics, speech processing, and internet of things.
 
 - title: Education
   type: table
