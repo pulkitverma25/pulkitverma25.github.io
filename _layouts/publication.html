@@ -117,6 +117,9 @@
         {% if entry.arxiv %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>
         {% endif %}
+        {% if entry.video %}
+          <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.video }}" target="_blank">Video</a>
+        {% endif %}
       </div>
     
       {% if entry.abstract %}
@@ -158,6 +161,9 @@
             {% if entry.oldslides1 %}
             <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldslides1 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Slides</a>
             {% endif %}
+            {% if entry.oldvideo1 %}
+            <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldvideo1 }}" target="_blank">Video</a>
+          {% endif %}
           </div>
         </p>
         <p class="periodical font-italic">
