@@ -10,6 +10,19 @@ description: Some links for personal book-keeping
   <div class="p-3">
     <div class="row">
       <div class="col-sm-12">
+        <h5 class="font-weight-bold">Future Conferences</h5>
+      </div>
+    </div>
+    <div class="card-text font-weight-light">
+      <a href="{{ '/conferences' | prepend: site.baseurl }}">List of future conferences</a> to keep track of.
+    </div>
+  </div>
+</div>
+
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-12">
         <h5 class="font-weight-bold">Present and Past Affiliations</h5>
       </div>
     </div>
@@ -37,7 +50,7 @@ description: Some links for personal book-keeping
       </div>
     </div>
     <div class="card-text font-weight-light">
-      My bookmarked resources have been moved <a href="https://github.com/pulkitverma25/resources" target="_blank">here</a>.
+      My bookmarked resources are avilable <a href="https://github.com/pulkitverma25/resources" target="_blank">here</a>.
     </div>
   </div>
 </div>

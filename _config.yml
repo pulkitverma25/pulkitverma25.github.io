@@ -33,9 +33,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  # course_projects:
-  #   output: true
-  #   permalink: /course_projects/:path/
+  conferences:
+    output: true
+    permalink: /conferences/:path/
 
 news_limit: 10
 
