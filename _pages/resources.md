@@ -14,7 +14,7 @@ description: Some links for personal book-keeping
       </div>
     </div>
     <div class="card-text font-weight-light">
-      <a href="{{ '/conferences' | prepend: site.baseurl }}">List of future conferences</a> to keep track of.
+      <a href="{{ '/conferences' | prepend: site.baseurl }}">List of future conferences</a> that I keep track of.
     </div>
   </div>
 </div>
