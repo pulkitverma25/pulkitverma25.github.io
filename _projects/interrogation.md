@@ -15,4 +15,6 @@ This paper develops a new approach for estimating an interpretable, relational m
 	<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/vms_aaai21/vms_aaai21_slides.pdf" target="_blank">Slides</a>
 	<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/vms_aaai21/vms_aaai21_poster.pdf" target="_blank">Poster</a>
 	<a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/AAIR-lab/AIA-AAAI21" target="_blank">Code</a>
+	<a class="badge grey waves-effect font-weight-light mr-1" href="http://arxiv.org/abs/1912.12613" target="_blank">arXiv</a>
+	<a class="badge grey waves-effect font-weight-light mr-1" href="https://slideslive.com/38948683/asking-the-right-questions-learning-interpretable-action-models-through-query-answering" target="_blank">Video</a>
 </div>
