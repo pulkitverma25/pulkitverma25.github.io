@@ -17,18 +17,18 @@ permalink: /conferences/
         <thead style="background-color:#b71c1c; color:#ffffff">
         <tr>
             <th style="width:34%;text-align: left;font-size:18px;"><strong>Conference Name</strong></th>
-            <th style="width:14%;text-align: left;font-size:18px;"><strong>Venue</strong></th>
-            <th style="width:26%;text-align: left;font-size:18px;"><strong>Deadline</strong></th>
-            <th style="width:26%;text-align: left;font-size:18px;"><strong>Dates</strong></th>
+            <th style="width:17%;text-align: left;font-size:18px;"><strong>Venue</strong></th>
+            <th style="width:25%;text-align: left;font-size:18px;"><strong>Deadline</strong></th>
+            <th style="width:24%;text-align: left;font-size:18px;"><strong>Dates</strong></th>
         </tr>
         </thead>
         <tbody>
         {% assign sorted_conferences = site.conferences | sort: "num" %}
         {% for conference in sorted_conferences %}
           <tr>
-            <td style="width:34%;"><a style="color:#b71c1c" href="{{ conference.website }}" target="_blank"><strong>{{ conference.shortname }}</strong><strong>: </strong>{{ conference.name }}</a></td>
-            <td style="width:14%;">{{ conference.location }}</td>
-            <td style="width:26%;text-align: left;">
+            <td style="width:34%;"><a style="color:#b71c1c" onMouseOver="this.style.color='#007bff'" onMouseOut="this.style.color='#b71c1c'" href="{{ conference.website }}" target="_blank"><strong>{{ conference.shortname }}</strong><strong>: </strong>{{ conference.name }}</a></td>
+            <td style="width:17%;">{{ conference.location }}</td>
+            <td style="width:25%;text-align: left;">
               {% if conference.abstractdeadline %}
                 <strong>Abstract</strong>: 
                 {% if conference.adp %}
@@ -45,7 +45,7 @@ permalink: /conferences/
                 {{ conference.paperdeadline }}
               {% endif %}
             </td>
-            <td style="width:26%;">
+            <td style="width:24%;">
             {% if conference.dp %}
               <del> {{ conference.dates }}</del>
             {% else %}
