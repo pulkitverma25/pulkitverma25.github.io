@@ -81,6 +81,9 @@
   contents:
     - year: 2021
       items:
+        - 'PC Member, <a href="https://xaip.mybluemix.net/#/2021" target="_blank">ICAPS 2021 Workshop on Explainable AI Planning (XAIP&#39;21)</a>.'
+    - year: 2021
+      items:
         - 'PC Member, <a href="https://sites.google.com/view/genplan21/" target="_blank">IJCAI 2021 Workshop on Generalization in Planning (GenPlan&#39;21)</a>.'
     - year: 2021
       items:
@@ -100,7 +103,7 @@
   contents:
     - year: 2021
       items:
-        - '<a href="https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/travel-awards" target="_blank">ASU Graduate College Travel Awards</a>. (for AAMAS 2021, ICLR 2021)'
+        - '<a href="https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/travel-awards" target="_blank">ASU Graduate College Travel Awards</a>. (for AAMAS 2021, ICLR 2021, ICML 2021, IJCAI 2021)'
     - year: 2021
       items:
         - '<a href="https://gpsa.asu.edu/funding/travel/" target="_blank">GPSA Individual Travel Grant</a>, ASU. (for AAAI 2021)'
