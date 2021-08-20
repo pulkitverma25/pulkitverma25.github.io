@@ -52,6 +52,7 @@ img: /assets/img/projects/aia/aia.jpg
 
 		<div class="col p-0">
 			<a class="badge grey waves-effect font-weight-light mr-1" href="{{ '/assets/pdf/vs_genplan21/vs_genplan21.pdf' | prepend: site.baseurl }}" target="_blank">PDF</a>
+			<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/vs_genplan21/vs_genplan21_slides.pdf" target="_blank">Slides</a>
 			<a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/vs_genplan21/vs_genplan21_poster.pdf" target="_blank">Poster</a>
 		</div>
 	</ul>
