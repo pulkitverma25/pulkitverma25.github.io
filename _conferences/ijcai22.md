@@ -4,7 +4,7 @@ name: International Joint Conference on Artificial Intelligence
 location: Vienna, Austria
 abstractdeadline: TBA
 paperdeadline: TBA
-dates: Jul 23 - Aug 29, 2021
+dates: Jul 23 - Jul 29, 2022
 website: https://www.ijcai-22.org
-num: 8
+num: 18
 ---
