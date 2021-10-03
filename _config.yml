@@ -52,7 +52,7 @@ include: ['_pages']
 exclude: [node_modules]
 
 # Plugins
-plugins:
+plugins_dir:
   - jekyll-paginate
   - jekyll/scholar
   - jemoji
