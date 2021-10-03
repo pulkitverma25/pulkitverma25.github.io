@@ -29,7 +29,7 @@ description: Some links for personal book-keeping
     <ul class="card-text font-weight-light list-group list-group-flush">
             <li class="list-group-item"><a href="https://aair-lab.github.io" target="_blank">Autonomous Agents and Intelligent Robots Lab, ASU</a></li>
             <li class="list-group-item"><a href="https://humancompatible.ai/" target="_blank">Center for Human-Compatible Artificial Intelligence, UC Berkeley</a></li>
-            <li class="list-group-item"><a href="https://cidse.engineering.asu.edu/" target="_blank">School of Computing, Informatics, and Decision Systems Engineering, ASU</a></li>
+            <li class="list-group-item"><a href="https://scai.engineering.asu.edu/" target="_blank">School of Computing and Augmented Intelligence, ASU</a></li>
             <li class="list-group-item"><a href="https://sites.usc.edu/cognitive-robotics/" target="_blank">Summer School on Cognitive Robotics</a></li>
             <li class="list-group-item"><a href="http://scholar.stanford.edu/" target="_blank">Stanford Scholar</a></li>
             <li class="list-group-item"><a href="http://www.netapp.com" target="_blank">NetApp Inc.</a></li>

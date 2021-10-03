@@ -1,7 +1,7 @@
 - title: Research Areas
   type: list
   contents:
-    - AI Safety, AI Planning, Action-Model Learning, and Analysis of Abstractions.
+    - AI Safety, AI Planning, Robotics, Action-Model Learning, and Analysis of Abstractions.
     - My research focuses on safe and reliable behavior of AI agents. I am currently investigating the minimal set of capabilities in an AI system that would enable a user to assess and understand the limits of its safe operability. In the past, I have worked in the area of bio-inspired robotics, speech processing, and internet of things.
 
 - title: Education
@@ -79,6 +79,9 @@
 - title: Service
   type: table
   contents:
+    - year: 2021
+      items:
+        - 'Reviewer, <a href="https://www.ieee-ras.org/publications/ra-l" target="_blank">IEEE Robotics and Automation Letters</a>.'
     - year: 2021
       items:
         - 'Volunteer, <a href="https://ijcai-21.org/" target="_blank">30th International Joint Conference on Artificial Intelligence (IJCAI 2021)</a>.'
