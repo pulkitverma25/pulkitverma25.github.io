@@ -23,34 +23,35 @@
       <h5 class="title mb-0">{{entry.title}}.</h5>
       <div class="author">
         {% for author in entry.author_array %}
+          {% assign trim_last = author.last | remove: "<sup>*</sup>" %} 
           {% if forloop.length == 1 %}
-            {% if author.last contains site.scholar.last_name %}
+            {% if trim_last contains site.scholar.last_name }
               <nobr><em>{{author.first}} {{author.last}}</em>.</nobr>
             {% else %}
-              {% if site.data.coauthors[author.last] %}
-                <nobr><a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.</nobr>
+              {% if site.data.coauthors[trim_last] %}
+                <nobr><a href="{{site.data.coauthors[trim_last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.</nobr>
               {% else %}
                 <nobr>{{author.first}} {{author.last}},</nobr>
               {% endif %}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
-              {% if author.last contains site.scholar.last_name %}
+              {% if trim_last contains site.scholar.last_name %}
                 <nobr><em>{{author.first}} {{author.last}}</em>,</nobr>
               {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  <nobr><a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,</nobr>
+                {% if site.data.coauthors[trim_last] %}
+                  <nobr><a href="{{site.data.coauthors[trim_last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,</nobr>
                 {% else %}
                   <nobr>{{author.first}} {{author.last}},</nobr>
                 {% endif %}
               {% endif %}
             {% else %}
               and
-              {% if author.last == site.scholar.last_name %}
+              {% if trim_last == site.scholar.last_name %}
                 <nobr><em>{{author.first}} {{author.last}}</em>.</nobr>
               {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  <nobr><a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.</nobr>
+                {% if site.data.coauthors[trim_last] %}
+                  <nobr><a href="{{site.data.coauthors[trim_last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.</nobr>
                 {% else %}
                   <nobr>{{author.first}} {{author.last}}</nobr>
                 {% endif %}
@@ -68,8 +69,8 @@
             In {{entry.booktitle}},
           {% elsif entry.type == "thesis" %}
             In {{entry.booktitle}}
-          {% elsif entry.type == "eprint" %}
-            In {{entry.booktitle}} ({{entry.eprint}}),
+          {% elsif entry.type == "preprint" %}
+            ArXiv: {{entry.arxiv}},
           {% endif %}
           {% if entry.year %}
             {{entry.year}}.
@@ -78,6 +79,9 @@
           {% endif %}
           {% if entry.future %}
             (To appear)
+          {% endif %}
+          {% if entry.type == "preprint" %}
+            (In submission)
           {% endif %}
         </p>
       </div>
@@ -96,8 +100,14 @@
             <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.url }}" target="_blank">Publisher</a>
           {% endif %}
         {% endif %}
-        {% if entry.pdf %}
-            <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">PDF</a>
+        {% if entry.type == "preprint" %}
+          {% if entry.pdf %}
+          <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.pdf}}" target="_blank">PDF</a>
+          {% endif %}
+        {% else %}
+          {% if entry.pdf %}
+              <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">PDF</a>
+          {% endif %}
         {% endif %}
         {% if entry.supp %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Supplementary</a>
@@ -121,6 +131,13 @@
           <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.video }}" target="_blank">Video</a>
         {% endif %}
       </div>
+      {% if entry.equal == "1" %}
+      <div  class="col p-0">
+      <p class="periodical font-italic" style="font-size: 8pt;">
+      <sup>*</sup>Equal Contribution. 
+      </p>
+      </div>
+      {% endif %}
     
       {% if entry.abstract %}
       <div class="col mt-2 p-0">
