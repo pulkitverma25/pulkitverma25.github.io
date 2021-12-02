@@ -28,6 +28,16 @@ img: /assets/img/projects/aia/aia.jpg
 </div>
 
 <div class="card mt-3 p-3">
+    <h3 class="card-title" style="color:#b71c1c;">Differential Assessment of Black-Box AI Agents</h3>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+
+		Much of the research on learning symbolic models of AI agents focuses on agents with stationary models. This assumption fails to hold in settings where the agent’s capabilities may change as a result of learning, adaptation, or other post-deployment modifications. Efficient assessment of agents in such settings is critical for learning the true capabilities of an AI system and for ensuring its safe usage. In this work, we propose a novel approach to differentially assess black-box AI agents that have drifted from their prior known models. As a starting point, we consider the fully observable and deterministic setting. We leverage observations of the agent’s current behavior and knowledge of the initial model to generate an active querying policy that selectively queries the agent and computes an updated model of its functionality. Empirical evaluation shows that our approach is much more efficient than re-learning the agent model from scratch. We also show that the cost of differential assessment using our method is proportional to the amount of drift in the agent’s functionality.
+		<p></p>
+
+	</ul>
+</div>
+
+<div class="card mt-3 p-3">
     <h3 class="card-title" style="color:#b71c1c;">Learning User-Interpretable Descriptions of Black-Box AI System Capabilities</h3>
     <ul class="card-text font-weight-light list-group list-group-flush">
 
