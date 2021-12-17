@@ -206,36 +206,16 @@
 }},
 }
 
-@inproceedings{verma2021learninguser,
-  author    = {Verma, Pulkit and Marpally, Shashank Rao and Srivastava, Siddharth},
-  title     = {Learning User-Interpretable Descriptions of Black-Box AI System Capabilities},
-  booktitle = {ICAPS 2021 Workshop on Knowledge Engineering for Planning and Scheduling},
-  abbr      = {KEPS},
-  year      = {2021},
-  url       = {https://icaps21.icaps-conference.org/workshops/KEPS/},
-  slides    = {vms_keps21/vms_keps21_slides.pdf},
-  video	    = {https://www.youtube.com/watch?v=iqYCjjM83EI},
-  arxiv     = {2107.13668},
-  pdf       = {vms_keps21/vms_keps21.pdf},
-  abstract  = {{Several approaches have been developed to answer specific questions that a user may have about an AI system that can plan and act. However, the problems of identifying which questions to ask and that of computing a user-interpretable symbolic description of the overall capabilities of the system have remained largely unaddressed. This paper presents an approach for addressing these problems by learning user-interpretable symbolic descriptions of the limits and capabilities of a black-box AI system using low-level simulators. It uses a hierarchical active querying paradigm to generate questions and to learn a user-interpretable model of the AI system based on its responses. In contrast to prior work, we consider settings where imprecision of the user's conceptual vocabulary precludes a direct expression of the agent's capabilities. Furthermore, our approach does not require assumptions about the internal design of the target AI system or about the methods that it may use to compute or learn task solutions. Empirical evaluation on several game-based simulator domains shows that this approach can efficiently learn symbolic models of AI systems that use a deterministic black-box policy in fully observable scenarios.}},
-  bibtex    = {{<pre>
-@inproceedings\{verma2021learninguser,
-  author    = \{Verma, Pulkit and Marpally, Shashank Rao and Srivastava, Siddharth\},
-  title     = \{Learning User-Interpretable Descriptions of Black-Box AI System Capabilities\},
-  booktitle = \{ICAPS 2021 Workshop on Knowledge Engineering for Planning and Scheduling\},
-  year      = \{2021\},
-\}</pre>
-}},
-}
-
 @inproceedings{nayyar2022differential,
   author    = {Nayyar<sup>*</sup>, Rashmeet Kaur and Verma<sup>*</sup>, Pulkit and Srivastava, Siddharth},
   title     = {Differential Assessment of Black-Box AI Agents},
   booktitle = {Proceedings of the Thirty-Sixth AAAI Conference on Artificial Intelligence},
+  pdf       = {nvs_aaai22/nvs_aaai22.pdf},
   future    = 1,
   equal     = {1},
   abbr      = {AAAI},
   year      = {2022},
+  note      = {[Also appearing in AAAI 2022 Workshop on Artificial Intelligence Safety]},
   url       = {https://aaai.org/Conferences/AAAI-22/},
   abstract  = {{Much of the research on learning symbolic models of AI agents focuses on agents with stationary models. This assumption fails to hold in settings where the agent’s capabilities may change as a result of learning, adaptation, or other post-deployment modifications. Efficient assessment of agents in such settings is critical for learning the true capabilities of an AI system and for ensuring its safe usage. In this work, we propose a novel approach to differentially assess black-box AI agents that have drifted from their prior known models. As a starting point, we consider the fully observable and deterministic setting. We leverage observations of the agent’s current behavior and knowledge of the initial model to generate an active querying policy that selectively queries the agent and computes an updated model of its functionality. Empirical evaluation shows that our approach is much more efficient than re-learning the agent model from scratch. We also show that the cost of differential assessment using our method is proportional to the amount of drift in the agent’s functionality.}},
   bibtex    = {{<pre>
@@ -243,6 +223,32 @@
   author    = \{Nayyar, Rashmeet Kaur and Verma, Pulkit and Srivastava, Siddharth\},
   title     = \{Differential Assessment of Black-Box AI Agents\},
   booktitle = \{Proceedings of the AAAI Conference on Artificial Intelligence\},
+  year      = \{2022\},
+\}</pre>
+}},
+}
+
+@inproceedings{verma2022learninguser,
+  author     = {Verma, Pulkit and Marpally, Shashank Rao and Srivastava, Siddharth},
+  title      = {{Discovering User-Interpretable Capabilities of Black-Box Planning Agents}},
+  booktitle  = {AAAI 2022 Workshop on Explainable Agency in Artificial Intelligence},
+  abbr       = {EAAI},
+  year       = {2022},
+  url        = {https://sites.google.com/view/eaai-ws-2022},
+  oldslides1 = {vms_keps21/vms_keps21_slides.pdf},
+  oldvideo1  = {https://www.youtube.com/watch?v=iqYCjjM83EI},
+  arxiv      = {2107.13668},
+  oldn1      = {{Learning User-Interpretable Descriptions of Black-Box AI System Capabilities}},
+  olda1      = {Pulkit Verma, Shashank Rao Marpally, and Siddharth Srivastava},
+  oldv1      = {ICAPS 2021 Workshop on Knowledge Engineering for Planning and Scheduling.},
+  oldurl1    = {https://icaps21.icaps-conference.org/workshops/KEPS/},
+  oldpdf1    = {vms_keps21/vms_keps21.pdf},
+  abstract   = {{Several approaches have been developed for answering users' specific questions about AI behavior and for assessing their core functionality in terms of primitive executable actions. However, the problem of summarizing an AI agent's broad capabilities for a user has received little research attention. This is aggravated by the fact that users may not know which questions to ask in order to understand the limits and capabilities of a system. This paper presents an algorithm for discovering from scratch the suite of high-level "capabilities" that an AI system with arbitrary internal planning algorithms/policies can perform. It computes conditions describing the applicability and effects of these capabilities in user-interpretable terms. Starting from a set of user-interpretable relational state properties, an AI agent, and a simulator that the agent can interact with, using arbitrary decision-making paradigms over primitive operations (unknown to the user), our algorithm returns a set of high-level capabilities with capability descriptions in the user’s relational vocabulary. Empirical evaluation on several game-based scenarios shows that this approach efficiently learns interpretable descriptions of various types of AI agents in deterministic, fully observable settings. User studies show that such interpretable descriptions are easier to understand and reason with than the agent's primitive actions.}},
+  bibtex     = {{<pre>
+@inproceedings\{verma2022discovering,
+  author    = \{Verma, Pulkit and Marpally, Shashank Rao and Srivastava, Siddharth\},
+  title     = \{Learning User-Interpretable Descriptions of Black-Box AI System Capabilities\},
+  booktitle = \{AAAI 2022 Workshop on Explainable Agency in Artificial Intelligence\},
   year      = \{2022\},
 \}</pre>
 }},

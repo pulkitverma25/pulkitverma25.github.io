@@ -83,7 +83,13 @@
           {% if entry.type == "preprint" %}
             (In submission)
           {% endif %}
-        </p>
+        
+        {% if entry.note %}
+         
+            {{entry.note}}
+          
+        {% endif %}
+      </p>
       </div>
     
       <div class="col p-0">
@@ -183,44 +189,48 @@
           {% endif %}
           </div>
         </p>
-        <p class="periodical font-italic">
-          {{ entry.oldn2 }}.<br>
-          {{ entry.olda2 }}.<br>
-          In {{ entry.oldv2 }}
-          <div class="col p-0">
-            {% if entry.oldurl2 %}
-              <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldurl2 }}" target="_blank">Publisher</a>
-            {% endif %}
-            {% if entry.oldpdf2 %}
-            <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldpdf2 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">PDF</a>
-            {% endif %}
-            {% if entry.oldposter2 %}
-            <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldposter2 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-            {% if entry.oldslides2 %}
-            <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldslides2 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-          </div>
-        </p>
-        <p class="periodical font-italic">
-          {{ entry.oldn3 }}.<br>
-          {{ entry.olda3 }}.<br>
-          In {{ entry.oldv3 }}
-          <div class="col p-0">
-            {% if entry.oldurl3 %}
-              <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldurl3 }}" target="_blank">Publisher</a>
-            {% endif %}
-            {% if entry.oldpdf3 %}
-            <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldpdf3 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">PDF</a>
-            {% endif %}
-            {% if entry.oldposter3 %}
-            <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldposter3 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-            {% if entry.oldslides3 %}
-            <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldslides3 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-          </div>
-        </p>
+        {% if entry.oldv2 %}
+          <p class="periodical font-italic">
+            {{ entry.oldn2 }}.<br>
+            {{ entry.olda2 }}.<br>
+            In {{ entry.oldv2 }}
+            <div class="col p-0">
+              {% if entry.oldurl2 %}
+                <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldurl2 }}" target="_blank">Publisher</a>
+              {% endif %}
+              {% if entry.oldpdf2 %}
+              <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldpdf2 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">PDF</a>
+              {% endif %}
+              {% if entry.oldposter2 %}
+              <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldposter2 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Poster</a>
+              {% endif %}
+              {% if entry.oldslides2 %}
+              <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldslides2 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Slides</a>
+              {% endif %}
+            </div>
+          </p>
+        {% endif %}
+        {% if entry.oldv3 %}
+          <p class="periodical font-italic">
+            {{ entry.oldn3 }}.<br>
+            {{ entry.olda3 }}.<br>
+            In {{ entry.oldv3 }}
+            <div class="col p-0">
+              {% if entry.oldurl3 %}
+                <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldurl3 }}" target="_blank">Publisher</a>
+              {% endif %}
+              {% if entry.oldpdf3 %}
+              <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldpdf3 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">PDF</a>
+              {% endif %}
+              {% if entry.oldposter3 %}
+              <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldposter3 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Poster</a>
+              {% endif %}
+              {% if entry.oldslides3 %}
+              <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldslides3 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Slides</a>
+              {% endif %}
+            </div>
+          </p>
+        {% endif %}
       </div>
       {% endif %}
     </div>
