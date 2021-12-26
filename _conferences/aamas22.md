@@ -1,7 +1,7 @@
 ---
 shortname: AAMAS 2022
 name: International Conference on Autonomous Agents and Multiagent Systems
-location: Auckland, New Zealand
+location: Online
 abstractdeadline: Oct 01, 2021
 adp: 1
 paperdeadline: Oct 08, 2021

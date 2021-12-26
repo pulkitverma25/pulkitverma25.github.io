@@ -1,7 +1,7 @@
 ---
 shortname: AAAI 2022
 name: AAAI Conference on Artificial Intelligence
-location: Vancouver, Canada
+location: Online
 abstractdeadline: Aug 30, 2021
 adp: 1
 paperdeadline: Sep 08, 2021
