@@ -28,7 +28,7 @@
   type: table
   contents:
     - title: 'Graduate Research Associate <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University.</a>'
-      year: 2015-2018
+      year: 2018-NOW
       description:
         - 'Investigating the minimal set of interfaces in an AI system that would enable a user to assess and understand the limits of its safe operability.'
         - 'Developed a framework which generates interrogation policies to derive the human interpretable model of an autonomous agent.'
@@ -52,6 +52,13 @@
 - title: Teaching Experience
   type: table
   contents:
+    - title: '<b>Teaching Assistant for a graduate-level Artificial Intelligence Course at Arizona State University.</b>'
+      year: Spring'22
+      description:
+        - Ongoing course.
+        - '<a href="https://webapp4.asu.edu/bookstore/viewsyllabus/2221/35294" target="_blank">CSE 571 Artificial Intelligence</a>.'
+        - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
+        - Co-created the software testbed used to support the course projects.
     - title: '<b>Teaching Assistant for a graduate-level Artificial Intelligence Course at Arizona State University.</b>'
       year: Fall 2019
       description:
