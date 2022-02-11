@@ -5,6 +5,6 @@ location: New Orleans, USA
 abstractdeadline: TBD
 paperdeadline: TBD
 dates: Nov 26 - Dec 04, 2022
-website: https://nips.cc/
+website: https://neurips.cc/
 num: 24
 ---

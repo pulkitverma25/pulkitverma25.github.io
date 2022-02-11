@@ -119,12 +119,12 @@
 - title: Honors and Awards
   type: table
   contents:
+    - year: 2021 - 2022
+      items:
+        - '<a href="https://eoss.asu.edu/gpsa/funding/travel-funding" target="_blank">GPSA Individual Travel Grant</a>, ASU. (for AAAI 2021, AAAI 2022)'
     - year: 2021
       items:
         - '<a href="https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/travel-awards" target="_blank">ASU Graduate College Travel Awards</a>. (for AAMAS 2021, ICLR 2021, ICML 2021, IJCAI 2021)'
-    - year: 2021
-      items:
-        - '<a href="https://gpsa.asu.edu/funding/travel/" target="_blank">GPSA Individual Travel Grant</a>, ASU. (for AAAI 2021)'
     - year: 2018
       items:
         - '<a href="https://graduate.engineering.asu.edu/experiential-learning-grant/" target="_blank">Fulton Schools Experiential Learning Grant</a>, Arizona State University.'
