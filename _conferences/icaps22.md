@@ -1,7 +1,7 @@
 ---
 shortname: ICAPS 2022
 name: International Conference on Automated Planning and Scheduling
-location: Singapore
+location: Online
 abstractdeadline: Dec 10, 2021
 adp: 1
 paperdeadline: Dec 15, 2021
