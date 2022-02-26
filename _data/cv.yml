@@ -53,7 +53,7 @@
   type: table
   contents:
     - title: '<b>Teaching Assistant for a graduate-level Artificial Intelligence Course at Arizona State University.</b>'
-      year: Spring'22
+      year: Spring&#39;22
       description:
         - '<a href="https://webapp4.asu.edu/bookstore/viewsyllabus/2221/35294" target="_blank">CSE 571 Artificial Intelligence</a>: Ongoing course.'
         - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
@@ -61,7 +61,7 @@
         - Co-created the software testbed used to support the course projects.
         - Created and graded homework assignments.
     - title: '<b>Teaching Assistant for a graduate-level Artificial Intelligence Course at Arizona State University.</b>'
-      year: Fall 2019
+      year: Fall&#39;19
       description:
         - '<a href="https://aair-lab.github.io/teaching/571_f19.html" target="_blank">CSE 571 Artificial Intelligence</a>.'
         - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
@@ -70,7 +70,7 @@
         - Created and graded homework assignments.
         - Mentored project groups working on class projects.
     - title: '<b>Teaching Assistant for a graduate-level Speech Processing Course at IIT Guwahati, India.</b>'
-      year: Fall 2014
+      year: Fall&#39;14
       description:
         - 'CS 566 Speech Processing.'
         - 'Taught by <b><a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a></b>.'
@@ -90,7 +90,7 @@
     - year: 2021-2022
       items:
         - 'PC Member, <a href="http://icaps22.icaps-conference.org/" target="_blank">32nd International Conference on Automated Planning and Scheduling (ICAPS 2022)</a>.'
-    - year: 2021-2022
+    - year: 2022
       items:
         - 'PC Member, <a href="https://xaip.mybluemix.net/#/2022" target="_blank">ICAPS 2022 Workshop on Explainable AI Planning (XAIP&#39;22)</a>.'
     - year: 2021
