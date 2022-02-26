@@ -57,7 +57,9 @@
       description:
         - '<a href="https://webapp4.asu.edu/bookstore/viewsyllabus/2221/35294" target="_blank">CSE 571 Artificial Intelligence</a>: Ongoing course.'
         - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
+        - Delivered hands-on problem solving sessions on Planning Graphs and Markov Decision Processes.
         - Co-created the software testbed used to support the course projects.
+        - Created and graded homework assignments.
     - title: '<b>Teaching Assistant for a graduate-level Artificial Intelligence Course at Arizona State University.</b>'
       year: Fall 2019
       description:
