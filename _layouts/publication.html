@@ -69,8 +69,10 @@
             In {{entry.booktitle}},
           {% elsif entry.type == "thesis" %}
             In {{entry.booktitle}}
-          {% elsif entry.type == "preprint" %}
+            {% elsif entry.type == "preprintonly" %}
             ArXiv: {{entry.arxiv}},
+          {% elsif entry.type == "preprint" %}
+            In {{entry.booktitle}},
           {% endif %}
           {% if entry.year %}
             {{entry.year}}.
@@ -80,7 +82,7 @@
           {% if entry.future %}
             (To appear)
           {% endif %}
-          {% if entry.type == "preprint" %}
+          {% if entry.type == "preprintonly" %}
             (In submission)
           {% endif %}
         
