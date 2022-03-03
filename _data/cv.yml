@@ -124,6 +124,9 @@
 - title: Honors and Awards
   type: table
   contents:
+    - year: 2022
+      items:
+        - 'SCAI Doctoral Fellowship, School of Computing and AI, ASU.'
     - year: 2021 - 2022
       items:
         - '<a href="https://eoss.asu.edu/gpsa/funding/travel-funding" target="_blank">GPSA Individual Travel Grant</a>, ASU. (for AAAI 2021, AAAI 2022)'
