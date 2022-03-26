@@ -43,6 +43,8 @@ nav: About
       </div>
     </div>
   {% endfor %}
+
+  <p style="text-align: right;"><a href="{{ 'news' | prepend: site.baseurl }}">See all news..</a></p>
 </div>
 
 

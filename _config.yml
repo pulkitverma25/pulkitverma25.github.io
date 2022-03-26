@@ -37,7 +37,8 @@ collections:
     output: true
     permalink: /conferences/:path/
 
-news_limit: 15
+news_limit: 5
+news_all_limit: 50
 
 # -----------------------------------------------------------------------------
 # Jekyll Settings

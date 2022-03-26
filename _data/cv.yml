@@ -57,7 +57,7 @@
       description:
         - '<a href="https://webapp4.asu.edu/bookstore/viewsyllabus/2221/35294" target="_blank">CSE 571 Artificial Intelligence</a>: Ongoing course.'
         - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
-        - Delivered hands-on problem solving sessions on Planning Graphs and Markov Decision Processes.
+        - Delivered hands-on problem solving sessions on Planning Graphs, Markov Decision Processes and Reinforcement Learning.
         - Co-created the software testbed used to support the course projects.
         - Created and graded homework assignments.
     - title: '<b>Teaching Assistant for a graduate-level Artificial Intelligence Course at Arizona State University.</b>'
@@ -87,6 +87,9 @@
 - title: Service
   type: table
   contents:
+    - year: 2021-2022
+      items:
+        - 'Organizer, <a href="http://aair-lab.github.io/genplan22" target="_blank">IJCAI-ECAI 2022 Workshop on Generalization in Planning (GenPlan&#39;21)</a>.'
     - year: 2021-2022
       items:
         - 'PC Member, <a href="http://icaps22.icaps-conference.org/" target="_blank">32nd International Conference on Automated Planning and Scheduling (ICAPS 2022)</a>.'
