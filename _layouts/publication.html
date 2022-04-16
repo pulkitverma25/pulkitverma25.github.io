@@ -188,7 +188,7 @@
             {% endif %}
             {% if entry.oldvideo1 %}
             <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldvideo1 }}" target="_blank">Video</a>
-          {% endif %}
+            {% endif %}
           </div>
         </p>
         {% if entry.oldv2 %}
@@ -208,6 +208,9 @@
               {% endif %}
               {% if entry.oldslides2 %}
               <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldslides2 | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Slides</a>
+              {% endif %}
+              {% if entry.oldvideo2 %}
+              <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.oldvideo1 }}" target="_blank">Video</a>
               {% endif %}
             </div>
           </p>
