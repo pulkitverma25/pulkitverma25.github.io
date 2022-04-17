@@ -2,7 +2,7 @@
   type: list
   contents:
     - AI Safety, AI Planning, Robotics, Action-Model Learning, and Analysis of Abstractions.
-    - My research focuses on safe and reliable behavior of AI agents. I am currently investigating the minimal set of capabilities in an AI system that would enable a user to assess and understand the limits of its safe operability. In the past, I have worked in the area of bio-inspired robotics, speech processing, and internet of things.
+    - My research focuses on safe and reliable behavior of AI agents. I am currently investigating the minimal set of requirements in an AI system that would enable a user to assess and understand the limits of its safe operability. In the past, I have worked in the area of bio-inspired robotics, speech processing, and internet of things.
 
 - title: Education
   type: table
@@ -57,7 +57,7 @@
       description:
         - '<a href="https://webapp4.asu.edu/bookstore/viewsyllabus/2221/35294" target="_blank">CSE 571 Artificial Intelligence</a>: Ongoing course.'
         - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
-        - Delivered hands-on problem solving sessions on Planning Graphs, Markov Decision Processes and Reinforcement Learning.
+        - Delivered hands-on problem solving sessions on Planning Graphs, Markov Decision Processes, Reinforcement Learning, and Neural Networks.
         - Co-created the software testbed used to support the course projects.
         - Created and graded homework assignments.
     - title: '<b>Teaching Assistant for a graduate-level Artificial Intelligence Course at Arizona State University.</b>'
@@ -89,7 +89,7 @@
   contents:
     - year: 2021-2022
       items:
-        - 'Organizer, <a href="http://aair-lab.github.io/genplan22" target="_blank">IJCAI-ECAI 2022 Workshop on Generalization in Planning (GenPlan&#39;21)</a>.'
+        - 'Co-organizer, <a href="http://aair-lab.github.io/genplan22" target="_blank">IJCAI-ECAI 2022 Workshop on Generalization in Planning (GenPlan&#39;21)</a>.'
     - year: 2021-2022
       items:
         - 'PC Member, <a href="http://icaps22.icaps-conference.org/" target="_blank">32nd International Conference on Automated Planning and Scheduling (ICAPS 2022)</a>.'
@@ -130,6 +130,9 @@
     - year: 2022
       items:
         - 'SCAI Doctoral Fellowship, School of Computing and AI, ASU.'
+    - year: 2022
+      items:
+        - 'Spring 2022 <a href="https://eoss.asu.edu/gpsa/funding/awards" target="_blank">GPSA Teaching Excellence Award</a>, ASU.'
     - year: 2021 - 2022
       items:
         - '<a href="https://eoss.asu.edu/gpsa/funding/travel-funding" target="_blank">GPSA Individual Travel Grant</a>, ASU. (for AAAI 2021, AAAI 2022)'
