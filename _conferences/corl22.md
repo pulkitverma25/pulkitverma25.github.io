@@ -5,5 +5,5 @@ location: <strong>Hybrid:</strong> Online/<br> Auckland, New Zealand
 paperdeadline: Jun 15, 2022
 dates: Dec 15 - Dec 18, 2022
 website: http://corl2022.org/
-num: 25
+num: 10
 ---

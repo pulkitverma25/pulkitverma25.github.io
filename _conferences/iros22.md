@@ -6,5 +6,5 @@ paperdeadline: Mar 01, 2022
 pdp: 1
 dates: Oct 23 - Oct 27, 2022
 website: https://www.iros2022.org/
-num: 23
+num: 8
 ---
