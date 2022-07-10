@@ -5,6 +5,6 @@ location: Kigali, Rwanda
 paperdeadline: TBD
 abstractdeadline: TBD
 dates: May 01 - May 05, 2023
-website: https://twitter.com/iclr_conf/status/1520190958456885249
+website: https://iclr.cc/Conferences/FutureMeetings
 num: 12
 ---
