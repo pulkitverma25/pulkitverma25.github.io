@@ -87,6 +87,9 @@
 - title: Service
   type: table
   contents:
+    - year: 2023
+      items:
+        - 'PC Member, <a href="https://aaai.org/Conferences/AAAI-23/" target="_blank">37th AAAI Conference on Artificial Intelligence (AAAI 2023)</a>.'
     - year: 2021-2022
       items:
         - 'Co-organizer, <a href="http://aair-lab.github.io/genplan22" target="_blank">IJCAI-ECAI 2022 Workshop on Generalization in Planning (GenPlan&#39;21)</a>.'
