@@ -2,9 +2,9 @@
 shortname: ICAPS 2023
 name: International Conference on Automated Planning and Scheduling
 location: Prague, Czech Republic
-abstractdeadline: TBD
-paperdeadline: TBD
+abstractdeadline: Nov 25, 2022
+paperdeadline: Nov 30, 2022
 dates: Jul 08 - Jul 13, 2023
-website: https://www.icaps-conference.org/conference/icaps-2023/
+website: https://icaps23.icaps-conference.org/
 num: 16
 ---
