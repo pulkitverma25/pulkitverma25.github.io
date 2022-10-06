@@ -606,7 +606,7 @@ function copyBibTeX(entry_id) {
     
       
         <span class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;">
-          Preprint
+          EMNLP
         </span>
       
     
@@ -614,8 +614,8 @@ function copyBibTeX(entry_id) {
   
   <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
     
-    <div id="Wang2022BenchmarkingGV" class="col p-0">
-      <h5 class="title mb-0">Benchmarking Generalization via In-Context Instructions on 1,600+ Language Tasks.</h5>
+    <div id="Wang2022SuperNaturalInstructions" class="col p-0">
+      <h5 class="title mb-0">Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ Tasks.</h5>
       <div class="author">
         
            
@@ -1062,7 +1062,7 @@ function copyBibTeX(entry_id) {
       <div>
         <p class="periodical font-italic">
           
-            In submission,
+            In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing,
           
           
             2022.
@@ -1076,15 +1076,15 @@ function copyBibTeX(entry_id) {
     
       <div class="col p-0">
         
-          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#Wang2022BenchmarkingGV-abstract" role="button" aria-expanded="false" aria-controls="Wang2022BenchmarkingGV-abstract">Abstract</a>
+          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#Wang2022SuperNaturalInstructions-abstract" role="button" aria-expanded="false" aria-controls="Wang2022SuperNaturalInstructions-abstract">Abstract</a>
         
         
-          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#Wang2022BenchmarkingGV-bibtex" role="button" aria-expanded="false" aria-controls="Wang2022BenchmarkingGV-bibtex">BibTeX</a>
+          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#Wang2022SuperNaturalInstructions-bibtex" role="button" aria-expanded="false" aria-controls="Wang2022SuperNaturalInstructions-bibtex">BibTeX</a>
         
         
         
           
-          <a class="badge grey waves-effect font-weight-light mr-1" href="https://arxiv.org/pdf/2204.07705.pdf" target="_blank">PDF</a>
+              <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/https://arxiv.org/pdf/2204.07705.pdf" target="_blank">PDF</a>
           
         
         
@@ -1107,7 +1107,7 @@ function copyBibTeX(entry_id) {
     
       
       <div class="col mt-2 p-0">
-        <div id="Wang2022BenchmarkingGV-abstract" class="collapse">
+        <div id="Wang2022SuperNaturalInstructions-abstract" class="collapse">
           <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
             How can we measure the generalization of models to a variety of unseen tasks when provided with their language instructions? To facilitate progress in this goal, we introduce Natural-Instructions v2, a collection of 1,600+ diverse language tasks and their expert written instructions. More importantly, the benchmark covers 70+ distinct task types, such as tagging, in-filling, and rewriting. This benchmark is collected with contributions of NLP practitioners in the community and through an iterative peer review process to ensure their quality. This benchmark enables large-scale evaluation of cross-task generalization of the models – training on a subset of tasks and evaluating on the remaining unseen ones. For instance, we are able to rigorously quantify generalization as a function of various scaling parameters, such as the number of observed tasks, the number of instances, and model sizes. As a by-product of these experiments. we introduce Tk-Instruct, an encoder-decoder Transformer that is trained to follow a variety of in-context instructions (plain language task definitions or k-shot examples) which outperforms existing larger models on our benchmark. We hope this benchmark facilitates future progress toward more general-purpose language understanding models.
           </div>
@@ -1116,16 +1116,14 @@ function copyBibTeX(entry_id) {
       
       
       <div class="col mt-2 p-0">
-        <div id="Wang2022BenchmarkingGV-bibtex" class="collapse">
+        <div id="Wang2022SuperNaturalInstructions-bibtex" class="collapse">
           <div class="bibtex card card-body font-weight-light mr-0 mr-sm-3 p-3">
             <pre>
-@misc{wang2022benchmarking,
-  author        = {Yizhong Wang and Swaroop Mishra and Pegah Alipoormolabashi and Yeganeh Kordi and Amirreza Mirzaei and Anjana Arunkumar and Arjun Ashok and Arut Selvan Dhanasekaran and Atharva Naik and David Stap and Eshaan Pathak and Giannis Karamanolakis and Haizhi Gary Lai and Ishan Purohit and Ishani Mondal and Jacob Anderson and Kirby Kuznia and Krima Doshi and Maitreya Patel and Kuntal Kumar Pal and Mehrad Moradshahi and Mihir Parmar and Mirali Purohit and Neeraj Varshney and Phani Rohitha Kaza and Pulkit Verma and Ravsehaj Singh Puri and Rushang Karia and Shailaja Keyur Sampat and Savan Doshi and Siddharth Deepak Mishra and Sujan Reddy and Sumanta Patro and Tanay Dixit and Xudong Shen and Chitta Baral and Yejin Choi and Noah A. Smith and Hannaneh Hajishirzi and Daniel Khashabi},
-  title         = {Benchmarking Generalization via In-Context Instructions on 1,600+ Language Tasks},
-  eprint        = {2204.07705},
-  year          = {2022},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.CL}
+@inproceedings{Wang2022SuperNaturalInstructions,
+  author    = {Yizhong Wang and Swaroop Mishra and Pegah Alipoormolabashi and Yeganeh Kordi and Amirreza Mirzaei and Anjana Arunkumar and Arjun Ashok and Arut Selvan Dhanasekaran and Atharva Naik and David Stap and Eshaan Pathak and Giannis Karamanolakis and Haizhi Gary Lai and Ishan Purohit and Ishani Mondal and Jacob Anderson and Kirby Kuznia and Krima Doshi and Maitreya Patel and Kuntal Kumar Pal and Mehrad Moradshahi and Mihir Parmar and Mirali Purohit and Neeraj Varshney and Phani Rohitha Kaza and Pulkit Verma and Ravsehaj Singh Puri and Rushang Karia and Shailaja Keyur Sampat and Savan Doshi and Siddharth Deepak Mishra and Sujan Reddy and Sumanta Patro and Tanay Dixit and Xudong Shen and Chitta Baral and Yejin Choi and Noah A. Smith and Hannaneh Hajishirzi and Daniel Khashabi},
+  title     = {Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ Tasks},
+  booktitle = {Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
 }</pre>
 
           </div>
