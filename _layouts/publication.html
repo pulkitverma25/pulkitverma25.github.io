@@ -85,7 +85,15 @@
           {% if entry.type == "preprintonly" %}
             (In submission)
           {% endif %}
-        
+        {% if entry.award %}
+        <br />&#127942; 
+          {% if entry.awardurl %}
+            <a href="{{ entry.awardurl | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target = "_blank">{{entry.award}}</a>
+          {% else %}
+            {{entry.award}}
+          {% endif %}
+          <br />
+        {% endif %}
         {% if entry.note %}
          
             {{entry.note}}
