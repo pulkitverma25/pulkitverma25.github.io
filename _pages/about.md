@@ -9,7 +9,7 @@ nav: About
     <header class="post-header">
     <h1 class="post-title">
       <strong>Pulkit</strong> Verma</h1>
-    <h5>Ph.D. Student @ <a href="http://aair-lab.github.io/" target="_blank">AAIR LAB</a>, <a href="https://www.asu.edu/" target="\_blank">ASU</a></h5>
+    <h5>Ph.D. Candidate @ <a href="http://aair-lab.github.io/" target="_blank">AAIR LAB</a>, <a href="https://www.asu.edu/" target="\_blank">ASU</a></h5>
   </header>
 </div>
 
@@ -53,6 +53,7 @@ nav: About
   <span class="contacticon center">
     {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
     {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+    {% if site.semantic_scholar_id %}<a href="https://scholar.google.com/citations?user={{ site.semantic_scholar_id }}" target="_blank" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>{% endif %}
     {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
     {% if site.dblp_username %}<a href="https://dblp.uni-trier.de/pers/hd/v/{{ site.dblp_username }}" target="_blank" title="DBLP"><i class="ai ai-dblp"></i></a>{% endif %}
     {% if site.orcid_id %}<a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>{% endif %}
