@@ -6,5 +6,5 @@ abstractdeadline: Jan 11, 2023
 paperdeadline: Jan 18, 2023
 dates: Aug 19 - Aug 25, 2023
 website: https://www.ijcai-23.org
-num: 18
+num: 19
 ---
