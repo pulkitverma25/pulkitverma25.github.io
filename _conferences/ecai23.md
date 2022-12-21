@@ -6,5 +6,5 @@ abstractdeadline: TBD
 paperdeadline: TBD
 dates:  Oct 01 - Oct 06, 2023
 website: https://ecai2023.eu/
-num: 21
+num: 22
 ---
