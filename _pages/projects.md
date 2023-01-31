@@ -3,7 +3,7 @@ layout: page
 title: Projects
 nav: projects
 permalink: /projects/
-description: Some of the research projects I've worked on
+description: Some of the research projects I've worked on (Last Updated in 2021)
 ---
 
 <div class="container-fluid p-0 text-justify">
@@ -56,7 +56,7 @@ description: Some of the research projects I've worked on
 <div class="row m-0" style="width: 100%;">
   <div class="col-sm-12 p-0">
     <h1>Course Projects</h1>
-    <h6 class="mb-4">Some of the course projects I've worked on</h6>
+    <h6 class="mb-4">Some of the course projects I've worked on (Last Updated in 2019)</h6>
   </div>
 </div>
 
