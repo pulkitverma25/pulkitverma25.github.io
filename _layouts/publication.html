@@ -134,8 +134,14 @@
         {% if entry.poster %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Poster</a>
         {% endif %}
+        {% if entry.webposter %}
+          <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.webposter }}" target="_blank">Poster</a>
+        {% endif %}
         {% if entry.slides %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl }}" target="_blank">Slides</a>
+        {% endif %}
+        {% if entry.webslides %}
+          <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.webslides }}" target="_blank">Slides</a>
         {% endif %}
         {% if entry.code %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.code }}" target="_blank">Code</a>
