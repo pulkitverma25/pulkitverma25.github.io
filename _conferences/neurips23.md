@@ -6,5 +6,5 @@ paperdeadline: May 17, 2023
 abstractdeadline: May 11, 2023
 dates: Dec 10 - Dec 16, 2023
 website: https://neurips.cc/Conferences/2023
-num: 26
+num: 13
 ---

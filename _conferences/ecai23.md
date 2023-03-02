@@ -6,5 +6,5 @@ abstractdeadline: May 02, 2023
 paperdeadline: May 08, 2023
 dates:  Sep 30 - Oct 05, 2023
 website: https://ecai2023.eu/
-num: 22
+num: 10
 ---

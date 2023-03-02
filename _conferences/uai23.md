@@ -6,5 +6,5 @@ paperdeadline: Feb 17, 2023
 pdp: 1
 dates: Jul 31 - Aug 04, 2023
 website: https://www.auai.org/uai2023/
-num: 18
+num: 7
 ---

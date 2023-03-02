@@ -8,5 +8,5 @@ paperdeadline: Jan 18, 2023
 pdp: 1
 dates: Aug 19 - Aug 25, 2023
 website: https://www.ijcai-23.org
-num: 19
+num: 8
 ---
