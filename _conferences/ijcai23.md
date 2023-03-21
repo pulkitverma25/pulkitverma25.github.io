@@ -1,7 +1,7 @@
 ---
 shortname: IJCAI 2023
 name: International Joint Conference on Artificial Intelligence
-location: Cape Town, South Africa
+location: Macao, S.A.R.
 abstractdeadline: Jan 11, 2023
 adp: 1
 paperdeadline: Jan 18, 2023
