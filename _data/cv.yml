@@ -89,7 +89,13 @@
   contents:
     - year: 2023
       items:
+        - 'PC Member, <a href="https://neurips.cc/Conferences/2023" target="_blank">37th Conference on Neural Information Processing Systems (NeurIPS 2023)</a>.'
+    - year: 2023
+      items:
         - 'PC Member, <a href="https://ijcai-23.org/" target="_blank">32nd International Joint Conference on Artificial Intelligence (IJCAI 2023)</a>.'
+    - year: 2023
+      items:
+        - 'PC Member, <a href="https://asu-apg.github.io/odrum/" target="_blank">CVPR 2023 Workshop on Open-Domain Reasoning Under Multi-Modal Settings (ODRUM 2023)</a>.'
     - year: 2023
       items:
         - 'PC Member, <a href="https://aamas2023.soton.ac.uk/" target="_blank">22nd International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2023)</a>.'
