@@ -27,6 +27,12 @@
 - title: Work Experience
   type: table
   contents:
+
+  - title: 'Research Scientist Intern - AI <br ><a href="https://www.meta.com/" target="_blank">Meta</a>.'
+      year: 2023-NOW
+      description:
+        - 'Working on intersection of <a href="https://ai.facebook.com/" target="_blnk">AI</a> and <a href="https://about.meta.com/realitylabs/" target = "_blank>"Reality Labs</a>.'
+
     - title: 'Graduate Research Associate <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University.</a>'
       year: 2018-NOW
       description:
@@ -95,6 +101,9 @@
         - 'PC Member, <a href="https://ijcai-23.org/" target="_blank">32nd International Joint Conference on Artificial Intelligence (IJCAI 2023)</a>.'
     - year: 2023
       items:
+        - 'PC Member, <a href="https://prl-theworkshop.github.io/prl2023-ijcai/" target="_blank">IJCAI 2023 Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL@IJCAI 2023)</a>.'
+    - year: 2023
+      items:
         - 'PC Member, <a href="https://asu-apg.github.io/odrum/" target="_blank">CVPR 2023 Workshop on Open-Domain Reasoning Under Multi-Modal Settings (ODRUM 2023)</a>.'
     - year: 2023
       items:
@@ -145,9 +154,12 @@
 - title: Honors and Awards
   type: table
   contents:
+  - year: 2023
+      items:
+        - '<a href="https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/completion-fellowship" target="_blank">Graduate College Completion Fellowship</a>, Graduate College, ASU.'
     - year: 2023
       items:
-        - 'Engineering Graduate Fellowship, ASU Engineering.'
+        - '<a href="https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/university-graduate-fellowships" target="_blank">University (Engineering) Graduate Fellowship</a>, ASU Engineering.'
     - year: 2023
       items:
         - 'SCAI Doctoral Fellowship, School of Computing and AI, ASU.'
