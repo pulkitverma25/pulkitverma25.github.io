@@ -28,6 +28,8 @@ description: Some links for personal book-keeping
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
             <li class="list-group-item"><a href="https://aair-lab.github.io" target="_blank">Autonomous Agents and Intelligent Robots Lab, ASU</a></li>
+            <li class="list-group-item"><a href="https://ai.meta.com/" target="_blank">Meta AI</a></li>
+            <li class="list-group-item"><a href="https://about.meta.com/realitylabs/" target="_blank">Meta Reality Labs</a></li>
             <li class="list-group-item"><a href="https://humancompatible.ai/" target="_blank">Center for Human-Compatible Artificial Intelligence, UC Berkeley</a></li>
             <li class="list-group-item"><a href="https://scai.engineering.asu.edu/" target="_blank">School of Computing and Augmented Intelligence, ASU</a></li>
             <li class="list-group-item"><a href="https://sites.usc.edu/cognitive-robotics/" target="_blank">Summer School on Cognitive Robotics</a></li>

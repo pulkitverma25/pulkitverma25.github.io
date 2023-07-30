@@ -92,12 +92,18 @@
 - title: Service
   type: table
   contents:
+    - year: 2024
+      items:
+        - 'PC Member, <a href="https://aaai.org/aaai-conference/" target="_blank">38th AAAI Conference on Artificial Intelligence (AAAI 2024)</a>.'
     - year: 2023
       items:
-        - 'Co-organizer, NeurIPS 2023 Workshop on Generalization in Planning (GenPlan&#39;23).'
+        - 'Co-organizer, <a href="http://aair-lab.github.io/genplan23" target="_blank">NeurIPS 2023 Workshop on Generalization in Planning (GenPlan&#39;23)</a>.'
     - year: 2023
       items:
         - 'Reviewer, <a href="https://jair.org" target="_blank">Journal of Artificial Intelligence Research (JAIR)</a>.'
+    - year: 2023
+      items:
+        - 'PC Member, <a href="https://leap-workshop.github.io/" target="_blank">CoRL 2023 Workshop on Learning Effective Abstractions for Planning (LEAP 2023)</a>.'    
     - year: 2023
       items:
         - 'PC Member, <a href="https://neurips.cc/Conferences/2023" target="_blank">37th Conference on Neural Information Processing Systems (NeurIPS 2023)</a>.'
