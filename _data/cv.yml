@@ -92,10 +92,13 @@
 - title: Service
   type: table
   contents:
-    - year: 2024
+    - year: 2023-2024
+      items:
+        - 'PC Member, <a href="https://www.aamas2024-conference.auckland.ac.nz/" target="_blank">23rd International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2024)</a>.'
+    - year: 2023-2024
       items:
         - 'PC Member, <a href="https://iclr.cc/Conferences/2024" target="_blank">12th International Conference on Learning Representations (ICLR 2024)</a>.'
-    - year: 2024
+    - year: 2023-2024
       items:
         - 'PC Member, <a href="https://aaai.org/aaai-conference/" target="_blank">38th AAAI Conference on Artificial Intelligence (AAAI 2024)</a>.'
     - year: 2023
