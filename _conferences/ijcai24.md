@@ -5,6 +5,6 @@ location: Jeju Island, South Korea
 abstractdeadline: TBD
 paperdeadline: TBD
 dates: Aug 03 - Aug 09, 2024
-website: https://www.ijcai.org/future_conferences
+website: https://ijcai24.org/
 num: 21
 ---
