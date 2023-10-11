@@ -11209,7 +11209,23 @@ progress { position: fixed; left: 0; top: 56px; z-index: 10; width: 100%; height
 
 .progress-bar { display: block; width: 0%; height: inherit; }
 
-.profile-img { box-shadow: 0 0 5px #828282; width: 1000%; max-width: 200px; margin-left: 20px; margin-right: 10px; margin-bottom: 2px; }
+.profile-img { float: right; box-shadow: 0 0 5px #828282; width: 1000%; max-width: 200px; margin-left: 20px; margin-right: 10px; margin-bottom: 2px; }
+
+
+@media screen and (max-width: 991px) {
+  .profile-img {align-self: center; float: center; box-shadow: 0 0 5px #828282; width: 1000%; max-width: 200px; margin-left: 10px; margin-right: 10px; margin-bottom: 10px; }
+
+}
+
+@media screen and (max-width: 767px) {
+  .profile-img {align-self: center; float: center; box-shadow: 0 0 5px #828282; width: 1000%; max-width: 200px; margin-left: 10px; margin-right: 10px; margin-bottom: 10px; }
+
+}
+
+@media screen and (max-width: 600px) {
+  .profile-img {align-self: center; float: center; box-shadow: 0 0 5px #828282; width: 1000%; max-width: 200px; margin-left: 10px; margin-right: 10px; margin-bottom: 10px; }
+
+}
 
 .contact-icon { display: block; font-size: 35px; }
 

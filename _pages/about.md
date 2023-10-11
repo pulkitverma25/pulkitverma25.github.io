@@ -6,13 +6,12 @@ nav: About
 ---
 
 <div class="col mt-4">
-    <header class="post-header">
-    <img class="profile-img float-right mr-2" src="{{ 'pulkit_verma.png' | prepend: '/assets/img/' | prepend: site.baseurl }}">
+    <img class="profile-img" src="{{ 'pulkit_verma.png' | prepend: '/assets/img/' | prepend: site.baseurl }}">
     <br />
+    <header class="post-header">
     <h1 class="post-title">
       <strong>Pulkit</strong> Verma</h1>
     <h5>Ph.D. Candidate @ <a href="http://aair-lab.github.io/" target="_blank">AAIR LAB</a>, <a href="https://www.asu.edu/" target="\_blank">ASU</a></h5>
-
 
   <span class="contacticon center">
     {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
