@@ -6,7 +6,7 @@ nav: About
 ---
 
 <div class="col mt-4">
-    <img class="profile-img" src="{{ 'pulkit_verma.png' | prepend: '/assets/img/' | prepend: site.baseurl }}">
+    <img class="profile-img float-right" src="{{ 'pulkit_verma.png' | prepend: '/assets/img/' | prepend: site.baseurl }}">
     <br />
     <header class="post-header">
     <h1 class="post-title">
@@ -29,11 +29,16 @@ nav: About
     {% if site.quora_username %}<a href="https://www.quora.com/profile/{{ site.quora_username }}" target="_blank" title="Quora"><i class="fab fa-quora"></i></a>{% endif %}
     {% if site.blogger_url %}<a href="{{ site.blogger_url }}" target="_blank" title="Blogger"><i class="fab fa-blogger-b"></i></a>{% endif %}
   </span>
+  <br />
+
+   <i class="fa fa-bullhorn" aria-hidden="true"> </i> I am on the job market for postdoctoral positions.
     </header>
+
+
 </div>
 
 <br />
-<br />
+
 
 
 <div class="container">
