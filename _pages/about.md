@@ -31,7 +31,7 @@ nav: About
   </span>
   <br />
 
-   <i class="fa fa-bullhorn" aria-hidden="true"> </i> I am on the job market for postdoctoral positions.
+   <i class="fa fa-bullhorn" aria-hidden="true"> </i> I am on the job market for postdoctoral and research scientist positions.
     </header>
 
 
