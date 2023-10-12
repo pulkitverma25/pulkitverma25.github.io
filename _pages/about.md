@@ -6,7 +6,7 @@ nav: About
 ---
 
 <div class="col mt-4">
-    <img class="profile-img float-right" src="{{ 'pulkit_verma.png' | prepend: '/assets/img/' | prepend: site.baseurl }}">
+    <img class="profile-img float-right" src="{{ 'pulkit_verma.jpg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
     <br />
     <header class="post-header">
     <h1 class="post-title">
