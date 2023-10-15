@@ -27,10 +27,6 @@
 - title: Work Experience
   type: table
   contents:
-    - title: 'Research Scientist Intern - AI <br ><a href="https://www.meta.com/" target="_blank">Meta</a>.'
-      year: 2023-NOW
-      description:
-        - 'Working on intersection of <a href="https://ai.facebook.com/" target="_blank">AI</a> and <a href="https://about.meta.com/realitylabs/" target="_blank">Reality Labs</a>.'
 
     - title: 'Graduate Research Associate <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University.</a>'
       year: 2018-NOW
@@ -40,6 +36,12 @@
         - 'Reduced the STRIPS-model comparison to a planning problem which enabled identifying if two models are not same.'
         - 'Modified FF-planner to take PDDL models, initial state, plan as input, and give the final state as output.'
         - 'Co-designed the experiments showcasing possible use-case of an NSF project on training lay people to use adaptive AI systems which are safe, robust, and reliable.'
+
+    - title: 'Research Scientist Intern - AI <br ><a href="https://www.meta.com/" target="_blank">Meta</a>.'
+      year: 05-08 2023
+      description:
+        - 'Working on intersection of <a href="https://ai.facebook.com/" target="_blank">AI</a> and <a href="https://about.meta.com/realitylabs/" target="_blank">Reality Labs</a>.'
+        - 'Developed a proof of concept system for curriculum personalization using sequential decision making.'
 
     - title: 'Storage Efficiency Developer <br ><a href="https://www.netapp.in/" target="_blank">NetApp Inc.</a>'
       year: 2015-2018
