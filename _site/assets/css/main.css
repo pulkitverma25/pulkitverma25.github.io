@@ -11209,8 +11209,7 @@ progress { position: fixed; left: 0; top: 56px; z-index: 10; width: 100%; height
 
 .progress-bar { display: block; width: 0%; height: inherit; }
 
-.profile-img { float: right; box-shadow: 0 0 5px #828282; width: 1000%; max-width: 200px; margin-left: 20px; margin-right: 10px; margin-bottom: 2px; }
-
+.profile-img { box-shadow: 0 0 5px #828282; width: 100%; box-shadow: 0 0 5px #828282; width: 1000%; max-width: 200px; margin-left: 20px; margin-right: 10px; margin-bottom: 2px; }
 
 .contact-icon { display: block; font-size: 35px; }
 
@@ -11227,7 +11226,7 @@ progress { position: fixed; left: 0; top: 56px; z-index: 10; width: 100%; height
 
 .social a:hover { color: #cf0000; }
 
-.contacticon { display: block; font-size: 33px; margin: 5px; }
+.contacticon { display: block; font-size: 40px; margin: 5px; }
 
 /* Projects */
 .project-card { position: relative; width: 100%; min-height: 1px; padding-right: 15px; padding-left: 15px; flex: 0 0 100%; max-width: 100%; }
