@@ -8,5 +8,5 @@ paperdeadline: Dec 13, 2023
 pdp: 1
 dates: Jun 01 - Jun 06, 2024
 website: https://icaps24.icaps-conference.org/
-num: 18
+num: 6
 ---

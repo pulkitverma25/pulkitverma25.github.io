@@ -6,5 +6,5 @@ abstractdeadline: Jan 10, 2024
 paperdeadline: Jan 17, 2024
 dates: Aug 03 - Aug 09, 2024
 website: https://ijcai24.org/
-num: 21
+num: 11
 ---
