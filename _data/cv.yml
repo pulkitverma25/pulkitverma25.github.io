@@ -185,6 +185,9 @@
 - title: Honors and Awards
   type: table
   contents:
+    - year: 2024
+      items:
+        - 'Spring 2024 <a href="https://eoss.asu.edu/gpsa/funding/jumpstart-research-grant" target="_blank">GPSA Jumpstart Research Grant</a>, ASU.'
     - year: 2023
       items:
         - '<a href="https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/completion-fellowship" target="_blank">Graduate College Completion Fellowship</a>, Graduate College, ASU.'
