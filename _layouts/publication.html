@@ -116,7 +116,7 @@
             <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.url }}" target="_blank">Publisher</a>
           {% endif %}
         {% endif %}
-        {% if entry.type == "preprint" %}
+        {% if entry.type == "preprint" or entry.type == "preprintonly" %}
           {% if entry.pdf %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.pdf}}" target="_blank">PDF</a>
           {% endif %}
