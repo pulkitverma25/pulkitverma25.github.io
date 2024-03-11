@@ -8,5 +8,5 @@ paperdeadline: Oct 09, 2023
 pdp: 1
 dates: May 06 - May 10, 2024
 website: https://www.aamas2024-conference.auckland.ac.nz/
-num: 3
+num: 1
 ---

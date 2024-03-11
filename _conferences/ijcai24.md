@@ -8,5 +8,5 @@ paperdeadline: Jan 17, 2024
 pdp: 1
 dates: Aug 03 - Aug 09, 2024
 website: https://ijcai24.org/
-num: 11
+num: 8
 ---
