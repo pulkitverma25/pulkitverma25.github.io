@@ -1,7 +1,7 @@
 ---
 shortname: AAAI 2025
 name: AAAI Conference on Artificial Intelligence
-location: Philadephia, USA
+location: Philadelphia, USA
 abstractdeadline: TBD
 paperdeadline: TBD
 dates: Feb 27 - Mar 02, 2025
