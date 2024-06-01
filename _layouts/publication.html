@@ -67,6 +67,8 @@
             In {{entry.journal}},
           {% elsif entry.type == "inproceedings" %}
             In {{entry.booktitle}},
+          {% elsif entry.type == "techreport" %}
+            Technical Report {{entry.booktitle}},
           {% elsif entry.type == "thesis" %}
             In {{entry.booktitle}}
             {% elsif entry.type == "preprintonly" %}
