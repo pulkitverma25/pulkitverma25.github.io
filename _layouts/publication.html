@@ -31,7 +31,7 @@
               {% if site.data.coauthors[trim_last] %}
                 <nobr><a href="{{site.data.coauthors[trim_last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.</nobr>
               {% else %}
-                <nobr>{{author.first}} {{author.last}},</nobr>
+                <nobr>{{author.first}} {{author.last}}.</nobr>
               {% endif %}
             {% endif %}
           {% else %}
@@ -70,7 +70,7 @@
           {% elsif entry.type == "techreport" %}
             Technical Report {{entry.booktitle}},
           {% elsif entry.type == "thesis" %}
-            In {{entry.booktitle}}
+            PhD Thesis, {{entry.institute}}, {{entry.address}}, 
             {% elsif entry.type == "preprintonly" %}
             ArXiv: {{entry.arxiv}},
           {% elsif entry.type == "preprint" %}
