@@ -177,8 +177,6 @@
             2024.
           
           
-            (To appear)
-          
           
         
         
@@ -274,6 +272,128 @@
         
         
       </div>
+      
+    </div>
+
+  </div>
+  
+</div>
+
+
+<script>
+function copyBibTeX(entry_id) {
+  alert("Will Copy the text");
+  var copyText = document.getElementById(entry_id);
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+</li>
+<li><div class="row m-0 mt-3 p-0">
+  <div class="col-sm-1 p-0 abbr">
+    
+      
+        <span class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;">
+          Thesis
+        </span>
+      
+    
+  </div>
+  
+  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+    
+    <div id="verma2024data" class="col p-0">
+      <h5 class="title mb-0">Data-Efficient Paradigms for Personalized Assessment of Taskable AI Systems.</h5>
+      <div class="author">
+        
+           
+          
+            
+              
+                <nobr>Pulkit Verma.</nobr>
+              
+            
+          
+        
+      </div>
+
+      <div>
+        <p class="periodical font-italic">
+          
+            PhD Thesis, Arizona State University, Tempe, AZ, USA, 
+            
+          
+            2024.
+          
+          
+          
+        
+        
+      </p>
+      </div>
+    
+      <div class="col p-0">
+        
+          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#verma2024data-abstract" role="button" aria-expanded="false" aria-controls="verma2024data-abstract">Abstract</a>
+        
+        
+          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#verma2024data-bibtex" role="button" aria-expanded="false" aria-controls="verma2024data-bibtex">BibTeX</a>
+        
+        
+        
+          
+              <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/Pulkit_Verma_PhD_Thesis.pdf" target="_blank">PDF</a>
+          
+        
+        
+        
+        
+        
+        
+          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/Pulkit_Verma_PhD_Defense_Slides.pdf" target="_blank">Slides</a>
+        
+        
+        
+        
+        
+          <a class="badge grey waves-effect font-weight-light mr-1" href="https://youtu.be/MWLQuQLq1nE" target="_blank">Video</a>
+        
+      </div>
+      
+    
+      
+      <div class="col mt-2 p-0">
+        <div id="verma2024data-abstract" class="collapse">
+          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+            Recent advances in Artificial Intelligence (AI) have brought AI closer to laypeople than ever before. This leads to a pervasive problem: how would a user ascertain whether an AI system will be safe, reliable, or useful in a given situation? This problem becomes particularly challenging when it is considered that most autonomous systems are not designed by their users; the internal software of these systems may be unavailable or difficult to understand; and the functionality of these systems may even change from initial specifications as a result of learning. To overcome these challenges, this dissertation proposes a paradigm for third-party autonomous assessment of black-box taskable AI systems. The four main desiderata of such assessment systems are: (i) interpretability: generating a description of the AI system’s functionality in a language that the target user can understand; (ii) correctness: ensuring that the description of AI system’s working is accurate; (iii) generalizability creating a solution approach that works well for different types of AI systems; and (iv) minimal requirements: creating an assessment system that does not place complex requirements on AI systems to support the third-party assessment, otherwise the manufacturers of AI system’s might not support such an assessment. <br />
+
+To satisfy these properties, this dissertation presents algorithms and requirements that would enable user-aligned autonomous assessment that helps the user understand the limits of a black-box AI system’s safe operability. This dissertation proposes a personalized AI assessment module that discovers the high-level “capabilities” of an AI system with arbitrary internal planning algorithms/policies and learns an accurate symbolic description of these capabilities in terms of concepts that a user understands. Furthermore, the dissertation includes the associated theoretical results and the empirical evaluations. The results show that (i) a primitive query-response interface can enable the development of autonomous assessment modules that can derive a causally accurate user-interpretable model of the system’s capabilities efficiently; and (ii) such descriptions are easier to understand and reason with for the users than the agent’s primitive actions. 
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col mt-2 p-0">
+        <div id="verma2024data-bibtex" class="collapse">
+          <div class="bibtex card card-body font-weight-light mr-0 mr-sm-3 p-3">
+            <pre>
+@phdthesis{verma2024data,
+  author    = {Verma, Pulkit},
+  title     = {Data-Efficient Paradigms for Personalized Assessment of Taskable AI Systems},
+  month     = {May},
+  school    = {Arizona State University,
+  address   = {Tempe, AZ, USA},
+  type      = {PhD Thesis},
+  year      = {2024},
+}</pre>
+
+          </div>
+        </div>
+      </div>
+      
+
       
     </div>
 
@@ -702,7 +822,7 @@ function copyBibTeX(entry_id) {
         <div id="karia2024can-bibtex" class="collapse">
           <div class="bibtex card card-body font-weight-light mr-0 mr-sm-3 p-3">
             <pre>
-@inproceedings{verma2024user,
+@inproceedings{karia2024can,
   author    = {Karia, Rushang and Dobhal, Daksh and Bramblett, Daniel and Verma, Pulkit and Srivastava, Siddharth},
   title     = {Can {LLMs} translate {SATisfactorily}? {Assessing LLMs} in Generating and Interpreting Formal Specifications},
   booktitle = {AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems},
