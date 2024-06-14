@@ -6,5 +6,5 @@ abstractdeadline: TBD
 paperdeadline: TBD
 dates:  Oct 27 - Oct 31, 2025
 website: https://ecai2025.org/
-num: 28
+num: 24
 ---

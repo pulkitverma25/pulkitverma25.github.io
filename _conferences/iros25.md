@@ -5,5 +5,5 @@ location: Hangzhou, China
 paperdeadline: TBD
 dates: Oct 19 - Oct 25, 2025
 website: https://irmv.sjtu.edu.cn/iros2025/
-num: 26
+num: 19
 --- 

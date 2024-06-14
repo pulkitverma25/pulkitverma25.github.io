@@ -8,5 +8,5 @@ paperdeadline: Apr 25, 2024
 pdp: 1
 dates:  Oct 19 - Oct 24, 2024
 website: https://ecai2024.eu/
-num: 11
+num: 7
 ---

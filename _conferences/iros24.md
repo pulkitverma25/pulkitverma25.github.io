@@ -6,5 +6,5 @@ paperdeadline: Mar 01, 2024
 pdp: 1
 dates: Oct 14 - Oct 18, 2024
 website: http://iros2024-abudhabi.org/
-num: 10
+num: 6
 ---
