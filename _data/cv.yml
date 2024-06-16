@@ -29,7 +29,7 @@
   contents:
 
     - title: 'Graduate Research Associate <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University.</a>'
-      year: 2018-NOW
+      year: 2018-2024
       description:
         - 'Investigating the minimal set of interfaces in an AI system that would enable a user to assess and understand the limits of its safe operability.'
         - 'Developed a framework which generates interrogation policies to derive the human interpretable model of an autonomous agent.'
