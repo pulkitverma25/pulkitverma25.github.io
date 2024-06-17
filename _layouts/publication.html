@@ -25,13 +25,14 @@
         {% for author in entry.author_array %}
           {% assign trim_last = author.last | remove: "<sup>*</sup>" %} 
           {% if forloop.length == 1 %}
+            <!-- {{trim_last}}. {{author}} . {{site.scholar.last_name}}. -->
             {% if trim_last contains site.scholar.last_name }
               <nobr><em>{{author.first}} {{author.last}}</em>.</nobr>
             {% else %}
               {% if site.data.coauthors[trim_last] %}
                 <nobr><a href="{{site.data.coauthors[trim_last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.</nobr>
               {% else %}
-                <nobr>{{author.first}} {{author.last}}.</nobr>
+                <nobr><em>{{author.first}} {{author.last}}</em>.</nobr>
               {% endif %}
             {% endif %}
           {% else %}
