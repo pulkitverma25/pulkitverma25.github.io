@@ -65,7 +65,7 @@
       <div>
         <p class="periodical font-italic">
           {% if entry.type == "article" %}
-            In {{entry.journal}},
+            In {{entry.journal}}, vol. {{entry.volume}}, no. {{entry.number}}, pp. {{entry.pages}},
           {% elsif entry.type == "inproceedings" %}
             In {{entry.booktitle}},
           {% elsif entry.type == "techreport" %}
