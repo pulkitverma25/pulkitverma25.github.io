@@ -1,230 +1,53 @@
-@import 'mdb/mdb';
-@import '_mixins';
-
-$max-page-width: 800px;
+/******************************************************************************
+ * Content
+ ******************************************************************************/
 
 body {
-  // Padding for the navigation bar.
-  padding-top: 56px;
   padding-bottom: 70px;
-}
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
 
-.navbar {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 100%;
-
-  .container {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: $max-page-width;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 66px;
   }
 }
 
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: $max-page-width;
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 56px;
 }
 
-.content {
-  @extend .container-fluid, .mt-4;
-  padding: 25px;
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
 }
 
-footer {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  font-size: 72%;
-  padding: 2px;
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-
-  text-align: center !important;
-  box-shadow: $z-depth-1;
+.container {
+  max-width: $max-content-width;
 }
 
-// Progress Bar
-
-progress {
-  // Positioning
-  position: fixed;
-  left: 0;
-  top: 56px;
-  z-index: 10;
-
-  // Dimensions
-  width: 100%;
-  height: 5px;
-}
-
-.progress-container {
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 56px;
-  width: 100%;
-  height: 5px;
-}
-
-.progress-bar {
-  display: block;
-  width: 0%;
-  height: inherit;
-}
-
-.profile-img {
-  box-shadow: 0 0 5px $grey-color;
-  width: 100%;
-  box-shadow: 0 0 5px #828282; 
-  width: 1000%; 
-  max-width: 200px; 
-  margin-left: 20px; 
-  margin-right: 10px; 
-  margin-bottom: 2px;
-}
-
-.contact-icon {
-  display: block;
-  font-size: 35px;
-}
-
-.news {
-  .date {
-    width: 85px;
-  }
-
-  .text p, .text a {
-    padding-left: .2em;
+// Profile
+.profile {
+  img {
+    width: 100%;
   }
 }
 
-.post-header { 
-  margin-bottom: 40px; 
-}
+// TODO: redefine content layout.
 
-.post-title { 
-  font-size: 42px; 
-  letter-spacing: -1px; 
-  line-height: 1; 
-  margin-bottom: 10px; 
-  margin-top: 0; 
-}
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
 
-.social { 
-  border-top: 1px solid; 
-  margin-top: 30px; 
-  padding-top: 20px; 
-}
+// TODO: redefine publications layout.
 
-.social a { color: #333; }
-.social a:hover { color: #cf0000; }
+/*****************************************************************************
+* Projects
+*****************************************************************************/
 
-.contacticon { 
-  display: block; 
-  font-size: 40px; 
-  margin: 5px; 
-}
-
-/* Projects */
-
-@mixin project-icon {
-  display: block;
-  font-size: 40px;
-  margin-bottom: -0.3em;
-}
-
-.project-card {
-  // The following is needed for the case of a single column where
-  // some cards may end up being narrower than others.
-  @include make-col-ready();
-
-  // 1-column to 2-column to 3-column arrangement.
-  @include make-col(12);
-
-  @include media-breakpoint-up(sm) {
-    @include make-col(6);
-  }
-
-  @include media-breakpoint-up(md) {
-    @include make-col(4);
-  }
-
-  .card {
-    @include hoverable;
-    @include mb(4);
-    @include p(0);
-  }
-
-  .wordpress-icon {
-    @include project-icon;
-
-    @include mt(2);
-    @include ml(-1);
-    @include mr(2);
-    @include p(0);
-
-    .icon {
-      @include mr(1);
-    }
-  }
-
-  .github-icon {
-    @include mt(2);
-    @include mb(-4);
-    @include ml(-1);
-    @include mr(2);
-    @include p(0);
-
-    .icon {
-      @include project-icon;
-      @include mr(1);
-    }
-
-    .stars {
-      @include badge;
-      @include theme-badge;
-
-      position: relative;
-      top: -50px;
-      left: 20px;
-    }
-  }
-}
-
-/* Publications */
-
-.bibliography {
-  padding: 0em;
-
-  .abbr span {
-    width: 65px;
-  }
-
-  li {
-    list-style: none;
-
-    .author {
-      font-size: 14px;
-    }
-
-    .periodical {
-      font-size: 14px;
-      line-height: 1.2em;
-      margin-bottom: 5px;
-    }
-
-    .abstract {
-      text-align: justify;
-      font-size: 14px;
-    }
-
-    .bibtex {
-      font-size: 14px;
-      overflow-wrap: normal;
-    }
-  }
-}
+// TODO: redefine projects layout.

@@ -1,140 +1,191 @@
-Srivastava:
+"srivastava":
+  - firstname: ["Siddharth"]
     url: http://siddharthsrivastava.net
 
-Das:
+"das":
+  - firstname: ["Pradip K."]
     url: http://www.iitg.ernet.in/pkdas/
 
-Goel:
+"goel":
+  - firstname: ["Sharad"]
     url: https://5harad.com/
 
-Marpally:
+"marpally":
+  - firstname: ["Shashank Rao"]
     url: https://marpally-raoshashank.netlify.app/
 
-Shah:
+"shah":
+  - firstname: ["Naman"]
     url: https://www.namanshah.net/
 
-Angle:
+"angle":
+  - firstname: ["Trevor"]
     url: http://trevorangle.com/
 
-Nayyar:
+"nayyar":
+  - firstname: ["Rashmeet Kaur"]
     url: https://www.rashmeetnayyar.com/
 
-Simoiu:
+"simoiu":
+  - firstname: ["Camelia"]
     url: http://web.stanford.edu/~csimoiu/
 
-Parikh:
+"parikh":
+  - firstname: ["Harsh"]
     url: https://sites.google.com/view/harshparikh/
 
-Ravichander:
+"ravichander":
+  - firstname: ["Abhilasha"]
     url: https://www.cs.cmu.edu/~aravicha/
 
-HS:
+"hs":
+  - firstname: ["Bhargav"]
     url: https://bhargavrao.com/
 
-Loomba:
+"loomba":
+  - firstname: ["Sahil"]
     url: https://sloomba.github.io/
 
-Ahmed:
+"ahmed":
+  - firstname: ["Atif"]
     url: https://atif93.github.io/
 
-Khajuria:
+"khajuria":
+  - firstname: ["Tarun"]
     url: https://loop.frontiersin.org/people/1267489
 
-Konam:
+"konam":
+  - firstname: ["Sandeep"]
     url: https://skonam.github.io/
 
-Sheshan:
+"sheshan":
+  - firstname: ["Ashrith"]
     url: https://ashriths.github.io/
 
-Sankaranarayanan:
-    url: http://sreecharan.me/
-
-Sehgal:
+"sehgal":
+  - firstname: ["Vibhor"]
     url: http://www.sehgalvibhor.com/
 
-Singh:
+"singh":
+  - firstname: ["Anjali"]
     url: https://sites.google.com/view/singhanj13/
 
-Wang:
+"wang":
+  - firstname: ["Yizhong"]
     url: https://homes.cs.washington.edu/~yizhongw/
 
-Stap:
+"stap":
+  - firstname: ["David"]
     url: https://davidstap.github.io/
 
-Karamanolakis:
+"karamanolakis":
+  - firstname: ["Giannis"]
     url: https://gkaramanolakis.github.io/
 
-Mondal:
+"mondal":
+  - firstname: ["Ishani"]
     url: https://ishani-mondal.github.io/
 
-Patel:
+"patel":
+  - firstname: ["Maitreya"]
     url: https://maitreyapatel.github.io/
 
-Pal:
+"pal":
+  - firstname: ["Kuntal Kumar"]
     url: https://kuntalkumarpal.github.io/
 
-Moradshahi:
-    url: https://web.stanford.edu/~mehrad/
+"purohit":
+  - firstname: ["Mirali"]
+    url: https://search.asu.edu/profile/4174819
 
-Parmar:
+"parmar":
+  - firstname: ["Mihir"]
     url: https://sites.google.com/view/mihir3009
 
-Varshney:
+"varshney":
+  - firstname: ["Neeraj"]
     url: https://nrjvarshney.github.io/
 
-Puri:
+"puri":
+  - firstname: ["Ravsehaj Singh"]
     url: https://ravsehajsinghpuri.github.io/
 
-Karia:
+"karia":
+  - firstname: ["Rushang"]
     url: https://rushangkaria.github.io/
 
-Shen:
+"shen":
+  - firstname: ["Xudong"]
     url: https://xudongolivershen.github.io/
 
-Baral:
+"baral":
+  - firstname: ["Chitta"]
     url: https://www.public.asu.edu/~cbaral/
 
-Choi:
+"choi":
+  - firstname: ["Yejin"]
     url: https://homes.cs.washington.edu/~yejin/
 
-Hajishirzi:
+"hajishirzi":
+  - firstname: ["Hannaneh"]
     url: https://homes.cs.washington.edu/~hannaneh/
 
-Smith:
+"smith":
+  - firstname: ["Noah A."]
     url: https://nasmith.github.io/
 
-Khashabi:
+"khashabi":
+  - firstname: ["Daniel"]
     url: https://danielkhashabi.com/
 
-Mishra:
+"mishra":
+  - firstname: ["Swaroop"]
     url: https://swarooprm.github.io/
 
-Naik:
+"naik":
+  - firstname: ["Atharva"]
     url: https://atharva-naik.github.io/
 
-Sampat:
+"sampat":
+  - firstname: ["Shailaja Keyur"]
     url: https://shailaja-sampat.mystrikingly.com/
 
-Dixit:
+"dixit":
+  - firstname: ["Tanay"]
     url: https://tanay2001.github.io/
 
-Dhanasekaran:
+"dhanasekaran":
+  - firstname: ["Arut Selvan"]
     url: https://arutselvan.github.io/
 
-Kordi:
+"kordi":
+  - firstname: ["Yeganeh"]
     url: https://yeganehkordi.github.io/
 
-Arunkumar:
+"arunkumar":
+  - firstname: ["Anjana"]
     url: https://aarunku5.github.io/
 
-Lai:
+"lai":
+  - firstname: ["Haizhi Gary"]
     url: https://www.garysnotebook.com/about
 
-Ashok:
+"ashok":
+  - firstname: ["Arjun"]
     url: https://ashok-arjun.github.io/
 
-Yaligar:
+"yaligar":
+  - firstname: ["Vikas S."]
     url: https://vikassy.github.io/
 
-Speranzon:
+"speranzon":
+  - firstname: ["Alberto"]
     url: https://albspe.github.io/
+
+"mirzaei":
+  - firstname: ["Amirreza"]
+    url: https://apps.ualberta.ca/directory/person/amirzaei
+
+"gupta":
+  - firstname: ["Anmol"]
+    url: https://search.asu.edu/profile/4114925

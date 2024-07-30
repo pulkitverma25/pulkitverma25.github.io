@@ -1,11 +1,14 @@
+
 - title: Research Areas
   type: list
   contents:
     - AI Safety, AI Planning, Robotics, Action-Model Learning, and Analysis of Abstractions.
     - My research focuses on safe and reliable behavior of AI agents. I am currently investigating the minimal set of requirements in an AI system that would enable a user to assess and understand the limits of its safe operability. In the past, I have worked in the area of bio-inspired robotics, speech processing, and internet of things.
 
+
+
 - title: Education
-  type: table
+  type: time_table
   contents:
     - title: Ph.D. in Computer Science <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University</a>
       year: 2018-2024
@@ -24,8 +27,9 @@
       description:
         - '<u>Capstone Project</u>: <b><a href="https://pulkitverma.net/projects/smart_analyzer/" target="_blank">Smart Analyzer - Predict and Cache Webpages based on Usage</a></b>.'
 
+
 - title: Work Experience
-  type: table
+  type: time_table
   contents:
 
     - title: 'Graduate Research Associate <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University.</a>'
@@ -57,7 +61,7 @@
         - '<u>Cross-platform Applications</u>: Cross-platform mobile application development of mobile applications supported on both Android and iOS.'
 
 - title: Teaching Experience
-  type: table
+  type: time_table
   contents:
     - title: '<b>Teaching Assistant for a graduate-level Artificial Intelligence Course at Arizona State University.</b>'
       year: Spring&#39;22
@@ -92,7 +96,7 @@
         - Mentored students working on class projects and homeworks.
 
 - title: Service
-  type: table
+  type: time_table
   contents:
     - year: 2024-2025
       items:
@@ -192,7 +196,7 @@
         - 'Volunteer, <a href="https://www.iitg.ac.in/eee/gpa3_2014/" target="_blank">National Workshop on GPU Programming and Applications</a>, IIT Guwahati.'
 
 - title: Honors and Awards
-  type: table
+  type: time_table
   contents:
     - year: 2024
       items:

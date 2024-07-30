@@ -3,30 +3,22 @@ layout: page
 title: Resources
 nav: resources
 permalink: /resources/
+nav_order: 5
 description: Some links for personal book-keeping
 ---
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-12">
-        <h5 class="font-weight-bold">Future Conferences</h5>
-      </div>
-    </div>
-    <div class="card-text font-weight-light">
+<div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium" id="future-conferences">Future Conferences</h3>
+    <div>
       <a href="{{ '/conferences' | prepend: site.baseurl }}">List of future conferences</a> that I keep track of.
     </div>
-  </div>
 </div>
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-12">
-        <h5 class="font-weight-bold">Present and Past Affiliations</h5>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
+<div class="cv">
+<div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium" id="affiliations">Present and Past Affiliations</h3>
+    <div>
+        <ul class="card-text font-weight-light list-group list-group-flush">
             <li class="list-group-item"><a href="https://aair-lab.github.io" target="_blank">Autonomous Agents and Intelligent Robots Lab, ASU</a></li>
             <li class="list-group-item"><a href="https://ai.meta.com/" target="_blank">Meta AI</a></li>
             <li class="list-group-item"><a href="https://about.meta.com/realitylabs/" target="_blank">Meta Reality Labs</a></li>
@@ -40,19 +32,14 @@ description: Some links for personal book-keeping
             <li class="list-group-item"><a href="http://www.iitg.ac.in/cse/" target="_blank">Department of Computer Science and Engineering, IIT Guwahati</a></li>
             <li class="list-group-item"><a href="http://www.tcs.com" target="_blank">Tata Consultancy Services Pvt. Ltd.</a></li>
             <li class="list-group-item"><a href="http://www.svvv.edu.in/" target="_blank">SVITS Indore</a></li>
-    </ul>
-  </div>
+        </ul>
+    </div>
+</div>
 </div>
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-12">
-        <h5 class="font-weight-bold">Resources</h5>
-      </div>
-    </div>
-    <div class="card-text font-weight-light">
+<div class="card mt-3 p-3">
+        <h3 class="ard-title font-weight-medium">Resources</h3>
+    <div>
       My bookmarked resources are avilable <a href="https://github.com/pulkitverma25/resources" target="_blank">here</a>.
     </div>
-  </div>
 </div>

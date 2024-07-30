@@ -1,32 +1,29 @@
 ---
 layout: page
 permalink: /conferences/
+title: Conferences
+description: Future AI, ML, Planning, and Robotics conferences that I keep track of.
+
 ---
 
-<div class="row m-0" style="width: 100%;">
-  <div class="col-sm-12 p-0">
-    <h1>Conferences</h1>
-    <h5 class="mb-4">Future AI, ML, Planning, and Robotics conferences that I keep track of.</h5>
-  </div>
-</div>
 
 <div class="card mt-2">
   <div class="p-3">
     <div class="table-responsive">
     <table class="table table-striped table-borderless" style="border: 0px;" align="left" cellpadding="4" bordercellspacing="1">
-        <thead style="background-color:#b71c1c; color:#ffffff">
+        <thead style="background-color:var(--global-theme-color);">
         <tr>
-            <th style="width:34%;text-align: left;font-size:18px;"><strong>Conference Name</strong></th>
-            <th style="width:17%;text-align: left;font-size:18px;"><strong>Venue</strong></th>
-            <th style="width:25%;text-align: left;font-size:18px;"><strong>Deadline</strong></th>
-            <th style="width:24%;text-align: left;font-size:18px;"><strong>Dates</strong></th>
+            <th class="colorfy" style="width:34%;text-align: left;font-size:18px;">Conference Name</th>
+            <th class="colorfy" style="width:17%;text-align: left;font-size:18px;">Venue</th>
+            <th class="colorfy" style="width:25%;text-align: left;font-size:18px;">Deadline</th>
+            <th class="colorfy" style="width:24%;text-align: left;font-size:18px;">Dates</th>
         </tr>
         </thead>
         <tbody>
         {% assign sorted_conferences = site.conferences | sort: "num" %}
         {% for conference in sorted_conferences %}
           <tr>
-            <td style="width:34%;"><a style="color:#b71c1c" onMouseOver="this.style.color='#007bff'" onMouseOut="this.style.color='#b71c1c'" href="{{ conference.website }}" target="_blank"><strong>{{ conference.shortname }}</strong><strong>: </strong>{{ conference.name }}</a></td>
+            <td style="width:34%;"><a href="{{ conference.website }}" target="_blank"><strong>{{ conference.shortname }}</strong><strong>: </strong>{{ conference.name }}</a></td>
             <td style="width:17%;">{{ conference.location }}</td>
             <td style="width:25%;text-align: left;">
               {% if conference.abstractdeadline %}

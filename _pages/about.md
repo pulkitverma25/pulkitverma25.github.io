@@ -1,44 +1,18 @@
 ---
-layout: page
-permalink: /
+layout: about
 title: About
-nav: About
+permalink: /
+subtitle: Ph.D. from <a href="http://aair-lab.github.io/" target="_blank">AAIR LAB</a>, <a href="https://www.asu.edu/" target="\_blank">ASU</a>
+
+profile:
+  align: right
+  image: pulkit_verma.jpg
+  image_circular: false # crops the image to make it circular
+
+news: true # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
-
-<div class="col mt-4">
-    <img class="profile-img float-right" src="{{ 'pulkit_verma.jpg' | prepend: '/assets/img/' | prepend: site.baseurl }}">
-    <br />
-    <header class="post-header">
-    <h1 class="post-title">
-      <strong>Pulkit</strong> Verma</h1>
-    <h5>Ph.D. from <a href="http://aair-lab.github.io/" target="_blank">AAIR LAB</a>, <a href="https://www.asu.edu/" target="\_blank">ASU</a></h5>
-
-  <span class="contacticon center">
-    {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
-    {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
-    {% if site.semantic_scholar_id %}<a href="https://www.semanticscholar.org/author/{{ site.semantic_scholar_id }}" target="_blank" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>{% endif %}
-    {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
-    <!-- {% if site.dblp_username %}<a href="https://dblp.uni-trier.de/pers/hd/v/{{ site.dblp_username }}" target="_blank" title="DBLP"><i class="ai ai-dblp"></i></a>{% endif %} -->
-    <!-- {% if site.orcid_id %}<a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>{% endif %} -->
-    {% if site.publons_id %}<a href="https://publons.com/a/{{ site.publons_id }}/" target="_blank" title="Publons"><i class="ai ai-publons"></i></a>{% endif %}
-    {% if site.research_gate_profile %}<a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" target="_blank" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{% endif %}
-    {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
-    {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
-    {% if site.strava_userid %}<a href="https://www.strava.com/athletes/{{ site.strava_userid }}" target="_blank" title="Strava"><i class="fab fa-strava"></i></a>{% endif %}
-    {% if site.medium_username %}<a href="https://medium.com/@{{ site.medium_username }}" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>{% endif %}
-    {% if site.quora_username %}<a href="https://www.quora.com/profile/{{ site.quora_username }}" target="_blank" title="Quora"><i class="fab fa-quora"></i></a>{% endif %}
-    {% if site.blogger_url %}<a href="{{ site.blogger_url }}" target="_blank" title="Blogger"><i class="fab fa-blogger-b"></i></a>{% endif %}
-  </span>
-  <br />
-
-   <i class="fa fa-bullhorn" aria-hidden="true"> </i> I am on the job market for postdoctoral positions.
-    </header>
-
-
-</div>
-
-<br />
-
 
 
 <div class="container">
@@ -53,45 +27,3 @@ nav: About
     </div>
   </div>
 </div>
-
-<!-- News -->
-<div class="news mt-3 p-0">
-  <h1 class="title mb-4 p-0">News</h1>
-  {% assign news = site.news | reverse %}
-  {% for item in news limit: site.news_limit %}
-    <div class="row p-0">
-      <div class="col-sm-2 p-0">
-        <span class="badge danger-color-dark font-weight-bold text-uppercase align-middle date ml-3">
-          {{ item.date | date: "%b %-d, %Y" }}
-        </span>
-      </div>
-      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
-        <p>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</p>
-      </div>
-    </div>
-  {% endfor %}
-
-  <p style="text-align: right;"><a href="{{ 'news' | prepend: site.baseurl }}">See all news..</a></p>
-</div>
-
-
-<!-- <div class="social">
-  <center>
-  <span class="contacticon center">
-    {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}
-    {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
-    {% if site.semantic_scholar_id %}<a href="https://www.semanticscholar.org/author/{{ site.semantic_scholar_id }}" target="_blank" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>{% endif %}
-    {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
-    {% if site.dblp_username %}<a href="https://dblp.uni-trier.de/pers/hd/v/{{ site.dblp_username }}" target="_blank" title="DBLP"><i class="ai ai-dblp"></i></a>{% endif %}
-    {% if site.orcid_id %}<a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>{% endif %}
-    {% if site.publons_id %}<a href="https://publons.com/a/{{ site.publons_id }}/" target="_blank" title="Publons"><i class="ai ai-publons"></i></a>{% endif %}
-    {% if site.research_gate_profile %}<a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" target="_blank" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{% endif %}
-    {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
-    {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}
-    {% if site.strava_userid %}<a href="https://www.strava.com/athletes/{{ site.strava_userid }}" target="_blank" title="Strava"><i class="fab fa-strava"></i></a>{% endif %}
-    {% if site.medium_username %}<a href="https://medium.com/@{{ site.medium_username }}" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>{% endif %}
-    {% if site.quora_username %}<a href="https://www.quora.com/profile/{{ site.quora_username }}" target="_blank" title="Quora"><i class="fab fa-quora"></i></a>{% endif %}
-    {% if site.blogger_url %}<a href="{{ site.blogger_url }}" target="_blank" title="Blogger"><i class="fab fa-blogger-b"></i></a>{% endif %}
-  </span>
-</center>
-</div> -->
