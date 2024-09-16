@@ -2,9 +2,9 @@
 shortname: ICAPS 2025
 name: International Conference on Automated Planning and Scheduling
 location: Melbourne, Australia
-abstractdeadline: Oct 21, 2024
+abstractdeadline: Oct 25, 2024
 paperdeadline: Nov 01, 2024
-dates: Nov 09 - Nov 15, 2025
+dates: Nov 09 - Nov 14, 2025
 website: https://icaps25.icaps-conference.org/
 num: 30
 ---
