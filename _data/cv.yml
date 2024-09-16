@@ -32,6 +32,11 @@
   type: time_table
   contents:
 
+    - title: 'Postdoctoral Associate <br ><a href="https://web.mit.edu/" target="_blank">Massachusetts Institute of Technology.</a>'
+      year: 2024-(now)
+      description:
+        - 'Working in the <a href="https://interactive.mit.edu/" target="_blank">Interactive Robotics Group</a> at <a href="https://www.csail.mit.edu/" target="_blank">CSAIL</a> and <a href="https://aeroastro.mit.edu/" target="_blank">AeroAstro</a>, <a href="https://web.mit.edu/" target="_blank">MIT</a>.'
+
     - title: 'Graduate Research Associate <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University.</a>'
       year: 2018-2024
       description:

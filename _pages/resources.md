@@ -19,6 +19,7 @@ description: Some links for personal book-keeping
     <h3 class="card-title font-weight-medium" id="affiliations">Present and Past Affiliations</h3>
     <div>
         <ul class="card-text font-weight-light list-group list-group-flush">
+            <li class="list-group-item"><a href="https://interactive.mit.edu/" target="_blank">Interactive Robotics Group, MIT</a></li>
             <li class="list-group-item"><a href="https://aair-lab.github.io" target="_blank">Autonomous Agents and Intelligent Robots Lab, ASU</a></li>
             <li class="list-group-item"><a href="https://ai.meta.com/" target="_blank">Meta AI</a></li>
             <li class="list-group-item"><a href="https://about.meta.com/realitylabs/" target="_blank">Meta Reality Labs</a></li>
