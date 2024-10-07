@@ -6,5 +6,5 @@ abstractdeadline: TBD
 paperdeadline: TBD
 dates: Aug 16 - Aug 22, 2025
 website: https://2025.ijcai.org
-num: 19
+num: 20
 ---
