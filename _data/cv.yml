@@ -2,10 +2,12 @@
 - title: Research Areas
   type: list
   contents:
-    - AI Safety, AI Planning, Robotics, Action-Model Learning, and Analysis of Abstractions.
-    - My research focuses on safe and reliable behavior of AI agents. I am currently investigating the minimal set of requirements in an AI system that would enable a user to assess and understand the limits of its safe operability. In the past, I have worked in the area of bio-inspired robotics, speech processing, and internet of things.
+    - AI Safety, AI Planning, Interpretability, Robotics, Action-Model Learning, and Analysis of Abstractions.
 
-
+- title: Bio
+  type: paragraph
+  contents:
+    - Pulkit Verma is a Postdoctoral Research Associate at the Interactive Robotics Group at MIT, where he works with Prof. Julie Shah. His research focuses on the safe and reliable behavior of taskable AI agents. He investigates the minimal set of requirements in an AI system that would enable a user to assess and understand the limits of its safe operability. He received his Ph.D. in Computer Science from Arizona State University, where he worked with Prof. Siddharth Srivastava. Prior to that, he completed his M.Tech. in Computer Science and Engineering at the Indian Institute of Technology Guwahati. He was awarded the Graduate College Fellowship at ASU in 2023 and received the Best Demo Award at the International Conference on Autonomous Agents and Multiagent Systems (AAMAS) in 2022.
 
 - title: Education
   type: time_table
@@ -105,16 +107,37 @@
   contents:
     - year: 2024-2025
       items:
+        - 'PC Member, <a href="http://aistats.org/aistats2025/" target="_blank">28th International Conference on Artificial Intelligence and Statistics (AISTATS 2025)</a>.'
+    - year: 2024-2025
+      items:
+        - 'PC Member, <a href="http://icaps25.icaps-conference.org/" target="_blank">35th International Conference on Automated Planning and Scheduling (ICAPS 2025)</a>.'
+    - year: 2024-2025
+      items:
+        - 'PC Member, <a href="https://aamas2025.org" target="_blank">24th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2025)</a>.'
+    - year: 2024-2025
+      items:
+        - 'PC Member, <a href="https://iclr.cc/Conferences/2025" target="_blank">13th International Conference on Learning Representations (ICLR 2025)</a>.'
+    - year: 2024-2025
+      items:
         - 'PC Member, <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">39th AAAI Conference on Artificial Intelligence (AAAI 2025)</a>.'
+    - year: 2024
+      items:
+        - 'Reviewer, <a href="https://link.springer.com/journal/521" target="_blank">Neural Computing and Applications (NCAA) Journal</a>.'
     - year: 2024
       items:
         - 'PC Member, <a href="https://neurips.cc/Conferences/2024" target="_blank">38th Conference on Neural Information Processing Systems (NeurIPS 2024)</a>.'
     - year: 2024
       items:
         - 'PC Member, <a href="https://roboticsconference.org/2024/" target="_blank">20th Conference on Robotics: Science and Systems (R:SS 2024)</a>.'
+    - year: 2024
+      items:
+        - 'PC Member, <a href="https://leap-workshop.github.io/" target="_blank">CoRL 2024 Workshop on Learning Effective Abstractions for Planning (LEAP 2024)</a>.' 
+    - year: 2024
+      items:
+        - 'PC Member, <a href="https://interpretable-ai-workshop.github.io" target="_blank">NeurIPS 2024 Workshop on Interpretable AI: Past, Present and Future (IAI 2024)</a>.'
     - year: 2023-2024
       items:
-        - 'Co-organizer, <a href="https://aair-lab.github.io/aia2024" target="_blank">AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems</a>.'
+        - 'Co-organizer, <a href="https://aair-lab.github.io/aia2024" target="_blank">AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems (AIA 2024)</a>.'
     - year: 2023-2024
       items:
         - 'PC Member, <a href="https://ijcai24.org/" target="_blank">33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)</a>.'
@@ -141,7 +164,7 @@
         - 'Reviewer, <a href="https://jair.org" target="_blank">Journal of Artificial Intelligence Research (JAIR)</a>.'
     - year: 2023
       items:
-        - 'PC Member, <a href="https://leap-workshop.github.io/" target="_blank">CoRL 2023 Workshop on Learning Effective Abstractions for Planning (LEAP 2023)</a>.'    
+        - 'PC Member, <a href="https://leap-workshop.github.io/leap2023.html" target="_blank">CoRL 2023 Workshop on Learning Effective Abstractions for Planning (LEAP 2023)</a>.'    
     - year: 2023
       items:
         - 'PC Member, <a href="https://neurips.cc/Conferences/2023" target="_blank">37th Conference on Neural Information Processing Systems (NeurIPS 2023)</a>.'
