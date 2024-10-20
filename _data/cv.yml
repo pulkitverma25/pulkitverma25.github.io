@@ -7,7 +7,7 @@
 - title: Bio
   type: paragraph
   contents:
-    - Pulkit Verma is a Postdoctoral Research Associate at the Interactive Robotics Group at MIT, where he works with Prof. Julie Shah. His research focuses on the safe and reliable behavior of taskable AI agents. He investigates the minimal set of requirements in an AI system that would enable a user to assess and understand the limits of its safe operability. He received his Ph.D. in Computer Science from Arizona State University, where he worked with Prof. Siddharth Srivastava. Prior to that, he completed his M.Tech. in Computer Science and Engineering at the Indian Institute of Technology Guwahati. He was awarded the Graduate College Fellowship at ASU in 2023 and received the Best Demo Award at the International Conference on Autonomous Agents and Multiagent Systems (AAMAS) in 2022.
+    - Pulkit Verma is a Postdoctoral Associate at the <a href="https://interactive.mit.edu/" target="_blank">Interactive Robotics Group</a> at the <a href="https://web.mit.edu/" target="_blank">Massachusetts Institute of Technology</a>, where he works with <a href="https://interactive.mit.edu/about/people/julie" target="_blank">Prof. Julie Shah</a>. His research focuses on the safe and reliable behavior of taskable AI agents. He investigates the minimal set of requirements in an AI system that would enable a user to assess and understand the limits of its safe operability. He received his Ph.D. in Computer Science from the <a href="https://scai.engineering.asu.edu" target="_blank">School of Computing and Augmented Intelligence</a>, <a href="https://www.asu.edu/" target="_blank">Arizona State University</a>, where he worked with <a href="http://siddharthsrivastava.net" target="_blank">Prof. Siddharth Srivastava</a>. Before that, he completed his M.Tech. in Computer Science and Engineering at <a href="https://www.iitg.ac.in/" target="_blank">Indian Institute of Technology Guwahati</a> with <a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a>. He was awarded the <a href="https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/completion-fellowship" target="_blank">Graduate College Completion Fellowship</a> at ASU in 2023, <a href="https://www.aicte-india.org/schemes/students-development-schemes/PG-Scholarship-Scheme" target="_blank">Post Graduation Scholarship</a> from the Government of India in 2013 and 2014, and received the <a href="https://aamas2022-conference.auckland.ac.nz/awards/best-paper-and-demonstration/" target="_blank">Best Demo Award</a> at the <a href="https://aamas2022-conference.auckland.ac.nz/" target="_blank">International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</a> in 2022.
 
 - title: Education
   type: time_table
@@ -34,12 +34,12 @@
   type: time_table
   contents:
 
-    - title: 'Postdoctoral Associate <br ><a href="https://web.mit.edu/" target="_blank">Massachusetts Institute of Technology.</a>'
+    - title: 'Postdoctoral Associate <br ><a href="https://web.mit.edu/" target="_blank">Massachusetts Institute of Technology</a>.'
       year: 2024-(now)
       description:
         - 'Working in the <a href="https://interactive.mit.edu/" target="_blank">Interactive Robotics Group</a> at <a href="https://www.csail.mit.edu/" target="_blank">CSAIL</a> and <a href="https://aeroastro.mit.edu/" target="_blank">AeroAstro</a>, <a href="https://web.mit.edu/" target="_blank">MIT</a>.'
 
-    - title: 'Graduate Research Associate <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University.</a>'
+    - title: 'Graduate Research Associate <br ><a href="https://www.asu.edu/" target="_blank">Arizona State University</a>.'
       year: 2018-2024
       description:
         - 'Investigating the minimal set of interfaces in an AI system that would enable a user to assess and understand the limits of its safe operability.'
