@@ -6,5 +6,5 @@ abstractdeadline: Jan 16, 2025
 paperdeadline: Jan 23, 2025
 dates: Aug 16 - Aug 22, 2025
 website: https://2025.ijcai.org
-num: 20
+num: 23
 ---

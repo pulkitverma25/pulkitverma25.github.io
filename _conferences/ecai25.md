@@ -2,9 +2,9 @@
 shortname: ECAI 2025
 name: European Conference on Artificial Intelligence
 location: Bologna, Italy
-abstractdeadline: TBD
-paperdeadline: TBD
-dates:  Oct 27 - Oct 31, 2025
+abstractdeadline: Apr 29, 2025
+paperdeadline: May 06, 2025
+dates:  Oct 25 - Oct 30, 2025
 website: https://ecai2025.org/
-num: 24
+num: 29
 ---

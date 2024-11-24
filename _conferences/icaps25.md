@@ -6,5 +6,5 @@ abstractdeadline: Oct 25, 2024
 paperdeadline: Nov 01, 2024
 dates: Nov 09 - Nov 14, 2025
 website: https://icaps25.icaps-conference.org/
-num: 30
+num: 31
 ---
