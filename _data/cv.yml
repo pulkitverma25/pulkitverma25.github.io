@@ -123,6 +123,15 @@
     - year: 2024-2025
       items:
         - 'PC Member, <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">39th AAAI Conference on Artificial Intelligence (AAAI 2025)</a>.'
+    - year: 2024-2025
+      items:
+        - 'PC Member, <a href="http://aair-lab.github.io/genplan25" target="_blank">AAAI 2025 Workshop on Generalization in Planning (GenPlan&#39;25)</a>.'
+    - year: 2024-2025
+      items:
+        - 'PC Member, <a href="https://llmforplanning.github.io" target="_blank">AAAI 2025 Workshop on Planning in the Era of LLMs (LLM4Plan&#39;25)</a>.'
+    - year: 2024-2025
+      items:
+        - 'PC Member, <a href="https://prl-theworkshop.github.io/prl2025-aaai/" target="_blank">AAAI 2025 Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL&#39;25)</a>.'
     - year: 2023-2024
       items:
         - 'Reviewer, <a href="https://jair.org" target="_blank">Journal of Artificial Intelligence Research (JAIR)</a>.'
