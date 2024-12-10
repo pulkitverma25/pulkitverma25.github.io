@@ -189,3 +189,15 @@
 "gupta":
   - firstname: ["Anmol"]
     url: https://search.asu.edu/profile/4114925
+
+"katz":
+  - firstname: ["Michael"]
+    url: https://research.ibm.com/people/michael-katz
+
+"chen":
+  - firstname: ["Dillon Z."]
+    url: https://dillonzchen.github.io
+
+"thiebaux":
+  - firstname: ["Sylvie"]
+    url: https://users.cecs.anu.edu.au/~thiebaux/
