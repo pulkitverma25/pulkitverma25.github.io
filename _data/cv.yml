@@ -102,6 +102,19 @@
         - 'CS 243 Software Engineering Lab.; Taught by <b><a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a></b>.'
         - Mentored students working on class projects and homeworks.
 
+- title: Media Coverage
+  type: time_table
+  contents:
+  - year: 2024
+    items:
+      - 'Interviewed by <a href="https://aihub.org/2024/10/24/interview-with-pulkit-verma-towards-safe-and-reliable-behavior-of-ai-agents/" target="_blank">AIHub</a> on the safe and reliable behavior of AI agents.'
+  - year: 2024
+    items:
+      - 'Covered by <a href="https://scai.engineering.asu.edu/news/new-ai-symposium-helmed-by-siddharth-srivastava-connects-experts-and-industry/" target="_blank">SCAI Newsletter</a> for organization of AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems at Stanford University.'
+  - year: 2019
+    items:
+      - 'Appeared in the articles on the work done by our lab on impact of AI on Future of Work covered by <a href="https://fullcircle.asu.edu/research/robot-coworkers-how-ai-impacts-the-future-of-work/" target="_blank">FullCircle</a> and <a href="https://asunow.asu.edu/20191108-robot-coworkers-how-ai-impacts-future-work" target="_blank">ASU Now</a>.'
+
 - title: Service
   type: time_table
   contents:

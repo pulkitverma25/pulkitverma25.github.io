@@ -201,3 +201,35 @@
 "thiebaux":
   - firstname: ["Sylvie"]
     url: https://users.cecs.anu.edu.au/~thiebaux/
+
+"goswami":
+  - firstname: ["Mononito"]
+    url: https://mononito.com
+
+"kido":
+  - firstname: ["Takashi"]
+    url: https://www3.med.teikyo-u.ac.jp/profile/en.16a0c669dc5a2386.html?mode=pc
+
+"maclellan":
+  - firstname: ["Christopher J."]
+    url: https://chrismaclellan.com
+
+"li":
+  - firstname: ["Xinyu"]
+    url: https://rachellxy.github.io
+
+"martin":
+  - firstname: ["Andreas"]
+    url: https://www.andreas-martin.com
+
+"stolle":
+  - firstname: ["Reinhard"]
+    url: https://www.iks.fraunhofer.de/en/institute/institutemanagement/reinhard-stolle.html
+
+"yang":
+  - firstname: ["Jie"]
+    url: https://yangjiera.github.io
+
+"yap":
+  - firstname: ["Melo-Jean"]
+    url: https://ctei.jhu.edu/team/melo-jean-yap/
