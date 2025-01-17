@@ -121,9 +121,12 @@
     - year: 2025
       items:
         - 'PC Member, <a href="https://roboticsconference.org/2025/" target="_blank">21st Conference on Robotics: Science and Systems (R:SS 2025)</a>.'
+    - year: 2025
+      items:
+        - 'PC Member, <a href="https://verifai-workshop.github.io" target="_blank">ICLR 2025 Workshop on AI Verification in the Wild (VerifAI 2025)</a>.'
     - year: 2024-2025
       items:
-        - 'Co-organizer, <a href="https://aair-lab.github.io/aaai25-tutorial" target="_blank">AAAI 2025 Tutorial on User-Driven Capability Assessment of Taskable AI Systems</a>.'
+        - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025-tutorial" target="_blank">AAAI 2025 Tutorial on User-Driven Capability Assessment of Taskable AI Systems</a>.'
     - year: 2024-2025
       items:
         - 'PC Member, <a href="http://aistats.org/aistats2025/" target="_blank">28th International Conference on Artificial Intelligence and Statistics (AISTATS 2025)</a>.'
