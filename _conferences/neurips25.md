@@ -2,9 +2,9 @@
 shortname: NeurIPS 2025
 name: Annual Conference on Neural Information Processing Systems
 location: San Diego, USA
-paperdeadline: TBD
-abstractdeadline: TBD
-dates: Dec 2025 (Dates TBD)
-website: https://neurips.cc/Conferences/FutureMeetings
+paperdeadline: May 15, 2025
+abstractdeadline: May 11, 2025
+dates: Dec 2025 (Exact Dates TBD)
+website: https://openreview.net/group?id=NeurIPS.cc/2025/Conference
 num: 38
 ---
