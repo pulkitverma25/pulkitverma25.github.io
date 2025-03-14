@@ -120,10 +120,19 @@
   contents:
     - year: 2025
       items:
+        - 'PC Member, <a href="https://neurips.cc/Conferences/2025" target="_blank">39th Conference on Neural Information Processing Systems (NeurIPS 2025)</a>.'
+    - year: 2025
+      items:
+        - 'PC Member, <a href="https://ecai2025.org" target="_blank">28th European Conference on Artificial Intelligence (ECAI 2025)</a>.'
+    - year: 2025
+      items:
         - 'PC Member, <a href="https://roboticsconference.org/2025/" target="_blank">21st Conference on Robotics: Science and Systems (R:SS 2025)</a>.'
     - year: 2025
       items:
         - 'PC Member, <a href="https://verifai-workshop.github.io" target="_blank">ICLR 2025 Workshop on AI Verification in the Wild (VerifAI 2025)</a>.'
+    - year: 2021-2025
+      items:
+        - 'Reviewer, <a href="https://www.ieee-ras.org/publications/ra-l" target="_blank">IEEE Robotics and Automation Letters (RA-L)</a>.'
     - year: 2024-2025
       items:
         - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025-tutorial" target="_blank">AAAI 2025 Tutorial on User-Driven Capability Assessment of Taskable AI Systems</a>.'
@@ -157,9 +166,6 @@
     - year: 2023-2024
       items:
         - 'Reviewer, <a href="https://jair.org" target="_blank">Journal of Artificial Intelligence Research (JAIR)</a>.'
-    - year: 2021-2024
-      items:
-        - 'Reviewer, <a href="https://www.ieee-ras.org/publications/ra-l" target="_blank">IEEE Robotics and Automation Letters (RA-L)</a>.'
     - year: 2024
       items:
         - 'Reviewer, <a href="https://link.springer.com/journal/521" target="_blank">Neural Computing and Applications (NCAA) Journal</a>.'

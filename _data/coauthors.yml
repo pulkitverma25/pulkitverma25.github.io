@@ -17,6 +17,8 @@
 "shah":
   - firstname: ["Naman"]
     url: https://www.namanshah.net/
+  - firstname: ["Julie A."]
+    url: https://interactive.mit.edu/about/people/julie-shah/
 
 "angle":
   - firstname: ["Trevor"]
@@ -182,9 +184,6 @@
   - firstname: ["Alberto"]
     url: https://albspe.github.io/
 
-"shah":
-  - firstname: ["Julie A."]
-    url: https://interactive.mit.edu/about/people/julie-shah/
 
 "mirzaei":
   - firstname: ["Amirreza"]
