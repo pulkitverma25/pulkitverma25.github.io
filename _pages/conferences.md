@@ -2,7 +2,7 @@
 layout: page
 permalink: /conferences/
 title: Conferences
-description: Future AI, ML, Planning, and Robotics conferences that I keep track of.
+description: Future AI, ML, Planning, Robotics, and HRI conferences that I keep track of.
 
 ---
 

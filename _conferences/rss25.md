@@ -6,7 +6,7 @@ paperdeadline: Jan 31, 2025 (Paper Draft due on Jan 24, 2025)
 pdp: 1
 abstractdeadline: Jan 17, 2025
 adp: 1
-dates: June 21 - June 25, 2025
+dates: Jun 21 - Jun 25, 2025
 website: https://roboticsconference.org/2025/
 num: 18
 --- 
