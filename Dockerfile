@@ -1,4 +1,4 @@
-FROM ruby:latest
+FROM ruby:3.2
 ENV DEBIAN_FRONTEND noninteractive
 
 Label MAINTAINER Amir Pourmand
@@ -24,17 +24,17 @@ ENV LANG=en_US.UTF-8 \
 
 RUN mkdir /srv/jekyll
 
-ADD Gemfile.lock /srv/jekyll
-ADD Gemfile /srv/jekyll
+# Copy all necessary files
+COPY . /srv/jekyll/
 
 WORKDIR /srv/jekyll
 
 # install jekyll and dependencies
-RUN gem install jekyll bundler
+RUN gem install jekyll bundler observer logger
 
 RUN bundle install --no-cache
 # && rm -rf /var/lib/gems/3.1.0/cache
-EXPOSE 8080
+EXPOSE 4000
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
 
