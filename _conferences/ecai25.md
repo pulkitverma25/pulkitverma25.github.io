@@ -8,5 +8,5 @@ paperdeadline: May 06, 2025
 pdp: 1
 dates:  Oct 25 - Oct 30, 2025
 website: https://ecai2025.org/
-num: 29
+num: 8
 ---

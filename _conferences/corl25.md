@@ -8,5 +8,5 @@ abstractdeadline: Apr 23, 2025
 adp: 1
 dates: Sep 27 - Sep 30, 2025
 website: https://www.corl.org
-num: 25
+num: 6
 ---

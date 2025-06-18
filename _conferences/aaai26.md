@@ -6,5 +6,5 @@ abstractdeadline: Jul 25, 2025
 paperdeadline: Aug 01, 2025
 dates: Jan 20 - Jan 27, 2026
 website: https://aaai.org/conference/aaai/aaai-26/
-num: 40
+num: 12
 ---

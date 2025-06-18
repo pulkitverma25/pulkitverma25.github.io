@@ -5,5 +5,5 @@ location: Vienna, Austria
 paperdeadline: TBD
 dates: Jun 01 - Jun 05, 2026
 website: https://2026.ieee-icra.org
-num: 48
+num: 20
 ---
