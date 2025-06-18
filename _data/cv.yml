@@ -120,8 +120,10 @@
     - title: Workshops and Tutorials
       year: Organizer
       description:
+        - 'Co-organizer, <a href="https://haxp-icaps.web.app" target="_blank">ICAPS 2025 Workshop on Human-Aware and Explainable Planning (HAXP 2025)</a>.'
+        - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025" target="_blank">IJCAI 2025 Workshop on User-Aligned Assessment of Adaptive AI Systems (AIA 2025)</a>.'
         - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025-tutorial" target="_blank">AAAI 2025 Tutorial on User-Driven Capability Assessment of Taskable AI Systems</a>.'
-        - 'Co-organizer, <a href="https://aair-lab.github.io/aia2024" target="_blank">AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems</a>.'
+        - 'Co-organizer, <a href="https://aair-lab.github.io/aia2024" target="_blank">AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems (AIA 2024)</a>.'
         - 'Co-organizer, <a href="http://aair-lab.github.io/genplan23" target="_blank">NeurIPS 2023 Workshop on Generalization in Planning (GenPlan 2023)</a>.'
         - 'Co-organizer, <a href="http://aair-lab.github.io/genplan22" target="_blank">IJCAI-ECAI 2022 Workshop on Generalization in Planning (GenPlan 2022)</a>.'    
     - title: Journals
@@ -140,13 +142,21 @@
         - 'ICAPS: <a href="http://icaps24.icaps-conference.org/" target="_blank">2024</a>, <a href="http://icaps25.icaps-conference.org/" target="_blank">2025</a>.'
         - 'ICLR: <a href="https://iclr.cc/Conferences/2024" target="_blank">2024</a>, <a href="https://iclr.cc/Conferences/2025" target="_blank">2025</a>.'
         - 'IJCAI: <a href="https://ijcai-23.org/" target="_blank">2023</a>, <a href="https://ijcai24.org/" target="_blank">2024</a>.'
-        - 'ECAI: <a href="https://ecai2025.org" target="_blank">2025</a>.'
         - 'R:SS: <a href="https://roboticsconference.org/2024/" target="_blank">2024</a>, <a href="https://roboticsconference.org/2025/" target="_blank">2025</a>.'
+        - 'ECAI: <a href="https://ecai2025.org" target="_blank">2025</a>.'
+        - 'IROS: <a href="https://www.iros25.org" target="_blank">2025</a>.'
+        - 'RO-MAN: <a href="https://www.ro-man2025.org" target="_blank">2025</a>.'
+        - 'HUMANOIDS: <a href="https://2025humanoids.org" target="_blank">2025</a>.'
         - 'AISTATS: <a href="http://aistats.org/aistats2025/" target="_blank">2025</a>.'
         - 'PacificVis: <a href="https://pacificvis.github.io/2025/" target="_blank">2025</a>.'
     - year: PC Member
       title: Workshops
       description:
+        - '<a href="https://verifai-workshop.github.io" target="_blank">ICLR 2025 Workshop on AI Verification in the Wild (VerifAI 2025)</a>.'
+        - '<a href="http://aair-lab.github.io/genplan25" target="_blank">AAAI 2025 Workshop on Generalization in Planning (GenPlan 2025)</a>.'
+        - '<a href="https://prl-theworkshop.github.io/prl2025-aaai/" target="_blank">AAAI 2025 Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL@AAAI 2025)</a>.'
+        - '<a href="https://xai-in-action.github.io/" target="_blank">NeurIPS 2024 Workshop on Interpretable AI: Past, Present and Future (IAI 2024)</a>.'
+        - '<a href="https://leap-workshop.github.io/leap2024.html" target="_blank">CoRL 2024 Workshop on Learning Effective Abstractions for Planning (LEAP 2024)</a>.'
         - '<a href="https://xai-in-action.github.io/" target="_blank">NeurIPS 2023 Workshop on XAI in Action (XAIA 2023)</a>.'
         - '<a href="https://leap-workshop.github.io/leap2023.html" target="_blank">CoRL 2023 Workshop on Learning Effective Abstractions for Planning (LEAP 2023)</a>.'
         - '<a href="https://prl-theworkshop.github.io/prl2023-ijcai/" target="_blank">IJCAI 2023 Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL@IJCAI 2023)</a>.'
@@ -171,6 +181,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - '<a href="https://eaai-conf.github.io/eaai/iaep.html" target="_blank">AAAI/ACM SIGAI Innovative AI Education Award 2025</a>.'
     - year: 2024
       items:
         - 'Spring 2024 <a href="https://eoss.asu.edu/gpsa/funding/jumpstart-research-grant" target="_blank">GPSA Jumpstart Research Grant</a>, ASU.'

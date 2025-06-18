@@ -408,7 +408,7 @@
 }
 
 @article{karia2024can,
-  author     = {Karia*, Rushang and Bramblett*, Daniel and Dobhal, Daksh and Verma, Pulkit and Srivastava, Siddharth},
+  author     = {Karia*, Rushang and Bramblett*, Daniel R. and Dobhal, Daksh and Verma, Pulkit and Srivastava, Siddharth},
   title      = {{∀uto∃val: Autonomous Assessment of LLMs in Formal Synthesis and Interpretation Tasks}},
   abbr       = {Preprint},
   bibtex_show= {1},
@@ -420,7 +420,7 @@
   preprint   = {1},
   pdf        = {https://arxiv.org/pdf/2403.18327.pdf},
   oldn1      = {{Can LLMs translate SATisfactorily? Assessing LLMs in Generating and Interpreting Formal Specifications}},
-  olda1      = {Rushang Karia, Daksh Dobhal, Daniel Bramblett, Pulkit Verma, and Siddharth Srivastava},
+  olda1      = {Rushang Karia, Daksh Dobhal, Daniel R. Bramblett, Pulkit Verma, and Siddharth Srivastava},
   oldv1      = {AAAI 2024 <a href="https://aair-lab.github.io/aia2024/">Spring Symposium on User-Aligned Assessment of Adaptive AI Systems</a>, 2024},
   oldpdf1    = {kdbvs_aia24/kdbvs_aia24.pdf},
   oldposter1 = {kdbvs_aia24/kdbvs_aia24_poster.pdf},
@@ -429,7 +429,7 @@
   abstract   = {{This paper presents ∀uto∃val, a new approach for scaling LLM assessment in translating formal syntax -- such as first-order logic, regular expressions, etc -- to natural language (interpretation) or vice versa (compilation), thereby facilitating their use in applications such as generating/explaining logic and control flow for programs etc. Existing approaches for LLM assessment in these areas require labor-intensive ground-truth creation, the availability of which undermines the separation of training and test sets. Furthermore, such datasets typically include relatively few hand-coded test cases over which LLM accuracy is determined, thus making them inadequate for determining the safety or correctness of their generated outputs. We introduce a new approach that utilizes context-free grammars (CFGs) to generate out-of-distribution datasets on the fly and perform closed-loop testing of LLM capabilities using formal verifiers to guarantee the correctness of LLM outputs without any human intervention. We release our dataset and benchmark as open-source code at https://github.com/AAIR-lab/auto-llm-assessment. We also conduct an assessment of several SOTA closed and open-source LLMs to showcase the feasibility and scalability of this paradigm. Our experiments reveal that SOTA LLMs are unable to solve the formal translation task adequately.}},
   bibtex     = {{
 @misc\{karia2024can,
-  author        = \{Karia, Rushang and Dobhal, Daksh and Bramblett, Daniel and Verma, Pulkit and Srivastava, Siddharth\},
+  author        = \{Karia, Rushang and Dobhal, Daksh and Bramblett, Daniel R. and Verma, Pulkit and Srivastava, Siddharth\},
   title         = \{∀uto∃val: Autonomous Assessment of LLMs in Formal Synthesis and Interpretation Tasks\},
   year          = \{2024\},
   eprint        = \{2403.18327\},
@@ -585,6 +585,29 @@ abstract = {{The Association for the Advancement of Artificial Intelligence's 20
   title     = \{User-Aligned Autonomous Capability Assessment of Black-Box \{AI\} Systems\},
   booktitle = \{AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems\},
   year      = \{2024\},
+\}
+}},
+}
+
+@inproceedings{srivastava2025safety,
+  month      = {},
+  author     = {Srivastava, Siddharth and Fainekos, Georgios and Verma, Pulkit and Bramblett, Daniel R.},
+  title      = {{Safety Beyond Verification: The Need for Continual, User-Driven Assessment of AI Systems}},
+  booktitle  = {IJCAI 2025 <a href="https://aair-lab.github.io/aia2025/">Workshop on User-Aligned Assessment of Adaptive AI Systems</a>},
+  abbr       = {AIA},
+  bibtex_show= {1},
+  year       = {2025},
+  future     = {1},
+  url        = {https://aair-lab.github.io/aia2025/},
+  abstract   = {{How should we assess the safety and functionality of taskable AI systems that are designed to continually learn and solve user-desired tasks in user-specific environments? From household robotics to digital assistants that can make potentially dangerous changes to their operational environments, this question is central to realizing the promise of AI. 
+  <br /> <br />
+  We investigate why answering this question requires more than an  extrapolation of existing paradigms for verification and validation, and identify concrete desiderata and promising directions for research on formal assessment of AI systems.}},
+  bibtex     = {{
+@inproceedings\{srivastava2025safety,
+  author    = \{Srivastava, Siddharth and Fainekos, Georgios and Verma, Pulkit and Bramblett, Daniel R.\},
+  title     = \{Safety Beyond Verification: \{The\} Need for Continual, User-Driven Assessment of \{AI\} Systems\},
+  booktitle = \{IJCAI 2025 Workshop on User-Aligned Assessment of Adaptive AI Systems\},
+  year      = \{2025\},
 \}
 }},
 }
