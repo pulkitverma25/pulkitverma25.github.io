@@ -143,7 +143,6 @@
         - 'ICLR: <a href="https://iclr.cc/Conferences/2024" target="_blank">2024</a>, <a href="https://iclr.cc/Conferences/2025" target="_blank">2025</a>.'
         - 'IJCAI: <a href="https://ijcai-23.org/" target="_blank">2023</a>, <a href="https://ijcai24.org/" target="_blank">2024</a>.'
         - 'R:SS: <a href="https://roboticsconference.org/2024/" target="_blank">2024</a>, <a href="https://roboticsconference.org/2025/" target="_blank">2025</a>.'
-        - 'EAAI: <a href="https://eaai-conf.github.io/year/eaai-26.html" target="_blank">2026</a>.'
         - 'ECAI: <a href="https://ecai2025.org" target="_blank">2025</a>.'
         - 'IROS: <a href="https://www.iros25.org" target="_blank">2025</a>.'
         - 'RO-MAN: <a href="https://www.ro-man2025.org" target="_blank">2025</a>.'
@@ -153,6 +152,7 @@
     - year: PC Member
       title: Workshops
       description:
+        - '<a href="https://leap-workshop.github.io" target="_blank">CoRL 2025 Workshop on Learning Effective Abstractions for Planning (LEAP 2025)</a>.'
         - '<a href="https://icaps25.icaps-conference.org/program/workshops/planrob/" target="_blank">ICAPS 2025 Workshop on Planning and Robotics (PlanRob 2025)</a>.'
         - '<a href="https://llmforplanning.github.io" target="_blank">ICAPS 2025 Workshop on Planning in the Era of LLMs (LM4Plan 2025)</a>.'
         - '<a href="https://verifai-workshop.github.io" target="_blank">ICLR 2025 Workshop on AI Verification in the Wild (VerifAI 2025)</a>.'
