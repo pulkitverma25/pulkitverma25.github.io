@@ -6,5 +6,5 @@ paperdeadline: Mar 01, 2025
 pdp: 1
 dates: Oct 19 - Oct 25, 2025
 website: http://www.iros25.org
-num: 7
+num: 3
 --- 

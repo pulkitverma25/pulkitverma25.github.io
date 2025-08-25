@@ -6,5 +6,5 @@ abstractdeadline: TBD
 paperdeadline: TBD
 dates: Aug 08 - Aug 14, 2026
 website: https://www.ijcai.org/future_conferences
-num: 28
+num: 36
 ---

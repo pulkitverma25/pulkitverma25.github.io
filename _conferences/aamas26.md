@@ -6,5 +6,5 @@ abstractdeadline: Sep 25, 2025
 paperdeadline: Oct 02, 2025
 dates: May 25 - May 29, 2026
 website: https://cyprusconferences.org/aamas2026/
-num: 18
+num: 22
 ---

@@ -5,5 +5,5 @@ location: Vienna, Austria
 paperdeadline: Sep 15, 2025
 dates: Jun 01 - Jun 05, 2026
 website: https://2026.ieee-icra.org
-num: 20
+num: 25
 ---
