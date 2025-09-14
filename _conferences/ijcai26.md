@@ -4,7 +4,7 @@ name: International Joint Conferences on Artificial Intelligence
 location: Bremen, Germany
 abstractdeadline: TBD
 paperdeadline: TBD
-dates: Aug 08 - Aug 14, 2026
-website: https://www.ijcai.org/future_conferences
+dates: Aug 15 - Aug 21, 2026
+website: https://2026.ijcai.org
 num: 36
 ---
