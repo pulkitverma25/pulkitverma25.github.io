@@ -609,6 +609,51 @@ abstract = {{The Association for the Advancement of Artificial Intelligence's 20
 }},
 }
 
+@inproceedings{verma2025pddlinstruct,
+  author     = {Verma, Pulkit and La, Ngoc and Favier, Anthony and Mishra, Swaroop and Shah, Julie A.},
+  title      = {{PDDL-Instruct: Enhancing Symbolic Planning Capabilities in LLMs through Logical Chain-of-Thought Instruction Tuning}},
+  abbr       = {LM4Plan},
+  year       = {2025},
+  bibtex_show= {1},
+  future     = {1},
+  url        = {https://icaps25.icaps-conference.org/program/workshops/lm4plan/},
+  pdf        = {vlfms_lm4plan25/vlfms_lm4plan25.pdf},
+  booktitle  = {ICAPS 2025 <a href="https://icaps25.icaps-conference.org/program/workshops/lm4plan/">Workshop on Planning in the Era of LLMs</a>},
+  abstract   = {{Large language models (LLMs) have demonstrated impressive capabilities across diverse tasks, yet their ability to perform structured symbolic planning remains limited, particularly in domains requiring formal representations like Planning Domain Definition Language (PDDL). In this paper, we present a novel instruction tuning framework designed to enhance LLMs' symbolic planning capabilities through logical chain-of-thought reasoning. Our approach focuses on teaching models to rigorously reason about action applicability, state transitions, and plan validity using explicit logical inference steps. By developing instruction prompts that guide models through the precise logical reasoning required to determine when actions can be applied in a given state, we enable LLMs to self-correct their planning processes through structured reflection. The framework systematically builds verification skills by decomposing the planning process into explicit reasoning chains about precondition satisfaction, effect application, and invariant preservation. Experimental results on multiple planning domains show that our chain-of-thought reasoning based instruction-tuned models are significantly better at planning, achieving planning accuracy of up to 94% on standard benchmarks, representing a 66% absolute improvement over baseline models. This work bridges the gap between the general reasoning capabilities of LLMs and the logical precision required for automated planning, offering a promising direction for developing better AI planning systems.}},
+  bibtex     = {{
+@inproceedings\{favier2025llm,
+  author        = \{Verma, Pulkit and La, Ngoc and Favier, Anthony and Mishra, Swaroop and Shah, Julie A.\},
+  title         = \{\{PDDL-Instruct\}: Enhancing Symbolic Planning Capabilities in \{LLMs\} through Logical Chain-of-Thought Instruction Tuning\},
+  year          = \{2025\},
+  booktitle     = \{ICAPS 2025 Workshop on Planning in the Era of LLMs\},
+\}
+}},
+}
+
+@inproceedings{favier2025llm,
+  author     = {Favier, Anthony and La, Ngoc and Verma, Pulkit and Shah, Julie A.},
+  title      = {{A Collaborative Numeric Task Planning Framework based on Constraint Translations using LLMs}},
+  abbr       = {HAXP},
+  year       = {2025},
+  bibtex_show= {1},
+  future     = {1},
+  url        = {https://icaps25.icaps-conference.org/program/workshops/haxp/},
+  pdf        = {flvs_haxp25/flvs_haxp25.pdf},
+  note       = {[Also appearing in ICAPS 2025 <a href="https://icaps25.icaps-conference.org/program/workshops/lm4plan/">Workshop on Planning in the Era of LLMs</a>, 2025]},
+  booktitle  = {ICAPS 2025 <a href="https://icaps25.icaps-conference.org/program/workshops/haxp/">Workshop on Human Aware and Exlainable Planning</a>},
+  abstract   = {{Automated planning systems require formal constraint specifications that create significant barriers for domain experts not familiar with those formal specifications, thereby limiting the practical adoption of powerful planning tools in collaborative planning settings. To overcome this challenge, we propose an LLM-based pipeline to translate human natural language constraints into formal hard-trajectory constraints. The initial user input is first refined and decomposed into more explicit natural language constraints, both preparing constraints for formal encoding and offering a chance for the human to review and correct any misinterpretation. Then, the decomposed constraints are encoded into PDDL3. By integrating this with an automated planner, a graphical interface, and PDSim, we created a closed loop where the human gets plan simulations as feedback to their natural language constraints. This innovative collaborative planning framework enables users to leverage their intuition and expertise to intuitively guide automated planning without time-consuming programming expert interventions. Through an ablation study, we demonstrate how our approach significantly improves the syntax and semantic accuracy of the translations compared to direct LLM translations. Our results demonstrate the potential of collaborative planning without expert interventions for higher-quality automated solving. On the other hand, our negative results seem to highlight the limitations of using PDDL3 constraints to leverage human high-level guidance as we expected, raising interesting reflections and potential discussions.}},
+  bibtex     = {{
+@inproceedings\{favier2025llm,
+  author        = \{Favier, Anthony and La, Ngoc and Verma, Pulkit and Shah, Julie A.\},
+  title         = \{A Collaborative Numeric Task Planning Framework based on Constraint Translations using LLMs\},
+  year          = \{2025\},
+  booktitle     = \{ICAPS 2025 Workshop on Human Aware and Exlainable Planning\},
+\}
+}},
+}
+
+
+
 @inproceedings{srivastava2025safety,
   author     = {Srivastava, Siddharth and Fainekos, Georgios and Verma, Pulkit and Bramblett, Daniel R.},
   title      = {{Safety Beyond Verification: The Need for Continual, User-Driven Assessment of AI Systems}},

@@ -6,7 +6,7 @@ subtitle: Postdoc at <a href="https://interactive.mit.edu/" target="_blank">Inte
 
 profile:
   align: right
-  image: pulkit_verma.jpg
+  image: pulkit_verma.png
   image_circular: false # crops the image to make it circular
 
 news: true # includes a list of news items
