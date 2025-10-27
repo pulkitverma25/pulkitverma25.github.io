@@ -5,6 +5,6 @@ location: Seoul, South Korea
 abstractdeadline: TBD
 paperdeadline: TBD
 dates: Jul 06 - Jul 12, 2026
-website: https://icml.cc/Conferences/FutureMeetings
+website: https://icml.cc/Conferences/2026
 num: 32
 ---
