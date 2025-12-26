@@ -567,7 +567,6 @@ abstract = {{The Association for the Advancement of Artificial Intelligence's 20
 }
 
 @inproceedings{verma2024user,
-  month      = {},
   author     = {Verma, Pulkit and Srivastava, Siddharth},
   title      = {{User-Aligned Autonomous Capability Assessment of Black-Box AI Systems}},
   booktitle  = {AAAI 2024 <a href="https://aair-lab.github.io/aia2024/">Spring Symposium on User-Aligned Assessment of Adaptive AI Systems</a>},
@@ -589,18 +588,42 @@ abstract = {{The Association for the Advancement of Artificial Intelligence's 20
 }},
 }
 
-@inproceedings{favier2025llm,
+@article{bramblett2025discovering,
+  author     = {Bramblett, Daniel and Karia, Rushang and Ciotinga, Adrian and Suresh, Ruthvick and Verma, Pulkit and Choi, YooJung and Srivastava, Siddharth},
+  title      = {{Discovering and Learning Probabilistic Models of Black-Box AI Capabilities}},
+  abbr       = {Preprint},
+  bibtex_show= {1},
+  journal    = {ArXiv 2512.16733},
+  preprint   = {1},
+  year       = {2025},
+  arxiv      = {2512.16733},
+  pdf        = {https://arxiv.org/pdf/2512.16733},
+  abstract   = {{Black-box AI (BBAI) systems such as foundational models are increasingly being used for sequential decision making. To ensure that such systems are safe to operate and deploy, it is imperative to develop efficient methods that can provide a sound and interpretable representation of the BBAI's capabilities. This paper shows that PDDL-style representations can be used to efficiently learn and model an input BBAI's planning capabilities. It uses the Monte-Carlo tree search paradigm to systematically create test tasks, acquire data, and prune the hypothesis space of possible symbolic models. Learned models describe a BBAI's capabilities, the conditions under which they can be executed, and the possible outcomes of executing them along with their associated probabilities.  Theoretical results show soundness, completeness and convergence of the learned models. Empirical results with multiple BBAI systems illustrate the scope, efficiency, and accuracy of the presented methods.}},
+  bibtex     = {{
+@misc\{bramblett2025discovering,
+  author        = \{Bramblett, Daniel and Karia, Rushang and Ciotinga, Adrian and Suresh, Ruthvick and Verma, Pulkit and Choi, YooJung and Srivastava, Siddharth\},
+  title         = \{Discovering and Learning Probabilistic Models of Black-Box AI Capabilities\},
+  year          = \{2025\},
+  eprint        = \{2512.16733\},
+  archivePrefix = \{arXiv\},
+\}
+}},
+}
+
+@inproceedings{favier2025llmdemo,
   author     = {Favier, Anthony and La, Ngoc and Verma, Pulkit and Shah, Julie A.},
   title      = {{An LLM-powered Collaborative Task Planning Framework}},
   abbr       = {ICAPS Demo},
   year       = {2025},
   bibtex_show= {1},
-  future     = {1},
   url        = {https://icaps25.icaps-conference.org/calls/demos/},
+  pdf        = {flv_icaps25demo/flv_icaps25demo.pdf},
+  slides     = {flv_icaps25demo/flv_icaps25demo_slides.pdf},
+  video      = {dropbox.com/scl/fi/5mfojbksnv5s94fxxy61c/ICAPS-Demo-2025-LLM-Collaborative-Planning.mp4?rlkey=fpcjmy3am4xl4vqnugrajubbn&st=eh4k8gp7&dl=0},
   booktitle  = {ICAPS 2025 <a href="https://icaps25.icaps-conference.org/calls/demos/">System Demonstrations Track</a>},
   abstract   = {{We demonstrate an innovative collaborative planning framework that enables human users to leverage their intuition and expertise to intuitively guide automated planning without time-consuming programming expert interventions. We propose an LLM-based pipeline to translate human natural language constraints into formal hard trajectory constraints. The initial user input is refined and decomposed into more explicit constraints before being encoded into PDDL3. By integrating this with an automated planner, a graphical interface, and PDSim, we created a closed loop where the human gets plan simulations as feedback to their natural language constraints. This enables users to explore specific alternatives, dynamically refine solutions, and speed up problem solving.}},
   bibtex     = {{
-@inproceedings\{favier2025llm,
+@inproceedings\{favier2025llmDemo,
   author        = \{Favier, Anthony and La, Ngoc and Verma, Pulkit and Shah, Julie A.\},
   title         = \{An LLM-powered Collaborative Task Planning Framework\},
   year          = \{2025\},
@@ -615,9 +638,9 @@ abstract = {{The Association for the Advancement of Artificial Intelligence's 20
   abbr       = {LM4Plan},
   year       = {2025},
   bibtex_show= {1},
-  future     = {1},
   url        = {https://icaps25.icaps-conference.org/program/workshops/lm4plan/},
   pdf        = {vlfms_lm4plan25/vlfms_lm4plan25.pdf},
+  slides     = {vlfms_lm4plan25/vlfms_lm4plan25_slides.pdf},
   booktitle  = {ICAPS 2025 <a href="https://icaps25.icaps-conference.org/program/workshops/lm4plan/">Workshop on Planning in the Era of LLMs</a>},
   abstract   = {{Large language models (LLMs) have demonstrated impressive capabilities across diverse tasks, yet their ability to perform structured symbolic planning remains limited, particularly in domains requiring formal representations like Planning Domain Definition Language (PDDL). In this paper, we present a novel instruction tuning framework designed to enhance LLMs' symbolic planning capabilities through logical chain-of-thought reasoning. Our approach focuses on teaching models to rigorously reason about action applicability, state transitions, and plan validity using explicit logical inference steps. By developing instruction prompts that guide models through the precise logical reasoning required to determine when actions can be applied in a given state, we enable LLMs to self-correct their planning processes through structured reflection. The framework systematically builds verification skills by decomposing the planning process into explicit reasoning chains about precondition satisfaction, effect application, and invariant preservation. Experimental results on multiple planning domains show that our chain-of-thought reasoning based instruction-tuned models are significantly better at planning, achieving planning accuracy of up to 94% on standard benchmarks, representing a 66% absolute improvement over baseline models. This work bridges the gap between the general reasoning capabilities of LLMs and the logical precision required for automated planning, offering a promising direction for developing better AI planning systems.}},
   bibtex     = {{
@@ -636,10 +659,10 @@ abstract = {{The Association for the Advancement of Artificial Intelligence's 20
   abbr       = {HAXP},
   year       = {2025},
   bibtex_show= {1},
-  future     = {1},
   url        = {https://icaps25.icaps-conference.org/program/workshops/haxp/},
   pdf        = {flvs_haxp25/flvs_haxp25.pdf},
-  note       = {[Also appearing in ICAPS 2025 <a href="https://icaps25.icaps-conference.org/program/workshops/lm4plan/">Workshop on Planning in the Era of LLMs</a>, 2025]},
+  slides     = {flvs_haxp25/flvs_haxp25_slides.pdf},
+  note       = {[Also appeared in ICAPS 2025 <a href="https://icaps25.icaps-conference.org/program/workshops/lm4plan/">Workshop on Planning in the Era of LLMs</a>, 2025]},
   booktitle  = {ICAPS 2025 <a href="https://icaps25.icaps-conference.org/program/workshops/haxp/">Workshop on Human Aware and Exlainable Planning</a>},
   abstract   = {{Automated planning systems require formal constraint specifications that create significant barriers for domain experts not familiar with those formal specifications, thereby limiting the practical adoption of powerful planning tools in collaborative planning settings. To overcome this challenge, we propose an LLM-based pipeline to translate human natural language constraints into formal hard-trajectory constraints. The initial user input is first refined and decomposed into more explicit natural language constraints, both preparing constraints for formal encoding and offering a chance for the human to review and correct any misinterpretation. Then, the decomposed constraints are encoded into PDDL3. By integrating this with an automated planner, a graphical interface, and PDSim, we created a closed loop where the human gets plan simulations as feedback to their natural language constraints. This innovative collaborative planning framework enables users to leverage their intuition and expertise to intuitively guide automated planning without time-consuming programming expert interventions. Through an ablation study, we demonstrate how our approach significantly improves the syntax and semantic accuracy of the translations compared to direct LLM translations. Our results demonstrate the potential of collaborative planning without expert interventions for higher-quality automated solving. On the other hand, our negative results seem to highlight the limitations of using PDDL3 constraints to leverage human high-level guidance as we expected, raising interesting reflections and potential discussions.}},
   bibtex     = {{

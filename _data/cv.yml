@@ -120,12 +120,19 @@
     - title: Workshops and Tutorials
       year: Organizer
       description:
+        - 'Co-organizer, <a href="https://pulkitverma.net/hcair26" target="_blank">ICLR 2026 Workshop - From Human Cognition to AI Reasoning: Models, Methods, and Applications (HCAIR 2026)</a>.'
         - 'Co-organizer, <a href="https://haxp-icaps.web.app" target="_blank">ICAPS 2025 Workshop on Human-Aware and Explainable Planning (HAXP 2025)</a>.'
         - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025" target="_blank">IJCAI 2025 Workshop on User-Aligned Assessment of Adaptive AI Systems (AIA 2025)</a>.'
         - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025-tutorial" target="_blank">AAAI 2025 Tutorial on User-Driven Capability Assessment of Taskable AI Systems</a>.'
         - 'Co-organizer, <a href="https://aair-lab.github.io/aia2024" target="_blank">AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems (AIA 2024)</a>.'
         - 'Co-organizer, <a href="http://aair-lab.github.io/genplan23" target="_blank">NeurIPS 2023 Workshop on Generalization in Planning (GenPlan 2023)</a>.'
         - 'Co-organizer, <a href="http://aair-lab.github.io/genplan22" target="_blank">IJCAI-ECAI 2022 Workshop on Generalization in Planning (GenPlan 2022)</a>.'    
+    - title: Conferences
+      year: Org Roles
+      description:
+        - 'Doctoral Consortium Chair, <a href="https://icaps27.icaps-conference.org" target="_blank">ICAPS 2027</a>'
+        - 'Workflow Chair, <a href="https://icaps26.icaps-conference.org" target="_blank">ICAPS 2026</a>'
+        - 'Area Chair, <a href="https://humanrobotinteraction.org/2026/late-breaking-reports/" target="_blank">HRI 2026 Late Breaking Reports</a>'
     - title: Journals
       year: Reviewer
       description:
@@ -137,10 +144,10 @@
       title: Conferences
       description:
         - 'AAAI: <a href="https://aaai.org/conference/aaai/aaai-23/" target="_blank">2023</a>, <a href="https://aaai.org/aaai-24-conference/" target="_blank">2024</a>, <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">2025</a>, <a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank">2026</a>.'
+        - 'ICLR: <a href="https://iclr.cc/Conferences/2024" target="_blank">2024</a>, <a href="https://iclr.cc/Conferences/2025" target="_blank">2025</a>, <a href="https://iclr.cc/Conferences/2026" target="_blank">2026</a>.'
         - 'NeurIPS: <a href="https://neurips.cc/Conferences/2023" target="_blank">2023</a>, <a href="https://neurips.cc/Conferences/2024" target="_blank">2024</a>, <a href="https://neurips.cc/Conferences/2025" target="_blank">2025</a>.'
         - 'AAMAS: <a href="https://aamas2023.soton.ac.uk/" target="_blank">2023</a>, <a href="https://www.aamas2024-conference.auckland.ac.nz/" target="_blank">2024</a>, <a href="https://aamas2025.org" target="_blank">2025</a>.'
         - 'ICAPS: <a href="http://icaps24.icaps-conference.org/" target="_blank">2024</a>, <a href="http://icaps25.icaps-conference.org/" target="_blank">2025</a>.'
-        - 'ICLR: <a href="https://iclr.cc/Conferences/2024" target="_blank">2024</a>, <a href="https://iclr.cc/Conferences/2025" target="_blank">2025</a>.'
         - 'IJCAI: <a href="https://ijcai-23.org/" target="_blank">2023</a>, <a href="https://ijcai24.org/" target="_blank">2024</a>.'
         - 'R:SS: <a href="https://roboticsconference.org/2024/" target="_blank">2024</a>, <a href="https://roboticsconference.org/2025/" target="_blank">2025</a>.'
         - 'ECAI: <a href="https://ecai2025.org" target="_blank">2025</a>.'
