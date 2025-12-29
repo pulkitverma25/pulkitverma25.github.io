@@ -8,6 +8,10 @@ profile:
   align: right
   image: pulkit_verma.jpg
   image_circular: false # crops the image to make it circular
+  more_info: >
+    <p>SSB 304, Dept. of CSE,</p>
+    <p>IIT Madras,</p>
+    <p>Chennai, TN - 600036</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
