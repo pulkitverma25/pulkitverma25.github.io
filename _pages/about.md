@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>SSB 304, Dept. of CSE,</p>
-    <p>IIT Madras,</p>
-    <p>Chennai, TN - 600036</p>
+    <p>IIT Madras, Chennai,</p>
+    <p>TN - 600036 (India)</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
