@@ -120,7 +120,8 @@
     - title: Workshops and Tutorials
       year: Organizer
       description:
-        - 'Co-organizer, <a href="https://pulkitverma.net/hcair26" target="_blank">ICLR 2026 Workshop - From Human Cognition to AI Reasoning: Models, Methods, and Applications (HCAIR 2026)</a>.'
+        - 'Co-organizer, <a href="https://xplore-workshop.github.io/" target="_blank">ICRA 2026 Workshop on Cross-Disciplinary aspects of Exploration in Robotics, Reinforcement Learning and Search (XPLORE 2026)</a>.'
+        - 'Co-organizer, <a href="https://hc-air.github.io/hcair26" target="_blank">ICLR 2026 Workshop - From Human Cognition to AI Reasoning: Models, Methods, and Applications (HCAIR 2026)</a>.'
         - 'Co-organizer, <a href="https://haxp-icaps.web.app" target="_blank">ICAPS 2025 Workshop on Human-Aware and Explainable Planning (HAXP 2025)</a>.'
         - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025" target="_blank">IJCAI 2025 Workshop on User-Aligned Assessment of Adaptive AI Systems (AIA 2025)</a>.'
         - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025-tutorial" target="_blank">AAAI 2025 Tutorial on User-Driven Capability Assessment of Taskable AI Systems</a>.'
@@ -136,7 +137,6 @@
     - title: Journals
       year: Reviewer
       description:
-        - '<a href="https://www.sciencedirect.com/journal/artificial-intelligence" target="_blank">Artificial Intelligence Journal (AIJ)</a>.'
         - '<a href="https://jair.org" target="_blank">Journal of Artificial Intelligence Research (JAIR)</a>.'
         - '<a href="https://www.ieee-ras.org/publications/ra-l" target="_blank">IEEE Robotics and Automation Letters (RA-L)</a>.'
         - '<a href="https://link.springer.com/journal/521" target="_blank">Neural Computing and Applications (NCAA)</a>.'
@@ -159,6 +159,7 @@
     - year: PC Member
       title: Workshops
       description:
+        - '<a href="https://wsdm26.causalbench.org/" target="_blank">WSDM 2026 Workshop on Benchmarking Causal Models (CausalBench 2026)</a>.'
         - '<a href="https://leap-workshop.github.io" target="_blank">CoRL 2025 Workshop on Learning Effective Abstractions for Planning (LEAP 2025)</a>.'
         - '<a href="https://icaps25.icaps-conference.org/program/workshops/planrob/" target="_blank">ICAPS 2025 Workshop on Planning and Robotics (PlanRob 2025)</a>.'
         - '<a href="https://llmforplanning.github.io" target="_blank">ICAPS 2025 Workshop on Planning in the Era of LLMs (LM4Plan 2025)</a>.'
@@ -191,6 +192,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - '<a href="https://icaps25.icaps-conference.org/program/awards/" target="_blank">ICAPS 2025 Outstanding Dissertation Award</a>.'
+    - year: 2025
+      items:
+        - '<a href="https://globalaisafetyfellowship.com/" target="_blank">Impact Academy Global AI Safety Fellowship</a>.'
     - year: 2025
       items:
         - '<a href="https://eaai-conf.github.io/eaai/iaep.html" target="_blank">AAAI/ACM SIGAI Innovative AI Education Award 2025</a>.'
