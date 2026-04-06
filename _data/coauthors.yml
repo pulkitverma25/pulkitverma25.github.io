@@ -241,10 +241,6 @@
   - firstname: ["Ngoc"]
     url: https://ngocla.github.io
 
-"rountree":
-  - firstname: ["Josh"]
-    url: https://www.aiaccelerator.af.mil/AIA-Team/Article-View/Article/3303034/josh-rountree/
-
 "fainekos":
   - firstname: ["Georgios"]
     url: https://www.fainekos.net
@@ -256,3 +252,11 @@
 "choi":
   - firstname: ["YooJung"]
     url: https://yoojungchoi.github.io/
+
+"so":
+  - firstname: ["Oswin"]
+    url: https://oswinso.xyz/
+
+"fan":
+  - firstname: ["Chuchu"]
+    url: https://chuchu.mit.edu/
