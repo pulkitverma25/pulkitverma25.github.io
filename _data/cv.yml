@@ -160,6 +160,7 @@
     - year: PC Member
       title: Workshops
       description:
+        - '<a href="https://icaps26.icaps-conference.org/program/workshops/planrob/" target="_blank">ICAPS 2026 Workshop on Planning and Robotics (PlanRob 2026)</a>.'
         - '<a href="https://wsdm26.causalbench.org/" target="_blank">WSDM 2026 Workshop on Benchmarking Causal Models (CausalBench 2026)</a>.'
         - '<a href="https://leap-workshop.github.io" target="_blank">CoRL 2025 Workshop on Learning Effective Abstractions for Planning (LEAP 2025)</a>.'
         - '<a href="https://icaps25.icaps-conference.org/program/workshops/planrob/" target="_blank">ICAPS 2025 Workshop on Planning and Robotics (PlanRob 2025)</a>.'
