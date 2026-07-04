@@ -6,6 +6,9 @@
   - firstname: ["Pradip K."]
     url: http://www.iitg.ernet.in/pkdas/
 
+  - firstname: ["Avisha"]
+    url: https://dasavisha.github.io/
+
 "goel":
   - firstname: ["Sharad"]
     url: https://5harad.com/
@@ -111,10 +114,6 @@
 "puri":
   - firstname: ["Ravsehaj Singh"]
     url: https://ravsehajsinghpuri.github.io/
-
-"karia":
-  - firstname: ["Rushang"]
-    url: https://rushangkaria.github.io/
 
 "shen":
   - firstname: ["Xudong"]
@@ -260,3 +259,11 @@
 "fan":
   - firstname: ["Chuchu"]
     url: https://chuchu.mit.edu/
+
+"bramblett":
+  - firstname: ["Daniel"]
+    url: https://danielrbramblett.github.io/
+
+"mahadevan":
+  - firstname: ["Karthik"]
+    url: https://karthikmahadevan.ca/
