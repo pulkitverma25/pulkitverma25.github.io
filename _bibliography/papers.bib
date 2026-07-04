@@ -588,28 +588,6 @@ abstract = {{The Association for the Advancement of Artificial Intelligence's 20
 }},
 }
 
-@article{bramblett2025discovering,
-  author     = {Bramblett, Daniel and Karia, Rushang and Ciotinga, Adrian and Suresh, Ruthvick and Verma, Pulkit and Choi, YooJung and Srivastava, Siddharth},
-  title      = {{Discovering and Learning Probabilistic Models of Black-Box AI Capabilities}},
-  abbr       = {Preprint},
-  bibtex_show= {1},
-  journal    = {ArXiv 2512.16733},
-  preprint   = {1},
-  year       = {2025},
-  arxiv      = {2512.16733},
-  pdf        = {https://arxiv.org/pdf/2512.16733},
-  abstract   = {{Black-box AI (BBAI) systems such as foundational models are increasingly being used for sequential decision making. To ensure that such systems are safe to operate and deploy, it is imperative to develop efficient methods that can provide a sound and interpretable representation of the BBAI's capabilities. This paper shows that PDDL-style representations can be used to efficiently learn and model an input BBAI's planning capabilities. It uses the Monte-Carlo tree search paradigm to systematically create test tasks, acquire data, and prune the hypothesis space of possible symbolic models. Learned models describe a BBAI's capabilities, the conditions under which they can be executed, and the possible outcomes of executing them along with their associated probabilities.  Theoretical results show soundness, completeness and convergence of the learned models. Empirical results with multiple BBAI systems illustrate the scope, efficiency, and accuracy of the presented methods.}},
-  bibtex     = {{
-@misc\{bramblett2025discovering,
-  author        = \{Bramblett, Daniel and Karia, Rushang and Ciotinga, Adrian and Suresh, Ruthvick and Verma, Pulkit and Choi, YooJung and Srivastava, Siddharth\},
-  title         = \{Discovering and Learning Probabilistic Models of Black-Box AI Capabilities\},
-  year          = \{2025\},
-  eprint        = \{2512.16733\},
-  archivePrefix = \{arXiv\},
-\}
-}},
-}
-
 @inproceedings{favier2025llmdemo,
   author     = {Favier, Anthony and La, Ngoc and Verma, Pulkit and Shah, Julie A.},
   title      = {{An LLM-powered Collaborative Task Planning Framework}},
@@ -826,6 +804,91 @@ abstract = {{The Association for the Advancement of Artificial Intelligence's 20
   title         = \{Bridging the Language Divide: Generative AI's Promise for Global Education\},
   year          = \{2025\},
   booktitle     = \{Fifteenth Symposium on Educational Advances in Artificial Intelligence (Blue Sky Ideas)\},
+\}
+}},
+}
+
+@article{das2026indiromcom,
+  author     = {Das, Avisha and Parmar, Mihir and Ramnath, Mohana and Verma, Pulkit},
+  title      = {{Indi-RomCoM: Code-Mixed Benchmark for Evaluating LLMs on Romanized Indic-English Instructions}},
+  abbr       = {Preprint},
+  bibtex_show= {1},
+  arxiv      = {2606.30790},
+  year       = {2026},
+  journal    = {ArXiv 2606.30790},
+  preprint   = {1},
+  pdf        = {https://arxiv.org/pdf/2606.30790},
+  abstract   = {{Romanized Code Mixing (RCM), where bilingual speakers fluidly blend local languages with English in Roman script, has emerged as the dominant form of communication across multilingual communities. While Large Language Models (LLMs) perform strongly on monolingual and native-script benchmarks, their ability to follow instructions and reason over RCM-based content remains largely unexplored. To this end, we introduce the Indi-RomCoM benchmark for facilitating systematic evaluation on Indic Romanized Code-Mixed instructions. Our benchmark spans seven instruction-following tasks, four widely spoken Indic languages, and three controlled code-mixing intensity levels. We extensively evaluate a suite of LLMs covering proprietary, open-weight, and Indic-focused models under zero- and few-shot settings. LLMs consistently underperform on RCM instructions, with performance degrading as code-mixing density increases. Furthermore, reasoning tasks suffer less degradation than detection tasks (e.g., Toxicity) because the generated explanations offer necessary context. We believe Indi-RomCoM helps the community in developing inclusive multilingual systems.}},
+  bibtex     = {{
+@misc\{das2026indiromcom,
+  author        = \{Das, Avisha and Parmar, Mihir and Ramnath, Mohana and Verma, Pulkit\},
+  title         = \{Indi-RomCoM: Code-Mixed Benchmark for Evaluating LLMs on Romanized Indic-English Instructions\},
+  year          = \{2026\},
+  eprint        = \{2606.30790\},
+  archivePrefix = \{arXiv\},
+\}
+}},
+}
+
+@inproceedings{Bagaria2026learn,
+  author     = {Bagaria, Vaidehi and Grampurohit, Nikshep and Verma, Pulkit},
+  title      = {{Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking}},
+  abbr       = {RLxF},
+  bibtex_show= {1},
+  booktitle  = {ICML 2026 <a href="https://sites.google.com/view/rlxf-icml2026/">Workshop on Reinforcement Learning from World Feedback</a>},
+  preprint   = {1},
+  year       = {2026},
+  arxiv      = {2605.16154},
+  pdf        = {https://arxiv.org/abs/2605.16154},
+  abstract   = {{Reinforcement learning (RL) allows vision-language-action (VLA) policies to generalize beyond their training distribution by optimizing directly for task success, but post-training is computationally expensive. A natural response has been to speed rollout collection through faster simulators and world models. In GRPO-based VLA RL, we find that the dominant cost lies elsewhere: gradient computation accounts for approximately 78% of wall-clock time per step in our runs, while rollout collection accounts for only 21%. Gradient cost dominates because much of this computation is spent on phases that contribute little to learning. GRPO's learning signal is driven by advantage variance: only phases where successful and failed rollouts diverge produce learning signal. However, GRPO assigns the same advantage to every chunk in a rollout. As a result, actor-update compute is spent uniformly across the trajectory, including phases the policy already handles after pre-training and supervised fine-tuning. This paper presents Probabilistic Chunk Masking (PCM), a drop-in modification to GRPO that allocates gradient computation to a small, probabilistically selected subset of chunks per trajectory. PCM scores semantic phases using success-failure action variance, a rollout-derived proxy for per-phase gradient variance, and samples a fixed chunk budget with online-updated phase-level keep probabilities. We formalize per-phase gradient variance as the quantity determines where gradient computation is useful and show that success-failure action variance provides a measurable proxy for it. PCM requires no reward model or learned critic. On three LIBERO benchmarks, PCM matches the final success rate of standard GRPO while achieving 2.38 times wall-clock speedup, 4.8 times faster gradient updates, and 60% lower peak activation memory, while backpropagating through fewer than 20% of trajectory chunks.}},
+  bibtex     = {{
+@inproceedings\{Bagaria2026learn,
+  author        = \{Bagaria, Vaidehi and Grampurohit, Nikshep and Verma, Pulkit\},
+  title         = \{Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking\},
+  year          = \{2026\},
+  booktitle     = \{ICML 2026 Workshop on Reinforcement Learning from World Feedback\},
+\}
+}},
+}
+
+@inproceedings{bramblett2026autonomous,
+  author     = {Bramblett, Daniel and Karia, Rushang and Ciotinga, Adrian and Verma, Pulkit and Choi, YooJung and Srivastava, Siddharth},
+  title      = {{Autonomous Assessment of Generalizability of AI Agent Capabilities}},
+  abbr       = {GenPlan},
+  bibtex_show= {1},
+  booktitle  = {ICAPS 2026 <a href="https://icaps26.icaps-conference.org/program/workshops/genplan/">Workshop on Generalization in Planning</a>},
+  preprint   = {1},
+  year       = {2026},
+  arxiv      = {2512.16733},
+  pdf        = {https://arxiv.org/pdf/2512.16733},
+  abstract   = {{Black-box AI (BBAI) systems, including foundation-model agents, are increasingly used for sequential decision making. Safe deployment requires methods for characterizing the extent to which BBAI capabilities generalize and solve complex, long-horizon tasks. We introduce Monte Carlo Query Synthesis (MCQS), an active query-synthesis method for learning symbolic stochastic capability models of BBAIs. MCQS models capabilities as conditional probability distributions over outcomes and formulates capability learning as an active learning problem over policies. Our approach uses Monte Carlo tree search to synthesize queries that induce BBAI execution trajectories with high discriminative value between extremal hypothesis models: the lattice meet and join corresponding to the most pessimistic and optimistic hypotheses consistent with the observations. Executing these queries with the agent yields information-rich state-action trajectories that speed up learning by pruning inconsistent hypotheses. We prove soundness, completeness, and convergence properties under standard realizability and sampling assumptions. Experiments with multiple BBAI systems show that MCQS learns accurate capability models more efficiently than baseline query strategies.}},
+  bibtex     = {{
+@inproceedings\{bramblett2026autonomous,
+  author        = \{Bramblett, Daniel and Karia, Rushang and Ciotinga, Adrian and Verma, Pulkit and Choi, YooJung and Srivastava, Siddharth\},
+  title         = \{Autonomous Assessment of Generalizability of AI Agent Capabilities\},
+  year          = \{2026\},
+  booktitle     = \{ICAPS 2026 Workshop on Generalization in Planning\},
+\}
+}},
+}
+
+@inproceedings{La2026learning,
+  author     = {La, Ngoc and Mahadevan, Karthick and Verma, Pulkit and Shah, Julie A.},
+  title      = {{Learning HTNs from Visual Demonstration with Vision-Language Models: Preliminary Results}},
+  abbr       = {HPlan},
+  bibtex_show= {1},
+  booktitle  = {ICAPS 2026 <a href="https://icaps26.icaps-conference.org/program/workshops/hplan/">Workshop on Hierarchical Planning</a>},
+  year       = {2026},
+  pdf        = {lmvs_hplan26/lmvs_hplan26.pdf},
+  slides     = {lmvs_hplan26/lmvs_hplan26_slides.pdf},
+  url        = {https://hierarchical-task.net/hplan/hplan2026},
+  abstract   = {{Hierarchical task networks (HTNs) are a popular formalism in automated planning, enabling complex, long-horizon tasks to be solved through hierarchical decomposition. However, constructing HTN models manually is difficult and requires domain expertise. While vision-language models (VLMs) have been used to generate planning representations in Planning Domain Definition Language (PDDL), their application to learning HTNs from raw visual demonstrations and generating domains in Hierarchical Domain Definition Language (HDDL) remains unexplored. In this work, we present Vision2HTN, a pipeline that uses VLMs to learn HTN methods directly from visual inputs together with existing PDDL domains, augmented with iterative HDDL syntax validation and repair. We evaluate our approach on Blocksworld and Overcooked, finding that the pipeline can generate usable HDDL domains from visual demonstrations and given PDDL domains. Performance is substantially stronger in Blocksworld than Overcooked, pre-defined task information is especially helpful in complex domains, and the benefit of visual input depends on domain complexity and demonstration type. These results suggest VLMs are a promising direction for HTN learning from visual data, while highlighting challenges in robustness and domain complexity.}},
+  bibtex     = {{
+@inproceedings\{La2026learning,
+  author        = \{La, Ngoc and Mahadevan, Karthick and Verma, Pulkit and Shah, Julie\},
+  title         = \{Learning HTNs from Visual Demonstration with Vision-Language Models: Preliminary Results\},
+  year          = \{2026\},
+  booktitle     = \{ICAPS 2026 Workshop on Hierarchical Planning\},
 \}
 }},
 }
