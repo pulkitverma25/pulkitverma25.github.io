@@ -6,7 +6,7 @@
 - title: Bio
   type: paragraph
   contents:
-    - Pulkit Verma is an Assistant Professor at the <a href="https://www.cse.iitm.ac.in" target="_blank">Department of Computer Science and Engineering</a>, <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>. Prior to this, he was a Postdoctoral Associate in the <a href="https://interactive.mit.edu/" target="_blank">Interactive Robotics Group</a> at the <a href="https://csail.mit.edu/" target="_blank">MIT CSAIL</a>, where he worked with <a href="https://interactive.mit.edu/about/people/julie" target="_blank">Prof. Julie Shah</a>. His research focuses on the safe and reliable behavior of taskable AI agents. He investigates the minimal set of requirements in an AI system that would enable a user to assess and understand the limits of its safe operability. He received his Ph.D. in Computer Science from the <a href="https://scai.engineering.asu.edu" target="_blank">School of Computing and Augmented Intelligence</a>, <a href="https://www.asu.edu/" target="_blank">Arizona State University</a>, where he worked with <a href="http://siddharthsrivastava.net" target="_blank">Prof. Siddharth Srivastava</a>. Before that, he completed his M.Tech. in Computer Science and Engineering at <a href="https://www.iitg.ac.in/" target="_blank">Indian Institute of Technology Guwahati</a> with <a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a>. He was awarded the <a href="https://icaps25.icaps-conference.org/program/awards/" target="_blank">ICAPS 2025 Outstanding Dissertation Award</a> at ICAPS 2025, <a href="https://eaai-conf.github.io/eaai/iaep.html" target="_blank">AAAI/ACM SIGAI Innovative AI Education Award</a> at AAAI 2025's <a href="https://eaai-conf.github.io/year/eaai-25.html" target="_blank">EAAI Symposium</a>, <a href="https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/completion-fellowship" target="_blank">Graduate College Completion Fellowship</a> at ASU in 2023,  <a href="https://www.aicte-india.org/schemes/students-development-schemes/PG-Scholarship-Scheme" target="_blank">Post Graduation Scholarship</a> from the Government of India in 2013 and 2014, and received the <a href="https://aamas2022-conference.auckland.ac.nz/awards/best-paper-and-demonstration/" target="_blank">Best Demo Award</a> at the <a href="https://aamas2022-conference.auckland.ac.nz/" target="_blank">International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</a> in 2022.
+    - Pulkit Verma is an Assistant Professor at the <a href="https://www.cse.iitm.ac.in" target="_blank">Department of Computer Science and Engineering</a>, <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>, and a co-PI at the <a href="https://cerai.iitm.ac.in/" target="_blank">Center for Responsible AI (CeRAI)</a>, IIT Madras. Prior to this, he was a Postdoctoral Associate in the <a href="https://interactive.mit.edu/" target="_blank">Interactive Robotics Group</a> at the <a href="https://csail.mit.edu/" target="_blank">MIT CSAIL</a>, where he worked with <a href="https://interactive.mit.edu/about/people/julie" target="_blank">Prof. Julie Shah</a>. His research focuses on the safe and reliable behavior of taskable AI agents. He investigates the minimal set of requirements in an AI system that would enable a user to assess and understand the limits of its safe operability. He received his Ph.D. in Computer Science from the <a href="https://scai.engineering.asu.edu" target="_blank">School of Computing and Augmented Intelligence</a>, <a href="https://www.asu.edu/" target="_blank">Arizona State University</a>, where he worked with <a href="http://siddharthsrivastava.net" target="_blank">Prof. Siddharth Srivastava</a>. Before that, he completed his M.Tech. in Computer Science and Engineering at <a href="https://www.iitg.ac.in/" target="_blank">Indian Institute of Technology Guwahati</a> with <a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a>. He was awarded the <a href="https://icaps25.icaps-conference.org/program/awards/" target="_blank">ICAPS 2025 Outstanding Dissertation Award</a> at ICAPS 2025, <a href="https://eaai-conf.github.io/eaai/iaep.html" target="_blank">AAAI/ACM SIGAI Innovative AI Education Award</a> at AAAI 2025's <a href="https://eaai-conf.github.io/year/eaai-25.html" target="_blank">EAAI Symposium</a>, <a href="https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/completion-fellowship" target="_blank">Graduate College Completion Fellowship</a> at ASU in 2023,  <a href="https://www.aicte-india.org/schemes/students-development-schemes/PG-Scholarship-Scheme" target="_blank">Post Graduation Scholarship</a> from the Government of India in 2013 and 2014, and received the <a href="https://aamas2022-conference.auckland.ac.nz/awards/best-paper-and-demonstration/" target="_blank">Best Demo Award</a> at the <a href="https://aamas2022-conference.auckland.ac.nz/" target="_blank">International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</a> in 2022.
 
 - title: Education
   type: time_table
@@ -69,37 +69,25 @@
 - title: Teaching Experience
   type: time_table
   contents:
-    - title: '<b>Teaching Assistant for a graduate-level Artificial Intelligence Course at Arizona State University.</b>'
-      year: Spring&#39;22
+    - title: Course Instructor
+      year: IIT Madras
       description:
-        - '<a href="https://webapp4.asu.edu/bookstore/viewsyllabus/2221/35294" target="_blank">CSE 571 Artificial Intelligence</a>: Ongoing course.'
-        - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
-        - Delivered hands-on problem solving sessions on Planning Graphs, Markov Decision Processes, Reinforcement Learning, and Neural Networks.
-        - Co-created the software testbed used to support the course projects.
-        - Created and graded homework assignments.
-    - title: '<b>Teaching Assistant for a graduate-level Artificial Intelligence Course at Arizona State University.</b>'
-      year: Fall&#39;19
+        - '<a href="https://hails-group.github.io/courses/cs6380/jn26.html" target="_blank">CS6380: Artificial Intelligence</a> (Jul-Nov 2026).'
+        - '<a href="https://hails-group.github.io/courses/cs6260/jm26.html" target="_blank">CS6260: Automated Planning and Learning</a> (Jan-May 2026).'
+
+    - title: Teaching Assistant
+      year: ASU
       description:
-        - '<a href="https://aair-lab.github.io/teaching/571_f19.html" target="_blank">CSE 571 Artificial Intelligence</a>.'
-        - 'Taught by <a href="http://siddharthsrivastava.net/" target="_blank"><b>Prof. Siddharth Srivastava</b></a>.'
-        - Delivered tutorials on Constraint Satisfaction Problems, PDDL, First Order Logic, and Dynamic Bayesian Networks.
-        - Co-created the software testbed used to support the course projects.
-        - Created and graded homework assignments.
-        - Mentored project groups working on class projects.
-    - title: '<b>Teaching Assistant for a graduate-level Speech Processing Course at IIT Guwahati, India.</b>'
-      year: Fall&#39;14
+        - '<a href="https://webapp4.asu.edu/bookstore/viewsyllabus/2221/35294" target="_blank">CSE 571: Artificial Intelligence</a> (Spring&#39;22).'
+        - '<a href="https://aair-lab.github.io/teaching/571_f19.html" target="_blank">CSE 571: Artificial Intelligence</a> (Fall&#39;19).'
+
+    - title: Teaching Assistant
+      year: IIT Guwahati
       description:
-        - 'CS 566 Speech Processing.'
-        - 'Taught by <b><a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a></b>.'
-        - Mentored students working on class projects and homeworks.
-        - Graded homework assignments and exams.
-    - title: '<b>Teaching Assistant for several undergraduate-level Computer Science Lab-Courses at IIT Guwahati, India.</b>' 
-      year: 2013-2015
-      description:
-        - 'CS 513 Programming Lab.; Taught by <b><a href="https://www.iitg.ac.in/sushantak/" target="_blank">Prof. Sushanta Karmakar</a></b>.'
-        - 'CS 462 Graphics Lab.; Taught by <b><a href="http://www.iitg.ernet.in/samit/" target="_blank">Prof. Samit Bhattacharya</a></b> and <b><a href="http://www.iitg.ac.in/cse/internet-pages/pinaki" target="_blank">Prof. Pinaki Mitra</a></b>.'
-        - 'CS 243 Software Engineering Lab.; Taught by <b><a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a></b>.'
-        - Mentored students working on class projects and homeworks.
+        - 'CS 566: Speech Processing (Fall&#39;14).'
+        - 'CS 513: Programming Lab (2013-2015).'
+        - 'CS 462: Graphics Lab (2013-2015).'
+        - 'CS 243: Software Engineering Lab (2013-2015).'
 
 - title: Media Coverage
   type: time_table
@@ -128,10 +116,15 @@
         - 'Co-organizer, <a href="https://aair-lab.github.io/aia2024" target="_blank">AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems (AIA 2024)</a>.'
         - 'Co-organizer, <a href="http://aair-lab.github.io/genplan23" target="_blank">NeurIPS 2023 Workshop on Generalization in Planning (GenPlan 2023)</a>.'
         - 'Co-organizer, <a href="http://aair-lab.github.io/genplan22" target="_blank">IJCAI-ECAI 2022 Workshop on Generalization in Planning (GenPlan 2022)</a>.'    
+    - title: Journals
+      year: Editorial Board
+      description:
+        - '<a href="https://dl.acm.org/journal/ailet/" target="_blank">ACM AI Letters</a>.'
     - title: Conferences
       year: Org Roles
       description:
         - 'Doctoral Consortium Chair, <a href="https://icaps27.icaps-conference.org" target="_blank">ICAPS 2027</a>'
+        - 'Area Chair, <a href="https://neurips.cc/Conferences/2026" target="_blank">NeurIPS 2026</a>'
         - 'Workflow Chair, <a href="https://icaps26.icaps-conference.org" target="_blank">ICAPS 2026</a>'
         - 'Area Chair, <a href="https://humanrobotinteraction.org/2026/late-breaking-reports/" target="_blank">HRI 2026 Late Breaking Reports</a>'
     - title: Journals
@@ -140,12 +133,14 @@
         - '<a href="https://jair.org" target="_blank">Journal of Artificial Intelligence Research (JAIR)</a>.'
         - '<a href="https://www.ieee-ras.org/publications/ra-l" target="_blank">IEEE Robotics and Automation Letters (RA-L)</a>.'
         - '<a href="https://link.springer.com/journal/521" target="_blank">Neural Computing and Applications (NCAA)</a>.'
+        - '<a href="https://www.ieee-ras.org/publications/t-ase" target="_blank">IEEE Transactions on Automation Science and Engineering (T-ASE)</a>.'
     - year: PC Member
       title: Conferences
       description:
-        - 'AAAI: <a href="https://aaai.org/conference/aaai/aaai-23/" target="_blank">2023</a>, <a href="https://aaai.org/aaai-24-conference/" target="_blank">2024</a>, <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">2025</a>, <a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank">2026</a>.'
+        - 'AAAI: <a href="https://aaai.org/conference/aaai/aaai-23/" target="_blank">2023</a>, <a href="https://aaai.org/aaai-24-conference/" target="_blank">2024</a>, <a href="https://aaai.org/conference/aaai/aaai-25/" target="_blank">2025</a>, <a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank">2026</a>, <a href="https://aaai.org/conference/aaai/aaai-27/" target="_blank">2027</a>.'
         - 'ICLR: <a href="https://iclr.cc/Conferences/2024" target="_blank">2024</a>, <a href="https://iclr.cc/Conferences/2025" target="_blank">2025</a>, <a href="https://iclr.cc/Conferences/2026" target="_blank">2026</a>.'
-        - 'NeurIPS: <a href="https://neurips.cc/Conferences/2023" target="_blank">2023</a>, <a href="https://neurips.cc/Conferences/2024" target="_blank">2024</a>, <a href="https://neurips.cc/Conferences/2025" target="_blank">2025</a>, <a href="https://neurips.cc/Conferences/2026" target="_blank">2026</a>.'
+        - 'NeurIPS: <a href="https://neurips.cc/Conferences/2023" target="_blank">2023</a>, <a href="https://neurips.cc/Conferences/2024" target="_blank">2024</a>, <a href="https://neurips.cc/Conferences/2025" target="_blank">2025</a>.'
+        - 'ARR: <a href="https://aclrollingreview.org/" target="_blank">May 2026</a>.'
         - 'AAMAS: <a href="https://aamas2023.soton.ac.uk/" target="_blank">2023</a>, <a href="https://www.aamas2024-conference.auckland.ac.nz/" target="_blank">2024</a>, <a href="https://aamas2025.org" target="_blank">2025</a>.'
         - 'ICAPS: <a href="http://icaps24.icaps-conference.org/" target="_blank">2024</a>, <a href="http://icaps25.icaps-conference.org/" target="_blank">2025</a>.'
         - 'IJCAI: <a href="https://ijcai-23.org/" target="_blank">2023</a>, <a href="https://ijcai24.org/" target="_blank">2024</a>.'
@@ -160,6 +155,9 @@
     - year: PC Member
       title: Workshops
       description:
+        - '<a href="https://llmforplanning.github.io/ICML26/" target="_blank">ICML 2026 Workshop on Planning in the Era of LLMs (LM4Plan 2026)</a>.'
+        - '<a href="https://haxp.org" target="_blank">ICAPS 2026 Workshop on Human-Aware and Explainable Planning (HAXP 2026)</a>.'
+        - '<a href="https://llmforplanning.github.io/ICAPS26/" target="_blank">ICAPS 2026 Workshop on Planning in the Era of LLMs (LM4Plan 2026)</a>.'
         - '<a href="https://icaps26.icaps-conference.org/program/workshops/planrob/" target="_blank">ICAPS 2026 Workshop on Planning and Robotics (PlanRob 2026)</a>.'
         - '<a href="https://wsdm26.causalbench.org/" target="_blank">WSDM 2026 Workshop on Benchmarking Causal Models (CausalBench 2026)</a>.'
         - '<a href="https://leap-workshop.github.io" target="_blank">CoRL 2025 Workshop on Learning Effective Abstractions for Planning (LEAP 2025)</a>.'
