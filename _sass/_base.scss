@@ -1306,3 +1306,45 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+.media-coverage {
+  .media-card {
+    color: var(--global-text-color);
+
+    .media-card-img {
+      height: 180px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .media-badge {
+      background-color: var(--global-theme-color);
+      color: white;
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+    }
+
+    .card-title {
+      color: var(--global-text-color);
+    }
+
+    .media-card-text {
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+
+    .media-card-meta {
+      color: var(--global-text-color-light);
+      font-size: 0.8rem;
+    }
+
+    &:hover .card-title {
+      color: var(--global-theme-color);
+    }
+  }
+}

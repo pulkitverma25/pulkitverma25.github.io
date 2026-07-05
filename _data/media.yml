@@ -1,0 +1,75 @@
+# Media coverage: press, interviews, videos, etc.
+# type: press | video | short | linkedin
+- title: "Emerging AI Technologies for a Sustainable Future: Prospects and Challenges"
+  type: linkedin
+  source: Department of HSS, IIT Tirupati
+  date: 2026-04-10
+  url: https://www.linkedin.com/posts/department-of-hss-iit-tirupati_iittirupati-wriindia-sustainability-activity-7448298861305012225-JPla/
+  image: https://media.licdn.com/dms/image/v2/D5622AQHZWcPBGX8FKA/feedshare-shrink_800/B56Z12sV27IoAc-/0/1775812829042?e=2147483647&v=beta&t=rfJr2iVxT8s4J1R6d2r-YQ-TGfoEpzllyTTVFHKgNaM
+  description: >
+    Agenda announcement for a one-day hybrid workshop with WRI India on AI's role
+    in sustainability, featuring Pulkit Verma as a panelist on the impact of AI on
+    the Indian economy and environmental sustainability.
+
+- title: "AI Safety Connect Day: Losing Control of Advanced AI Systems?"
+  type: linkedin
+  source: AI Safety Connect (AISC)
+  date: 2026-03-10
+  url: https://www.linkedin.com/posts/activity-7437114002817593344-gnqm/
+  image: https://media.licdn.com/dms/image/v2/D4D22AQETzkj1lT36yw/feedshare-shrink_800/B4DZzXvxi3G0Ac-/0/1773146151650?e=2147483647&v=beta&t=XjGYbyJuafxEcXGlJuWnhxNIyxlx2iCTt2mEWKiAYGc
+  description: >
+    Recap of an AI Safety Connect Day panel in New Delhi on whether we will lose
+    control of advanced AI systems, featuring Pulkit Verma alongside Stuart Russell,
+    Sarah M. Erfani, Kee-Eung Kim, and Adam Gleave.
+
+- title: "Teaching Robots to Handle Tomatoes (....and more!)"
+  type: short
+  source: MIT CSAIL Alliances
+  date: 2026-01-27
+  url: https://www.youtube.com/shorts/FaqvaRF2PJ4
+  image: https://i.ytimg.com/vi/FaqvaRF2PJ4/hq2.jpg
+  description: >
+    A short video from MIT CSAIL Alliances featuring robot manipulation research.
+
+- title: "How to teach AI models to plan?"
+  type: press
+  source: PRESS Insider
+  date: 2025-09-25
+  url: https://pressinsider.com/technology/how-to-teach-ai-models-to-plan/
+  image: https://pressinsider.com/wp-content/uploads/2025/07/AI-Sarcasm.jpg
+  description: >
+    MIT researchers demonstrate that large language models can improve planning
+    accuracy by writing out each step explicitly and correcting errors flagged by
+    automated verification systems.
+
+- title: "Interview with Pulkit Verma: Towards safe and reliable behavior of AI agents"
+  type: press
+  source: AIhub
+  date: 2024-10-24
+  url: https://aihub.org/2024/10/24/interview-with-pulkit-verma-towards-safe-and-reliable-behavior-of-ai-agents/
+  image: https://aihub.org/wp-content/uploads/2024/10/pulkitfeature.jpg
+  description: >
+    A doctoral researcher discusses his work on enabling third-party assessment
+    of black-box AI systems and personalizing explanations of AI behavior to
+    enhance user understanding and trust.
+
+- title: "New AI symposium helmed by Siddharth Srivastava connects experts and industry"
+  type: press
+  source: ASU SCAI News
+  date: 2024-04-02
+  url: https://scai.engineering.asu.edu/news/new-ai-symposium-helmed-by-siddharth-srivastava-connects-experts-and-industry/
+  image: https://scai.engineering.asu.edu/wp-content/uploads/sites/31/2024/04/aaai_stanford_symposium1-1080x675.jpg
+  description: >
+    ASU's School of Computing and Augmented Intelligence co-organized a Stanford
+    symposium focused on safety assessment of adaptive AI systems that learn and
+    adapt to diverse users.
+
+- title: "Robot coworkers: How AI impacts the future of work"
+  type: press
+  source: ASU News
+  date: 2019-11-07
+  url: https://news.engineering.asu.edu/2019/11/robot-coworkers-how-ai-impacts-the-future-of-work/
+  image: https://news.engineering.asu.edu/wp-content/uploads/2019/11/Siddharth-Srivastava-Robot-Lab-2019-EG-7431w.jpg
+  description: >
+    Researchers at ASU are developing AI-equipped autonomous robots with built-in
+    tutoring systems to help factory workers adapt to automation.
