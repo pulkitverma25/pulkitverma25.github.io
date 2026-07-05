@@ -1,46 +1,25 @@
 <div class="media-coverage">
   {% if site.data.media != blank %}
-    {% assign media_items = site.data.media | sort: "date" | reverse %}
-    <div class="row">
-      {% for item in media_items %}
-        <div class="col-sm-6 col-lg-4 mb-4 d-flex align-items-stretch">
-          <a
-            href="{{ item.url }}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="w-100 text-decoration-none"
-          >
-            <div class="card h-100 hoverable media-card">
-              {% if item.image %}
-                <img class="card-img-top media-card-img" src="{{ item.image }}" alt="{{ item.title }}" loading="lazy" />
-              {% endif %}
-              <div class="card-body d-flex flex-column">
-                <div class="mb-2">
-                  {% case item.type %}
-                    {% when "video" %}
-                      <span class="badge media-badge"><i class="fa-brands fa-youtube"></i>&nbsp; YouTube Video</span>
-                    {% when "short" %}
-                      <span class="badge media-badge"><i class="fa-brands fa-youtube"></i>&nbsp; YouTube Short</span>
-                    {% when "linkedin" %}
-                      <span class="badge media-badge"><i class="fa-brands fa-linkedin"></i>&nbsp; LinkedIn Post</span>
-                    {% else %}
-                      <span class="badge media-badge"><i class="fa-solid fa-newspaper"></i>&nbsp; Press</span>
-                  {% endcase %}
-                </div>
-                <h2 class="card-title h5">{{ item.title }}</h2>
-                {% if item.description %}
-                  <p class="card-text media-card-text">{{ item.description }}</p>
-                {% endif %}
-                <div class="mt-auto pt-2 media-card-meta">
-                  {% if item.source %}{{ item.source }}{% endif %}
-                  {% if item.date %}&nbsp;&middot;&nbsp;{{ item.date | date: "%b %-d, %Y" }}{% endif %}
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      {% endfor %}
-    </div>
+    {% assign all_items = site.data.media | sort: "date" | reverse %}
+    {% assign talk_items = all_items | where: "type", "video" %}
+    {% assign coverage_items = all_items | where_exp: "item", "item.type != 'video'" %}
+
+    {% if coverage_items != blank %}
+      <div class="row">
+        {% for item in coverage_items %}
+          {% include media_card.liquid item=item %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if talk_items != blank %}
+      <h3 class="mt-3 mb-3">Talks</h3>
+      <div class="row">
+        {% for item in talk_items %}
+          {% include media_card.liquid item=item %}
+        {% endfor %}
+      </div>
+    {% endif %}
   {% else %}
     <p>No media coverage yet...</p>
   {% endif %}

@@ -84,3 +84,104 @@
   description: >
     Researchers at ASU are developing AI-equipped autonomous robots with built-in
     tutoring systems to help factory workers adapt to automation.
+
+- title: "Teaching LLMs to Plan: From Instruction Tuning to Collaborative Constraint Translation"
+  type: video
+  source: Invited Talk
+  date: 2026-02-07
+  url: https://www.youtube.com/watch?v=OzZ5JdN4SKg
+  image: https://i.ytimg.com/vi/OzZ5JdN4SKg/hqdefault.jpg
+  description: >
+    Invited talk covering PDDL-Instruct's logical chain-of-thought instruction
+    tuning for symbolic planning, and a collaborative framework for translating
+    natural language constraints into formal planning constraints using LLMs.
+
+- title: "AAAI 2025 Tutorial on User-Driven Capability Assessment of Taskable AI Systems"
+  type: video
+  source: AAAI 2025
+  date: 2025-03-14
+  url: https://www.youtube.com/watch?v=d0VKTR5sKCo
+  image: https://i.ytimg.com/vi/d0VKTR5sKCo/hqdefault.jpg
+  description: >
+    Recorded tutorial on methods for enabling users to assess and understand the
+    capabilities and limits of taskable AI systems.
+
+- title: "Epistemic Exploration for Generalizable Planning and Learning in Non-Stationary Settings"
+  type: video
+  source: ICAPS 2024
+  date: 2024-06-13
+  url: https://www.youtube.com/watch?v=6bWpejjPNrM
+  image: https://i.ytimg.com/vi/6bWpejjPNrM/hqdefault.jpg
+  description: >
+    Talk on an interactive approach for discovering a black-box sequential
+    decision-making agent's capabilities in stochastic, non-stationary settings.
+
+- title: "Autonomous Capability Assessment of Black-Box Sequential Decision-Making Systems"
+  type: video
+  source: ICAPS 2023 Workshop on Knowledge Engineering for Planning and Scheduling (KEPS)
+  date: 2023-07-08
+  url: https://www.youtube.com/watch?v=v02Tkv9TO3M
+  image: https://i.ytimg.com/vi/v02Tkv9TO3M/hqdefault.jpg
+  description: >
+    Talk on an active-learning approach for modeling the capabilities of black-box
+    AI systems that can plan and act in stochastic settings.
+
+- title: "Discovering User-Interpretable Capabilities of Black-Box Planning Agents"
+  type: video
+  source: KR 2022
+  date: 2022-07-31
+  url: https://www.youtube.com/watch?v=OLxlB3pcjH0
+  image: https://i.ytimg.com/vi/OLxlB3pcjH0/hqdefault.jpg
+  description: >
+    Talk on an algorithm for discovering the high-level, user-interpretable
+    capabilities of an AI system with arbitrary internal planning algorithms.
+
+- title: "JEDAI: A System for Skill-Aligned Explainable Robot Planning"
+  type: video
+  source: ICAPS 2022 Workshop on Explainable AI Planning (XAIP)
+  date: 2022-06-13
+  url: https://www.youtube.com/watch?v=F_oSMuPlmcw
+  image: https://i.ytimg.com/vi/F_oSMuPlmcw/hqdefault.jpg
+  description: >
+    Talk on JEDAI, a system that helps non-experts create high-level, intuitive
+    robot plans while ensuring they are executable, with explanations of errors.
+
+- title: "Differential Assessment of Black-Box AI Agents"
+  type: video
+  source: AAAI 2022 Workshop on Artificial Intelligence Safety (SafeAI)
+  date: 2022-06-20
+  url: https://www.youtube.com/watch?v=ICQ6AE_v5xU
+  image: https://i.ytimg.com/vi/ICQ6AE_v5xU/hqdefault.jpg
+  description: >
+    Talk on an approach for differentially assessing black-box AI agents that
+    have drifted from their previously known models.
+
+- title: "JEDAI: A System for Skill-Aligned Explainable Robot Planning (Demo)"
+  type: video
+  source: AAMAS 2022 (Best Demo Award)
+  date: 2022-03-09
+  url: https://www.youtube.com/watch?v=MQdoikcnhbY
+  image: https://i.ytimg.com/vi/MQdoikcnhbY/hqdefault.jpg
+  description: >
+    Demo video of JEDAI, winner of the Best Demo Award at AAMAS 2022, showing
+    skill-aligned explainable robot task and motion planning.
+
+- title: "Asking the Right Questions: Active Action-Model Learning"
+  type: video
+  source: AAAI 2021 Workshop on Explainable Agency in Artificial Intelligence
+  date: 2021-02-02
+  url: https://www.youtube.com/watch?v=oyf-He8uKRU
+  image: https://i.ytimg.com/vi/oyf-He8uKRU/hqdefault.jpg
+  description: >
+    Talk on a query-based approach for estimating an interpretable, relational
+    model of a black-box autonomous agent that can plan and act.
+
+- title: "Learning User-Interpretable Descriptions of Black-Box AI System Capabilities"
+  type: video
+  source: ICAPS 2021 Workshop on Knowledge Engineering for Planning and Scheduling (KEPS)
+  date: 2021-08-06
+  url: https://www.youtube.com/watch?v=iqYCjjM83EI
+  image: https://i.ytimg.com/vi/iqYCjjM83EI/hqdefault.jpg
+  description: >
+    Talk on discovering high-level, user-interpretable capabilities of black-box
+    planning agents from scratch.
