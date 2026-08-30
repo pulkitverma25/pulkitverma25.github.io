@@ -7,6 +7,6 @@ pdp: 1
 abstractdeadline: May 04, 2026
 adp: 1
 dates: Dec 06 - Dec 12, 2026
-website: https://openreview.net/group?id=NeurIPS.cc/2026/Conference
+website: https://neurips.cc/Conferences/2026
 num: 50
 ---
