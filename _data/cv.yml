@@ -132,6 +132,7 @@
       description:
         - '<a href="https://jair.org" target="_blank">Journal of Artificial Intelligence Research (JAIR)</a>.'
         - '<a href="https://www.ieee-ras.org/publications/ra-l" target="_blank">IEEE Robotics and Automation Letters (RA-L)</a>.'
+        - '<a href="https://www.sciencedirect.com/journal/artificial-intelligence" target="_blank">Artificial Intelligence (AI)</a>.'
         - '<a href="https://link.springer.com/journal/521" target="_blank">Neural Computing and Applications (NCAA)</a>.'
         - '<a href="https://www.ieee-ras.org/publications/t-ase" target="_blank">IEEE Transactions on Automation Science and Engineering (T-ASE)</a>.'
     - year: PC Member
@@ -155,6 +156,8 @@
     - year: PC Member
       title: Workshops
       description:
+        - '<a href="https://sim2realgap.github.io/sim2real-and-control-workshop-iros2026/" target="_blank">IROS 2026 Workshop on Sim2Real and Classical Control (Sim2Real 2026)</a>.'
+        - '<a href="https://leap-workshop.github.io/" target="_blank">CoRL 2026 Workshop on Learning Effective Abstractions for Planning (LEAP 2026)</a>.'
         - '<a href="https://llmforplanning.github.io/ICML26/" target="_blank">ICML 2026 Workshop on Planning in the Era of LLMs (LM4Plan 2026)</a>.'
         - '<a href="https://haxp.org" target="_blank">ICAPS 2026 Workshop on Human-Aware and Explainable Planning (HAXP 2026)</a>.'
         - '<a href="https://llmforplanning.github.io/ICAPS26/" target="_blank">ICAPS 2026 Workshop on Planning in the Era of LLMs (LM4Plan 2026)</a>.'
