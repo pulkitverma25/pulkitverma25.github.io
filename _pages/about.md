@@ -6,7 +6,7 @@ subtitle: Assistant Professor, <a href="https://www.cse.iitm.ac.in" target="_bla
 
 profile:
   align: right
-  image: pulkit_verma.jpg
+  image: pulkit_verma_portrait.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>SSB 304, Dept. of CSE,</p>
