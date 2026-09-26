@@ -1,0 +1,340 @@
+/*****************************
+ * Talks list
+ *****************************/
+
+.talks-list {
+  margin-top: 0.5rem;
+}
+
+.talk-card {
+  border: 1px solid var(--global-divider-color);
+}
+
+.talk-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  margin-bottom: 0.9rem;
+}
+
+.talk-card-icon {
+  flex: 0 0 auto;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  background: var(--global-divider-color);
+  color: var(--global-theme-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.talk-card-heading {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.talk-card-title {
+  margin-bottom: 0.2rem;
+  line-height: 1.35;
+}
+
+.talk-card-meta {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+}
+
+.talk-venue-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.talk-venue-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 0.87rem;
+
+  &:first-child {
+    border-top: none;
+  }
+}
+
+.talk-venue-item-extra {
+  display: none;
+}
+
+.talk-card.is-expanded .talk-venue-item-extra {
+  display: flex;
+}
+
+.talk-venue-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--global-text-color);
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+  }
+}
+
+.talk-venue-icon {
+  font-size: 0.65rem;
+  margin-left: 0.25rem;
+  color: var(--global-text-color-light);
+  vertical-align: super;
+}
+
+// Fixed-width slot so the date column lines up whether a row has
+// zero, one, or two action buttons.
+.talk-venue-actions {
+  flex: 0 0 auto;
+  width: 190px;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+}
+
+.talk-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--global-text-color-light) !important;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+
+  i {
+    font-size: 0.8rem;
+  }
+
+  &:hover {
+    color: var(--global-hover-text-color) !important;
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+}
+
+.talk-venue-date {
+  flex: 0 0 108px;
+  min-width: 0;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+  font-size: 0.82rem;
+  text-align: right;
+}
+
+.talk-show-more {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0.6rem auto 0;
+  padding: 0.2rem 0.6rem;
+  border: none;
+  background: transparent;
+  color: var(--global-theme-color);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+
+  i {
+    font-size: 0.8rem;
+    transition: transform 0.2s ease;
+  }
+
+  .talk-show-less-label {
+    display: none;
+  }
+}
+
+.talk-card.is-expanded .talk-show-more {
+  .talk-show-more-label:not(.talk-show-less-label) {
+    display: none;
+  }
+
+  .talk-show-less-label {
+    display: inline;
+  }
+
+  i {
+    transform: rotate(180deg);
+  }
+}
+
+@media (max-width: 576px) {
+  .talk-card-header {
+    flex-wrap: wrap;
+  }
+
+  .talk-venue-item {
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+  }
+
+  .talk-venue-name {
+    flex-basis: 100%;
+  }
+
+  .talk-venue-actions {
+    width: auto;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+  }
+
+  .talk-venue-date {
+    flex: 0 0 auto;
+    text-align: left;
+  }
+}
+
+/*****************************
+ * Talks PDF modal viewer
+ *****************************/
+
+.talks-pdf-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1.25rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+}
+
+.talks-pdf-overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.talks-pdf-modal {
+  background: var(--global-bg-color);
+  border-radius: 0.25rem;
+  width: min(1100px, 100%);
+  height: 100%;
+  max-height: 850px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  transform: translateY(12px) scale(0.98);
+  transition: transform 0.2s ease;
+}
+
+.talks-pdf-overlay.is-open .talks-pdf-modal {
+  transform: translateY(0) scale(1);
+}
+
+.talks-pdf-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  flex: 0 0 auto;
+}
+
+.talks-pdf-eyebrow {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+  margin-bottom: 0.35rem;
+}
+
+.talks-pdf-title {
+  color: var(--global-text-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.talks-pdf-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 0 0 auto;
+}
+
+.talks-pdf-open-tab {
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  text-decoration: none;
+  font-weight: 500;
+  white-space: nowrap;
+
+  &:hover {
+    color: var(--global-theme-color);
+  }
+}
+
+.talks-pdf-close {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background: var(--global-divider-color);
+  color: var(--global-text-color);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  flex: 0 0 auto;
+
+  &:hover {
+    background: var(--global-theme-color);
+    color: var(--global-hover-text-color);
+  }
+}
+
+.talks-pdf-body {
+  flex: 1 1 auto;
+  background: #525659;
+}
+
+.talks-pdf-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .talks-pdf-overlay {
+    padding: 0;
+  }
+
+  .talks-pdf-modal {
+    border-radius: 0;
+    max-height: none;
+  }
+
+  .talks-pdf-title {
+    font-size: 1rem;
+  }
+}

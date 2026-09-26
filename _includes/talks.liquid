@@ -1,0 +1,168 @@
+<div class="talks-list">
+  {% assign talk_groups = site.data.talks | group_by: "title" %}
+  {% for group in talk_groups %}
+    {% assign talk_count = group.items.size %}
+    {% assign visible_items = group.items | slice: 0, 5 %}
+    {% assign extra_items = group.items | slice: 5, 100 %}
+    {% assign newest_talk = group.items[0] %}
+    {% assign oldest_talk = group.items | last %}
+
+    <div class="card hoverable talk-card mb-4">
+      <div class="card-body">
+        <div class="talk-card-header">
+          <div class="talk-card-icon"><i class="ti ti-presentation"></i></div>
+          <div class="talk-card-heading">
+            <h2 class="card-title h5 talk-card-title">{{ group.name }}</h2>
+            {% if talk_count > 1 %}
+              <div class="talk-card-meta">{{ talk_count }} talks &middot; {{ oldest_talk.date }} &ndash; {{ newest_talk.date }}</div>
+            {% endif %}
+          </div>
+        </div>
+
+        <ul class="talk-venue-list">
+          {% for talk in visible_items %}
+            <li class="talk-venue-item">
+              <span class="talk-venue-name">
+                {% if talk.venue_url %}
+                  <a href="{{ talk.venue_url }}" target="_blank" rel="noopener noreferrer"
+                    >{{ talk.venue }}<i class="ti ti-external-link talk-venue-icon"></i
+                  ></a>
+                {% else %}
+                  {{ talk.venue }}
+                {% endif %}
+              </span>
+              <span class="talk-venue-actions">
+                {% if talk.slides %}
+                  <a
+                    href="{{ talk.slides | prepend: '/assets/pdf/' | relative_url }}"
+                    class="talk-action-btn talks-pdf-trigger"
+                    data-talk-title="{{ group.name }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Slides"
+                    ><i class="ti ti-file-text"></i>&nbsp;Slides</a
+                  >
+                {% endif %}
+                {% if talk.video %}
+                  <a href="{{ talk.video }}" class="talk-action-btn" target="_blank" rel="noopener noreferrer" title="Video"
+                    ><i class="ti ti-player-play"></i>&nbsp;Video</a
+                  >
+                {% endif %}
+              </span>
+              <span class="talk-venue-date">{{ talk.date }}</span>
+            </li>
+          {% endfor %}
+          {% if extra_items.size > 0 %}
+            {% for talk in extra_items %}
+              <li class="talk-venue-item talk-venue-item-extra">
+                <span class="talk-venue-name">
+                  {% if talk.venue_url %}
+                    <a href="{{ talk.venue_url }}" target="_blank" rel="noopener noreferrer"
+                      >{{ talk.venue }}<i class="ti ti-external-link talk-venue-icon"></i
+                    ></a>
+                  {% else %}
+                    {{ talk.venue }}
+                  {% endif %}
+                </span>
+                <span class="talk-venue-actions">
+                  {% if talk.slides %}
+                    <a
+                      href="{{ talk.slides | prepend: '/assets/pdf/' | relative_url }}"
+                      class="talk-action-btn talks-pdf-trigger"
+                      data-talk-title="{{ group.name }}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Slides"
+                      ><i class="ti ti-file-text"></i>&nbsp;Slides</a
+                    >
+                  {% endif %}
+                  {% if talk.video %}
+                    <a href="{{ talk.video }}" class="talk-action-btn" target="_blank" rel="noopener noreferrer" title="Video"
+                      ><i class="ti ti-player-play"></i>&nbsp;Video</a
+                    >
+                  {% endif %}
+                </span>
+                <span class="talk-venue-date">{{ talk.date }}</span>
+              </li>
+            {% endfor %}
+          {% endif %}
+        </ul>
+
+        {% if extra_items.size > 0 %}
+          <button type="button" class="talk-show-more">
+            <span class="talk-show-more-label">Show {{ extra_items.size }} more</span>
+            <span class="talk-show-more-label talk-show-less-label">Show less</span>
+            <i class="ti ti-chevron-down"></i>
+          </button>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- Lightweight in-page modal viewer for talk slide PDFs. -->
+<div class="talks-pdf-overlay" id="talks-pdf-overlay" role="dialog" aria-modal="true">
+  <div class="talks-pdf-modal">
+    <div class="talks-pdf-header">
+      <div>
+        <span class="talks-pdf-eyebrow">Slides</span>
+        <h2 class="talks-pdf-title" id="talks-pdf-title"></h2>
+      </div>
+      <div class="talks-pdf-actions">
+        <a class="talks-pdf-open-tab" id="talks-pdf-open-tab" target="_blank" rel="noopener noreferrer">Open in new tab &#8599;</a>
+        <button type="button" class="talks-pdf-close" id="talks-pdf-close" aria-label="Close">&times;</button>
+      </div>
+    </div>
+    <div class="talks-pdf-body">
+      <iframe class="talks-pdf-frame" id="talks-pdf-frame" title="Talk slides preview"></iframe>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var overlay = document.getElementById('talks-pdf-overlay');
+    var frame = document.getElementById('talks-pdf-frame');
+    var titleEl = document.getElementById('talks-pdf-title');
+    var openTabLink = document.getElementById('talks-pdf-open-tab');
+    var closeBtn = document.getElementById('talks-pdf-close');
+    var lastFocused;
+
+    function openModal(href, title) {
+      lastFocused = document.activeElement;
+      titleEl.textContent = title || 'Slides';
+      openTabLink.href = href;
+      frame.src = href;
+      overlay.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+      closeBtn.focus();
+    }
+
+    function closeModal() {
+      overlay.classList.remove('is-open');
+      document.body.style.overflow = '';
+      frame.src = '';
+      if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
+    }
+
+    closeBtn.addEventListener('click', closeModal);
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) closeModal();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && overlay.classList.contains('is-open')) closeModal();
+    });
+    document.addEventListener('click', function (e) {
+      var trigger = e.target.closest('.talks-pdf-trigger');
+      if (trigger) {
+        e.preventDefault();
+        openModal(trigger.getAttribute('href'), trigger.getAttribute('data-talk-title'));
+        return;
+      }
+      var showMore = e.target.closest('.talk-show-more');
+      if (showMore) {
+        showMore.closest('.talk-card').classList.toggle('is-expanded');
+      }
+    });
+  })();
+</script>

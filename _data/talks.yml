@@ -1,0 +1,154 @@
+# Invited/contributed talks, listed most recent first.
+# Talks with the same `title` are grouped together on the Talks page, in the
+# order they appear below.
+# Optional fields:
+#   venue_url - link the venue name to its website/seminar page
+#   slides    - path to a local PDF under assets/pdf/ (e.g. talks/My_Talk.pdf)
+#   video     - link to a recording of the talk
+
+- title: "Beyond the Lab: User-Aligned Assessment of Taskable AI Systems"
+  venue: "Indian Statistical Institute (ISI), Kolkata"
+  venue_url: https://www.isical.ac.in/index
+  date: "September 2026"
+  slides: talks/ISIK_Talk_2026.pdf
+
+- title: "Beyond the Lab: User-Aligned Assessment of Taskable AI Systems"
+  venue: "Workshop on AI Interpretability and Safety, IISc Bengaluru"
+  venue_url: https://agyeya.com/#fall-2026
+  date: "September 2026"
+  slides: talks/IISc_Workshop_Talk_2026.pdf
+
+- title: "Beyond the Lab: User-Aligned Assessment of Taskable AI Systems"
+  venue: "SAFL AI Futures Dialogue"
+  venue_url: https://secureaifutureslab.com/
+  date: "August 2026"
+  slides: talks/SAFL_AI_Dialogue_Talk_2026.pdf
+
+- title: "Beyond the Lab: User-Aligned Assessment of Taskable AI Systems"
+  venue: "CeRAI Faculty Seminar Series Talk"
+  venue_url: https://cerai.iitm.ac.in/
+  date: "July 2026"
+  slides: talks/CeRAI_Faculty_Seminar_Talk_2026.pdf
+
+- title: "When Robots Come Home: Who Models Safety in Personal Robotics?"
+  venue: "Dagstuhl Seminar on User-Aligned Assessment of AI Systems"
+  venue_url: https://www.dagstuhl.de/26051
+  date: "Jan 2026"
+  slides: talks/Dagstuhl_AIA_Talk.pdf
+
+- title: "Teaching LLMs to Plan: From CoT Instruction Tuning to Collaborative Constraint Translation"
+  venue: "AAAI 2026 PLAN-FM Bridge"
+  venue_url: https://plan-fm.github.io/2026/
+  date: "Jan 2026"
+  slides: talks/PLAN-FM26_Slides.pdf
+  video: https://www.youtube.com/watch?v=OzZ5JdN4SKg
+
+- title: "Teaching LLMs to Plan: From CoT Instruction Tuning to Collaborative Constraint Translation"
+  venue: "JP Morgan AI Research Seminar Talk"
+  date: "Nov 2025"
+
+- title: "Teaching LLMs to Plan: From CoT Instruction Tuning to Collaborative Constraint Translation"
+  venue: "AI for Reasoning Reading Group, Vector Institute, University of Toronto"
+  date: "Nov 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Department of Computer Science and Engineering, IIT Tirupati"
+  venue_url: https://cse.iittp.ac.in/
+  date: "April 2026"
+  slides: talks/IITTirupati_Talk_2026.pdf
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Stanford Intelligent Systems Laboratory, Stanford University"
+  venue_url: https://sisl.stanford.edu
+  date: "June 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Department of Computer Science and Engineering, IIT Roorkee"
+  venue_url: https://iitr.ac.in/Departments/Computer%20Science%20and%20Engineering%20Department/index.html
+  date: "April 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Department of Computer Science and Engineering, IIT Kharagpur"
+  venue_url: https://cse.iitkgp.ac.in
+  date: "April 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Department of CSE and Yardi School of AI, IIT Delhi"
+  venue_url: https://www.cse.iitd.ernet.in
+  date: "March 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Department of Computer Science and Engineering, IIT Bombay"
+  venue_url: https://www.cse.iitb.ac.in
+  date: "March 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Department of Artificial Intelligence, IIT Kharagpur"
+  venue_url: https://www.iitkgp.ac.in/department/AI
+  date: "March 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Wadhwani School of Data Science and AI, IIT Madras"
+  venue_url: https://dsai.iitm.ac.in
+  date: "February 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Department of Computer Science and Engineering, IIT Jodhpur"
+  venue_url: https://cse.iitj.ac.in
+  date: "January 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Department of Computer Science and Engineering, IIT Madras"
+  venue_url: https://www.cse.iitm.ac.in
+  date: "January 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Mehta Family School of Data Science and AI, IIT Palakkad"
+  venue_url: https://mfsdsai.iitpkd.ac.in
+  date: "January 2025"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Mehta Family School of Data Science and AI, IIT Roorkee"
+  venue_url: https://www.iitr.ac.in/mfsdsai/
+  date: "December 2024"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "School of AI and Data Engineering, IIT Ropar"
+  venue_url: https://www.iitrpr.ac.in/saide/
+  date: "October 2024"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Brown Robotics Talks, BigAI, Brown University"
+  venue_url: https://h2r.github.io/brown-lab-talks/
+  date: "October 2024"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Department of Computer Science and Engineering, IIT Guwahati"
+  venue_url: https://www.iitg.ac.in/cse/
+  date: "August 2024"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "Interactive Robotics Group, Massachusetts Institute of Technology"
+  venue_url: https://interactive.mit.edu/
+  date: "May 2024"
+
+- title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
+  venue: "ICAROS Lab, University of Southern California"
+  venue_url: https://icaros.usc.edu/
+  date: "May 2024"
+
+- title: "Data-Efficient Paradigms for Personalized Assessment of Taskable AI Systems"
+  venue: "CHAI Hands-On, University of California Berkeley"
+  venue_url: https://humancompatible.ai/
+  date: "April 2024"
+
+- title: "Data-Efficient Paradigms for Personalized Assessment of Taskable AI Systems"
+  venue: "Intelligent Robot Learning Lab, University of Alberta"
+  venue_url: https://irll.ca/
+  date: "February 2024"
+
+- title: "Discovering User-Interpretable Capabilities of Black-Box AI Agents"
+  venue: "CHAI - 6th Annual Workshop"
+  venue_url: https://humancompatible.ai/news/2022/06/08/sixth-annual-chai-workshop/
+  date: "June 2022"
+  slides: Pulkit_CHAI22_Talk.pdf

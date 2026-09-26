@@ -3,7 +3,7 @@ layout: page
 title: Resources
 nav: resources
 permalink: /resources/
-nav_order: 5
+nav_order: 6
 description: Some links for personal book-keeping
 ---
 
