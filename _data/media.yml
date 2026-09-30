@@ -1,5 +1,28 @@
 # Media coverage: press, interviews, videos, etc.
 # type: press | video | short | linkedin
+- title: "Reflecting on the Workshop"
+  type: linkedin
+  source: Agyeya Research
+  date: 2026-09-20
+  url: https://www.linkedin.com/pulse/reflecting-workshop-agyeya-research-sffyc/
+  image: https://media.licdn.com/dms/image/v2/D5612AQFPNiwQ9dypiQ/article-cover_image-shrink_720_1280/B56aCvebP_KkAU-/0/1789650387439?e=2147483647&v=beta&t=bV2-FxKsI8mxCmFQ1oV2AtHByUujveUaOF7t6KuAjto
+  description: >
+    Recap of the two-day AI Interpretability & Safety Workshop at IISc Bengaluru,
+    organized by Agyeya Research, bringing together 60+ students and researchers
+    with practitioners from Google DeepMind, Microsoft, and IBM; Pulkit Verma
+    presented "Beyond the Lab: User-Aligned Assessment of Taskable AI Systems."
+
+- title: "AI Futures Dialogue #1: Beyond the Lab"
+  type: linkedin
+  source: Secure AI Futures Lab
+  date: 2026-08-19
+  url: https://www.linkedin.com/feed/update/urn:li:activity:7495934070414159872/
+  image: /assets/img/media/safl_afd1_2026.png
+  description: >
+    Announcement for the first AI Futures Dialogue session, part of the Technical
+    AI Governance Reading Group, featuring Pulkit Verma presenting "Beyond the Lab:
+    User-Aligned Assessment of Taskable AI Systems."
+
 - title: "Emerging AI Technologies for a Sustainable Future: Prospects and Challenges"
   type: linkedin
   source: Department of HSS, IIT Tirupati
@@ -84,17 +107,6 @@
   description: >
     Researchers at ASU are developing AI-equipped autonomous robots with built-in
     tutoring systems to help factory workers adapt to automation.
-
-- title: "Teaching LLMs to Plan: From Instruction Tuning to Collaborative Constraint Translation"
-  type: video
-  source: Invited Talk
-  date: 2026-02-07
-  url: https://www.youtube.com/watch?v=OzZ5JdN4SKg
-  image: https://i.ytimg.com/vi/OzZ5JdN4SKg/hqdefault.jpg
-  description: >
-    Invited talk covering PDDL-Instruct's logical chain-of-thought instruction
-    tuning for symbolic planning, and a collaborative framework for translating
-    natural language constraints into formal planning constraints using LLMs.
 
 - title: "AAAI 2025 Tutorial on User-Driven Capability Assessment of Taskable AI Systems"
   type: video
