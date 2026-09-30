@@ -1,0 +1,312 @@
+/*****************************
+ * Conference deadlines
+ *****************************/
+
+.conf-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.1rem;
+}
+
+.conf-search-wrap {
+  position: relative;
+  flex: 1 1 220px;
+  max-width: 320px;
+}
+
+.conf-search-wrap i {
+  position: absolute;
+  left: 0.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--global-text-color-light);
+  pointer-events: none;
+}
+
+#conf-search {
+  width: 100%;
+  padding: 0.45rem 0.7rem 0.45rem 2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  font-size: 0.9rem;
+}
+
+#conf-search:focus {
+  outline: none;
+  border-color: var(--global-theme-color);
+}
+
+.conf-tag-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.conf-tag-btn {
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-card-bg-color);
+  color: var(--global-text-color-light);
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem;
+  font-size: 0.78rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.conf-tag-btn:hover {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+}
+
+.conf-tag-btn.is-active {
+  background: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: var(--global-bg-color);
+}
+
+.conf-sort-wrap {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+#conf-sort {
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.8rem;
+}
+
+.conf-empty-state {
+  display: none;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: var(--global-text-color-light);
+}
+
+.conf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+
+.conf-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background: var(--global-card-bg-color);
+  padding: 1rem 1.1rem 0.9rem;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.conf-card.hoverable:hover {
+  border-color: var(--global-theme-color);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.conf-card.is-filtered-out {
+  display: none;
+}
+
+.conf-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.conf-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.conf-tag {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--global-theme-color);
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 0.12rem 0.4rem;
+}
+
+.conf-status-badge {
+  flex: 0 0 auto;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: 999px;
+  padding: 0.18rem 0.55rem;
+  white-space: nowrap;
+}
+
+.conf-status-badge.status-urgent {
+  background: rgba(255, 54, 54, 0.12);
+  color: $red-color;
+}
+
+.conf-status-badge.status-open {
+  background: rgba(0, 171, 55, 0.12);
+  color: $green-color;
+}
+
+.conf-status-badge.status-closed {
+  background: rgba(130, 130, 130, 0.15);
+  color: var(--global-text-color-light);
+}
+
+.conf-card-title {
+  font-size: 1.05rem;
+  margin: 0 0 0.15rem;
+}
+
+.conf-card-title a {
+  color: var(--global-text-color);
+}
+
+.conf-card-title a:hover {
+  color: var(--global-theme-color);
+}
+
+.conf-card-name {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  margin: 0 0 0.55rem;
+  line-height: 1.3;
+}
+
+.conf-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.7rem;
+}
+
+.conf-card-meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.conf-tracks {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 0.55rem;
+  margin-bottom: 0.6rem;
+}
+
+.conf-track + .conf-track {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--global-divider-color);
+}
+
+.conf-track-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+  margin-bottom: 0.25rem;
+}
+
+.conf-track-note {
+  font-size: 0.72rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.3rem;
+  line-height: 1.3;
+}
+
+.conf-submission-closed,
+.conf-notifications-sent {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--global-text-color-light);
+  padding: 0.2rem 0;
+}
+
+.conf-notifications-sent {
+  color: $green-color;
+}
+
+.conf-submission-closed[hidden],
+.conf-notifications-sent[hidden] {
+  display: none;
+}
+
+.conf-deadline-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  padding: 0.12rem 0;
+}
+
+.conf-deadline-label {
+  flex: 0 0 auto;
+  color: var(--global-text-color-light);
+  min-width: 3.6rem;
+}
+
+.conf-deadline-date {
+  flex: 0 0 auto;
+}
+
+.conf-deadline-row.is-passed .conf-deadline-date {
+  text-decoration: line-through;
+  color: var(--global-text-color-light);
+}
+
+.conf-countdown {
+  flex: 1 1 auto;
+  text-align: right;
+  font-size: 0.74rem;
+  font-weight: 500;
+  color: var(--global-text-color-light);
+}
+
+.conf-countdown.is-urgent {
+  color: $red-color;
+}
+
+.conf-countdown.is-open {
+  color: $green-color;
+}
+
+.conf-card-link {
+  margin-top: auto;
+  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+@media (max-width: 576px) {
+  .conf-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .conf-sort-wrap {
+    margin-left: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+}

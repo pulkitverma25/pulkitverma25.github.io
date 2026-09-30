@@ -1,0 +1,111 @@
+<!-- Builds each conference's track list, falling back to the legacy
+     flat abstractdeadline/paperdeadline fields when `tracks` isn't set. -->
+{% assign all_tags = "" | split: "," %}
+{% for conference in site.conferences %}
+  {% for tag in conference.tags %}
+    {% unless all_tags contains tag %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% assign all_tags = all_tags | sort %}
+
+<div class="conf-toolbar">
+  <div class="conf-search-wrap">
+    <i class="ti ti-search"></i>
+    <input type="text" id="conf-search" spellcheck="false" autocomplete="off" placeholder="Search conferences or locations">
+  </div>
+  {% if all_tags.size > 0 %}
+    <div class="conf-tag-filters">
+      {% for tag in all_tags %}
+        <button type="button" class="conf-tag-btn" data-tag="{{ tag }}">{{ tag }}</button>
+      {% endfor %}
+    </div>
+  {% endif %}
+  <div class="conf-sort-wrap">
+    <label for="conf-sort">Sort</label>
+    <select id="conf-sort">
+      <option value="deadline">Soonest deadline</option>
+      <option value="confdate">Conference date</option>
+      <option value="name">Name</option>
+    </select>
+  </div>
+</div>
+
+<div class="conf-grid" id="conf-grid">
+  {% assign sorted_conferences = site.conferences | sort: "num" %}
+  {% for conference in sorted_conferences %}
+    {% assign search_blob = conference.shortname | append: " " | append: conference.name | append: " " | append: conference.location | downcase %}
+
+    {% if conference.tracks %}
+      {% assign tracks = conference.tracks %}
+    {% else %}
+      {% assign tracks = nil %}
+    {% endif %}
+
+    <div class="conf-card hoverable" data-tags="{{ conference.tags | join: ',' }}" data-search="{{ search_blob }}" data-start="{{ conference.start_date }}">
+      <div class="conf-card-top">
+        <div class="conf-tags">
+          {% for tag in conference.tags %}
+            <span class="conf-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        <span class="conf-status-badge" data-role="status">&nbsp;</span>
+      </div>
+
+      <h3 class="conf-card-title"><a href="{{ conference.website }}" target="_blank" rel="noopener noreferrer">{{ conference.shortname }}</a></h3>
+      <p class="conf-card-name">{{ conference.name }}</p>
+
+      <div class="conf-card-meta">
+        <span><i class="ti ti-map-pin"></i>{{ conference.location }}</span>
+        <span><i class="ti ti-calendar-event"></i>{{ conference.dates }}</span>
+      </div>
+
+      <div class="conf-tracks">
+        {% if tracks %}
+          {% for track in tracks %}
+            <div class="conf-track">
+              {% if tracks.size > 1 %}<div class="conf-track-name">{{ track.name }}</div>{% endif %}
+              {% if track.note %}<div class="conf-track-note">{{ track.note }}</div>{% endif %}
+              <div class="conf-submission-closed" data-role="submission-closed" hidden><i class="ti ti-lock"></i> Submission window closed</div>
+              <div class="conf-notifications-sent" data-role="notifications-sent" hidden><i class="ti ti-mail-opened"></i> Author notifications sent</div>
+              {% for d in track.deadlines %}
+                <div class="conf-deadline-row" data-kind="{% if d.decision %}decision{% else %}submission{% endif %}"{% unless d.tbd %} data-deadline="{{ d.date }}"{% endunless %}>
+                  <span class="conf-deadline-label">{{ d.label }}</span>
+                  {% if d.tbd %}
+                    <span class="conf-deadline-date">TBD</span>
+                  {% else %}
+                    <span class="conf-deadline-date">{{ d.display }}</span>
+                    <span class="conf-countdown" data-role="countdown"></span>
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        {% else %}
+          <!-- legacy fallback: single implicit track from flat fields -->
+          <div class="conf-track">
+            {% if conference.abstractdeadline %}
+              <div class="conf-deadline-row{% if conference.adp %} is-passed{% endif %}">
+                <span class="conf-deadline-label">Abstract</span>
+                <span class="conf-deadline-date">{{ conference.abstractdeadline }}</span>
+              </div>
+            {% endif %}
+            {% if conference.paperdeadline %}
+              <div class="conf-deadline-row{% if conference.pdp %} is-passed{% endif %}">
+                <span class="conf-deadline-label">Paper</span>
+                <span class="conf-deadline-date">{{ conference.paperdeadline }}</span>
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+
+      <a class="conf-card-link" href="{{ conference.website }}" target="_blank" rel="noopener noreferrer">Visit website <i class="ti ti-external-link"></i></a>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="conf-empty-state" id="conf-empty-state">No conferences match your filters.</div>
+
+<script src="{{ '/assets/js/conferences.js' | relative_url | bust_file_cache }}" type="module"></script>
