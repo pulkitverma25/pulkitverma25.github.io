@@ -830,6 +830,29 @@ abstract = {{The Association for the Advancement of Artificial Intelligence's 20
 }},
 }
 
+@article{samuel2026coupled,
+  author     = {Samuel, Alan Royce Gabriel and Verma, Pulkit},
+  title      = {{Coupled State-Space Modelling, Control, and Policy Distillation for Hybrid Rigid-Pneumatic Manipulators}},
+  abbr       = {Preprint},
+  bibtex_show= {1},
+  arxiv      = {2609.29424},
+  year       = {2026},
+  journal    = {ArXiv 2609.29424},
+  preprint   = {1},
+  pdf        = {https://arxiv.org/pdf/2609.29424},
+  abstract   = {{Hybrid manipulators combine motorized rigid joints with pressure-actuated origami segments. Published arms of this kind are controlled with decoupled per-DOF loops, and the cost of this approximation has not been quantified, because the coupled model needed to measure it has not been built. This paper derives such a model for a chain of N alternating revolute joints and Kresling origami segments, including pneumatic chamber dynamics and crease hysteresis. Using the model, we measure the coupling directly and show that its strength varies joint by joint, and that decoupled control loses precisely on the strongly coupled joints while remaining competitive on the one nearly decoupled joint. Coupled model-based controllers track 2.5x tighter than a decoupled PID baseline at lower torque. However, the model predictive controller (MPC) is too slow for real time, and model-free reinforcement learning stalls far below acceptable success rates on a strict settling metric. We therefore distill the MPC into a small neural policy with behavior cloning and DAgger. The distilled policy settles 93-94% of goals with zero collisions, within a few points of its teacher, and runs inside the 5 ms control step where the MPC does not. Where the teacher itself fails, we trace the failure to a limit cycle with the bellows' lightly damped mode, and we remove it by selecting goal postures holdable at low pressure.}},
+  bibtex     = {{
+@misc\{samuel2026coupled,
+  author        = \{Samuel, Alan Royce Gabriel and Verma, Pulkit\},
+  title         = \{Coupled State-Space Modelling, Control, and Policy Distillation for Hybrid Rigid-Pneumatic Manipulators\},
+  year          = \{2026\},
+  eprint        = \{2609.29424\},
+  archivePrefix = \{arXiv\},
+\}
+}},
+}
+
+
 @article{das2026indiromcom,
   author     = {Das, Avisha and Parmar, Mihir and Ramnath, Mohana and Verma, Pulkit},
   title      = {{Indi-RomCoM: Code-Mixed Benchmark for Evaluating LLMs on Romanized Indic-English Instructions}},
@@ -959,4 +982,5 @@ abstract = {{The Association for the Advancement of Artificial Intelligence's 20
 \}
 }},
 }
+
 
