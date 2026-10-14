@@ -37,6 +37,11 @@
   slides: talks/Dagstuhl_AIA_Talk.pdf
 
 - title: "Teaching LLMs to Plan: From CoT Instruction Tuning to Collaborative Constraint Translation"
+  venue: "Institut des Systèmes Intelligents et de Robotique, Sorbonne Université"
+  date: "June 2026"
+  slides: talks/Sorbonne_Talk_2026.pdf
+
+- title: "Teaching LLMs to Plan: From CoT Instruction Tuning to Collaborative Constraint Translation"
   venue: "AAAI 2026 PLAN-FM Bridge"
   venue_url: https://plan-fm.github.io/2026/
   date: "Jan 2026"
@@ -49,6 +54,11 @@
 
 - title: "Teaching LLMs to Plan: From CoT Instruction Tuning to Collaborative Constraint Translation"
   venue: "AI for Reasoning Reading Group, Vector Institute, University of Toronto"
+  date: "Nov 2025"
+
+- title: "Teaching LLMs to Plan: From CoT Instruction Tuning to Collaborative Constraint Translation"
+  venue: "ML Tea Talk, MIT CSAIL"
+  venue_url: https://www.csail.mit.edu/event/ml-tea-pddl-instruct-enhancing-symbolic-planning-capabilities-llms-through-logical-chain
   date: "Nov 2025"
 
 - title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
@@ -101,6 +111,7 @@
   venue: "Department of Computer Science and Engineering, IIT Madras"
   venue_url: https://www.cse.iitm.ac.in
   date: "January 2025"
+  slides: talks/IITM_CSE_Talk_2025.pdf
 
 - title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
   venue: "Mehta Family School of Data Science and AI, IIT Palakkad"
@@ -110,17 +121,20 @@
 - title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
   venue: "Mehta Family School of Data Science and AI, IIT Roorkee"
   venue_url: https://www.iitr.ac.in/mfsdsai/
-  date: "December 2024"
+  date: "January 2025"
+  slides: talks/IITR_Talk_2025.pdf
 
 - title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
   venue: "School of AI and Data Engineering, IIT Ropar"
   venue_url: https://www.iitrpr.ac.in/saide/
   date: "October 2024"
+  slides: talks/IIT_Ropar_Talk_2025.pdf
 
 - title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
   venue: "Brown Robotics Talks, BigAI, Brown University"
   venue_url: https://h2r.github.io/brown-lab-talks/
   date: "October 2024"
+  slides: talks/BigAI_Talk_2025.pdf
 
 - title: "Learning Interpretable Models for Autonomous Assessment of Taskable AI Systems"
   venue: "Department of Computer Science and Engineering, IIT Guwahati"
