@@ -6,7 +6,7 @@ dates: Feb 16 - Feb 23, 2027
 start_date: "2027-02-16"
 website: https://aaai.org/conference/aaai/aaai-27/
 num: 60
-tags: [ML, KR]
+tags: [ML, KR, AP]
 tracks:
   - name: Main Track
     deadlines:

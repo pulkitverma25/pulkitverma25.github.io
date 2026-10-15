@@ -6,7 +6,7 @@ dates: Oct 02 - Oct 07, 2027
 start_date: "2027-10-02"
 website: https://ecai2027.org/
 num: 130
-tags: [ML, KR]
+tags: [ML, KR, AP]
 tracks:
   - name: Main Track
     deadlines:

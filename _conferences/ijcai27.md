@@ -6,7 +6,7 @@ dates: Aug 07 - Aug 13, 2027
 start_date: "2027-08-07"
 website: https://2027.ijcai.org/
 num: 110
-tags: [ML, KR]
+tags: [ML, KR, AP]
 tracks:
   - name: Main Track
     deadlines:
