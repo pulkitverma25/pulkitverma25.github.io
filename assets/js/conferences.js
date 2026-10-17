@@ -36,6 +36,48 @@ function updateTrackCollapse(track, now) {
   if (notifiedBanner) notifiedBanner.hidden = !notificationsSent;
 }
 
+// Picks which deadline rows to surface per track for compact list-view
+// display: every still-open submission deadline (so Abstract + Paper both
+// show while both are upcoming, not just the soonest one); if none of those
+// are upcoming, the upcoming decision instead; and failing that, the single
+// most recently passed row, so a closed track still shows something.
+function markNextDeadline(track, now) {
+  const submissionRows = Array.from(
+    track.querySelectorAll('.conf-deadline-row[data-kind="submission"][data-deadline]')
+  ).filter((row) => !row.hidden);
+  const decisionRows = Array.from(
+    track.querySelectorAll('.conf-deadline-row[data-kind="decision"][data-deadline]')
+  ).filter((row) => !row.hidden);
+  const allRows = submissionRows.concat(decisionRows);
+  allRows.forEach((row) => row.classList.remove('is-next-deadline'));
+
+  const isUpcoming = (row) => Date.parse(row.dataset.deadline) - now > 0;
+
+  const upcomingSubmission = submissionRows.filter(isUpcoming);
+  if (upcomingSubmission.length > 0) {
+    upcomingSubmission.forEach((row) => row.classList.add('is-next-deadline'));
+    return;
+  }
+
+  const upcomingDecision = decisionRows.filter(isUpcoming);
+  if (upcomingDecision.length > 0) {
+    upcomingDecision.forEach((row) => row.classList.add('is-next-deadline'));
+    return;
+  }
+
+  let latest = null;
+  let latestTime = -Infinity;
+  allRows.forEach((row) => {
+    const t = Date.parse(row.dataset.deadline);
+    if (Number.isNaN(t)) return;
+    if (t > latestTime) {
+      latestTime = t;
+      latest = row;
+    }
+  });
+  if (latest) latest.classList.add('is-next-deadline');
+}
+
 function updateCard(card, now) {
   const allRows = card.querySelectorAll('.conf-deadline-row[data-deadline]');
   const submissionRows = card.querySelectorAll('.conf-deadline-row[data-kind="submission"][data-deadline]');
@@ -63,7 +105,10 @@ function updateCard(card, now) {
     if (diff > 0) soonestFuture = Math.min(soonestFuture, t);
   });
 
-  card.querySelectorAll('.conf-track').forEach((track) => updateTrackCollapse(track, now));
+  card.querySelectorAll('.conf-track').forEach((track) => {
+    updateTrackCollapse(track, now);
+    markNextDeadline(track, now);
+  });
 
   const badge = card.querySelector('[data-role="status"]');
   const hasUpcoming = soonestFuture !== Infinity;
@@ -103,6 +148,19 @@ function applyFilters(grid, query, activeTags) {
   return visibleCount;
 }
 
+function rankCards(grid) {
+  let rank = 0;
+  grid.querySelectorAll('.conf-card').forEach((card) => {
+    const rankEl = card.querySelector('[data-role="rank"]');
+    if (card.classList.contains('is-filtered-out')) {
+      if (rankEl) rankEl.textContent = '';
+      return;
+    }
+    rank += 1;
+    if (rankEl) rankEl.textContent = String(rank);
+  });
+}
+
 function sortCards(grid, mode) {
   const cards = Array.from(grid.querySelectorAll('.conf-card'));
   cards.sort((a, b) => {
@@ -138,10 +196,12 @@ function init() {
     const query = (searchInput?.value || '').trim().toLowerCase();
     const visibleCount = applyFilters(grid, query, activeTags);
     if (emptyState) emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+    rankCards(grid);
   }
 
   function refreshSort() {
     sortCards(grid, sortSelect?.value || 'deadline');
+    rankCards(grid);
   }
 
   refreshTimers();
@@ -170,6 +230,33 @@ function init() {
   });
 
   sortSelect?.addEventListener('change', refreshSort);
+
+  const viewButtons = Array.from(document.querySelectorAll('.conf-view-btn'));
+  function setView(view) {
+    grid.classList.toggle('view-list', view === 'list');
+    viewButtons.forEach((btn) => {
+      const active = btn.dataset.view === view;
+      btn.classList.toggle('is-active', active);
+      btn.setAttribute('aria-pressed', String(active));
+    });
+    try {
+      localStorage.setItem('conf-view', view);
+    } catch (e) {
+      // private browsing / blocked storage: view just won't persist
+    }
+  }
+
+  let initialView = 'cards';
+  try {
+    initialView = localStorage.getItem('conf-view') || 'cards';
+  } catch (e) {
+    // ignore
+  }
+  setView(initialView);
+
+  viewButtons.forEach((btn) => {
+    btn.addEventListener('click', () => setView(btn.dataset.view));
+  });
 }
 
 if (document.readyState === 'loading') {

@@ -22,6 +22,10 @@
       {% endfor %}
     </div>
   {% endif %}
+  <div class="conf-view-toggle" role="group" aria-label="View">
+    <button type="button" class="conf-view-btn" data-view="cards" aria-pressed="false"><i class="ti ti-layout-grid"></i> Cards</button>
+    <button type="button" class="conf-view-btn" data-view="list" aria-pressed="false"><i class="ti ti-list"></i> List</button>
+  </div>
   <div class="conf-sort-wrap">
     <label for="conf-sort">Sort</label>
     <select id="conf-sort">
@@ -45,6 +49,7 @@
 
     <div class="conf-card hoverable" data-tags="{{ conference.tags | join: ',' }}" data-search="{{ search_blob }}" data-start="{{ conference.start_date }}">
       <div class="conf-card-top">
+        <span class="conf-rank" data-role="rank"></span>
         <div class="conf-tags">
           {% for tag in conference.tags %}
             <span class="conf-tag">{{ tag }}</span>

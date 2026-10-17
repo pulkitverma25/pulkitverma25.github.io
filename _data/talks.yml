@@ -6,6 +6,18 @@
 #   slides    - path to a local PDF under assets/pdf/ (e.g. talks/My_Talk.pdf)
 #   video     - link to a recording of the talk
 
+- title: "When AI Leaves the Lab: Building Physical AI People Can Trust"
+  venue: "DevFest, Google Developer Group Chennai"
+  venue_url: https://devfest.gdgchennai.in/
+  date: "October 2026"
+  slides: talks/GDGC_DevFest_2026.pdf
+
+- title: "When AI Leaves the Lab: Building Physical AI People Can Trust"
+  venue: "Dagstuhl Seminar on User-Aligned Assessment of AI Systems"
+  venue_url: https://www.dagstuhl.de/26051
+  date: "Jan 2026"
+  slides: talks/Dagstuhl_AIA_Talk.pdf
+
 - title: "Beyond the Lab: User-Aligned Assessment of Taskable AI Systems"
   venue: "Indian Statistical Institute (ISI), Kolkata"
   venue_url: https://www.isical.ac.in/index
@@ -29,12 +41,6 @@
   venue_url: https://cerai.iitm.ac.in/
   date: "July 2026"
   slides: talks/CeRAI_Faculty_Seminar_Talk_2026.pdf
-
-- title: "When Robots Come Home: Who Models Safety in Personal Robotics?"
-  venue: "Dagstuhl Seminar on User-Aligned Assessment of AI Systems"
-  venue_url: https://www.dagstuhl.de/26051
-  date: "Jan 2026"
-  slides: talks/Dagstuhl_AIA_Talk.pdf
 
 - title: "Teaching LLMs to Plan: From CoT Instruction Tuning to Collaborative Constraint Translation"
   venue: "Institut des Systèmes Intelligents et de Robotique, Sorbonne Université"

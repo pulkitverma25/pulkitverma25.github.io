@@ -69,8 +69,38 @@
   color: var(--global-bg-color);
 }
 
-.conf-sort-wrap {
+.conf-view-toggle {
   margin-left: auto;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.conf-view-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-card-bg-color);
+  color: var(--global-text-color-light);
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.conf-view-btn:hover {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+}
+
+.conf-view-btn.is-active {
+  background: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: var(--global-bg-color);
+}
+
+.conf-sort-wrap {
   font-size: 0.8rem;
   color: var(--global-text-color-light);
   display: flex;
@@ -127,6 +157,24 @@
   justify-content: space-between;
   gap: 0.5rem;
   margin-bottom: 0.4rem;
+}
+
+.conf-rank {
+  display: none;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+}
+
+.conf-rank:empty {
+  display: none !important;
 }
 
 .conf-tags {
@@ -299,14 +347,145 @@
   gap: 0.3rem;
 }
 
+// List view: one conference per row, in strict sort order, laid out as a
+// real grid so rank/name/meta/deadline line up as columns across every row
+// (not flexbox, which can't keep columns aligned row to row).
+.conf-grid.view-list {
+  grid-template-columns: 1fr;
+}
+
+.conf-grid.view-list .conf-card {
+  display: grid;
+  grid-template-columns: 1.8rem minmax(120px, 220px) minmax(140px, auto) minmax(220px, 1fr) auto;
+  align-items: center;
+  column-gap: 0.9rem;
+  row-gap: 0.2rem;
+  padding: 0.55rem 0.9rem;
+}
+
+// Lifts conf-card-top's children (rank, tags, status) up to be direct grid
+// items of .conf-card, so each gets its own aligned column instead of being
+// trapped together in one flex-sized cell. Tags and the status badge are
+// hidden in list view (display: none below), so they drop out of the grid
+// and consume no column.
+.conf-grid.view-list .conf-card-top {
+  display: contents;
+}
+
+.conf-grid.view-list .conf-rank {
+  display: inline-flex;
+}
+
+.conf-grid.view-list .conf-tags,
+.conf-grid.view-list .conf-status-badge {
+  display: none;
+}
+
+.conf-grid.view-list .conf-card-title {
+  margin: 0;
+  font-size: 0.95rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.conf-grid.view-list .conf-card-name {
+  display: none;
+}
+
+.conf-grid.view-list .conf-card-meta {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  margin-bottom: 0;
+}
+
+.conf-grid.view-list .conf-tracks {
+  border-top: none;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.conf-grid.view-list .conf-track + .conf-track {
+  margin-top: 0.2rem;
+  padding-top: 0.2rem;
+  border-top: none;
+}
+
+// Track name stays visible here (hidden only when there's a single, implicit
+// "Main Track") so stacked per-track rows stay distinguishable.
+.conf-grid.view-list .conf-track-name {
+  font-size: 0.68rem;
+  margin-bottom: 0;
+}
+
+.conf-grid.view-list .conf-track-note {
+  display: none;
+}
+
+// Compact single-line versions of the "closed"/"notified" banners — shown
+// (instead of being hidden) whenever a track has nothing upcoming to list,
+// so a fully-wrapped-up track still gets a brief mention rather than a
+// blank space.
+.conf-grid.view-list .conf-submission-closed,
+.conf-grid.view-list .conf-notifications-sent {
+  padding: 0;
+  font-size: 0.78rem;
+}
+
+// Only rows JS has marked relevant are shown per track: every still-open
+// submission deadline (so Abstract + Paper can both appear), or a fallback
+// if none are upcoming. See markNextDeadline in conferences.js.
+.conf-grid.view-list .conf-deadline-row {
+  display: none;
+  padding: 0;
+  font-size: 0.8rem;
+}
+
+.conf-grid.view-list .conf-deadline-row.is-next-deadline {
+  display: flex;
+}
+
+// Fixed-width label column so dates always start at the same x position,
+// regardless of label length ("Abstract" vs "Supplementary" vs "Video
+// (Round 2)") — min-width alone let longer labels push their own date
+// further right than shorter ones.
+.conf-grid.view-list .conf-deadline-label {
+  flex: 0 0 7.2rem;
+  width: 7.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.conf-grid.view-list .conf-card-link {
+  margin-top: 0;
+  font-size: 0.74rem;
+  white-space: nowrap;
+}
+
 @media (max-width: 576px) {
   .conf-grid {
     grid-template-columns: 1fr;
   }
 
-  .conf-sort-wrap {
+  .conf-view-toggle {
     margin-left: 0;
+  }
+
+  .conf-sort-wrap {
     width: 100%;
     justify-content: space-between;
+  }
+
+  .conf-grid.view-list .conf-card {
+    grid-template-columns: 1.8rem 1fr;
+  }
+
+  .conf-grid.view-list .conf-card-title,
+  .conf-grid.view-list .conf-card-meta,
+  .conf-grid.view-list .conf-tracks,
+  .conf-grid.view-list .conf-card-link {
+    grid-column: 1 / -1;
   }
 }
