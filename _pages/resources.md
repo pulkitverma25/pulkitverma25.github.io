@@ -20,12 +20,17 @@ description: Some links for personal book-keeping
     <div>
         <ul class="card-text font-weight-light list-group list-group-flush">
             <li class="list-group-item"><a href="https://cse.iitm.ac.in" target="_blank">Department of Computer Science and Engineering, IIT Madras</a></li>
+            <li class="list-group-item"><a href="https://cerai.iitm.ac.in/" target="_blank">Center for Responsible AI (CeRAI), IIT Madras</a></li>
+            <li class="list-group-item"><a href="https://www.ijcai.org/" target="_blank">International Joint Conference on Artificial Intelligence (IJCAI)</a></li>
+            <li class="list-group-item"><a href="https://www.iaseai.org/" target="_blank">International Association for Safe and Ethical AI (IASEAI)</a></li>
+            <li class="list-group-item"><a href="https://aaai.org/" target="_blank">Association for the Advancement of Artificial Intelligence (AAAI)</a></li>
             <li class="list-group-item"><a href="https://interactive.mit.edu/" target="_blank">Interactive Robotics Group, MIT</a></li>
             <li class="list-group-item"><a href="https://aair-lab.github.io" target="_blank">Autonomous Agents and Intelligent Robots Lab, ASU</a></li>
             <li class="list-group-item"><a href="https://ai.meta.com/" target="_blank">Meta AI</a></li>
             <li class="list-group-item"><a href="https://about.meta.com/realitylabs/" target="_blank">Meta Reality Labs</a></li>
             <li class="list-group-item"><a href="https://humancompatible.ai/" target="_blank">Center for Human-Compatible Artificial Intelligence, UC Berkeley</a></li>
             <li class="list-group-item"><a href="https://scai.engineering.asu.edu/" target="_blank">School of Computing and Augmented Intelligence, ASU</a></li>
+            <li class="list-group-item"><a href="https://globalsecurity.asu.edu/human-artificial-intelligence-and-robot-teaming" target="_blank">Center for Human, Artificial Intelligence, and Robot Teaming, ASU</a></li>
             <li class="list-group-item"><a href="https://sites.usc.edu/cognitive-robotics/" target="_blank">Summer School on Cognitive Robotics</a></li>
             <!-- <li class="list-group-item"><a href="http://scholar.stanford.edu/" target="_blank">Stanford Scholar</a></li> -->
             <li class="list-group-item"><a href="http://www.netapp.com" target="_blank">NetApp Inc.</a></li>

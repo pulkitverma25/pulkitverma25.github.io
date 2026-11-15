@@ -6,7 +6,7 @@
 - title: Bio
   type: paragraph
   contents:
-    - Pulkit Verma is an Assistant Professor at the <a href="https://www.cse.iitm.ac.in" target="_blank">Department of Computer Science and Engineering</a>, <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>, and a Faculty PI at the <a href="https://cerai.iitm.ac.in/" target="_blank">Center for Responsible AI (CeRAI)</a>, IIT Madras. Prior to this, he was a Postdoctoral Associate in the <a href="https://interactive.mit.edu/" target="_blank">Interactive Robotics Group</a> at the <a href="https://csail.mit.edu/" target="_blank">MIT CSAIL</a>, where he worked with <a href="https://interactive.mit.edu/about/people/julie" target="_blank">Prof. Julie Shah</a>. His research focuses on the safe and reliable behavior of taskable AI agents. He investigates the minimal set of requirements in an AI system that would enable a user to assess and understand the limits of its safe operability. He received his Ph.D. in Computer Science from the <a href="https://scai.engineering.asu.edu" target="_blank">School of Computing and Augmented Intelligence</a>, <a href="https://www.asu.edu/" target="_blank">Arizona State University</a>, where he worked with <a href="http://siddharthsrivastava.net" target="_blank">Prof. Siddharth Srivastava</a>. Before that, he completed his M.Tech. in Computer Science and Engineering at <a href="https://www.iitg.ac.in/" target="_blank">Indian Institute of Technology Guwahati</a> with <a href="http://www.iitg.ernet.in/pkdas/" target="_blank">Prof. Pradip K. Das</a>. He was awarded the <a href="https://icaps25.icaps-conference.org/program/awards/" target="_blank">ICAPS 2025 Outstanding Dissertation Award</a> at ICAPS 2025, <a href="https://eaai-conf.github.io/eaai/iaep.html" target="_blank">AAAI/ACM SIGAI Innovative AI Education Award</a> at AAAI 2025's <a href="https://eaai-conf.github.io/year/eaai-25.html" target="_blank">EAAI Symposium</a>, <a href="https://graduate.asu.edu/current-students/funding-opportunities/awards-and-fellowships/completion-fellowship" target="_blank">Graduate College Completion Fellowship</a> at ASU in 2023,  <a href="https://www.aicte-india.org/schemes/students-development-schemes/PG-Scholarship-Scheme" target="_blank">Post Graduation Scholarship</a> from the Government of India in 2013 and 2014, and received the <a href="https://aamas2022-conference.auckland.ac.nz/awards/best-paper-and-demonstration/" target="_blank">Best Demo Award</a> at the <a href="https://aamas2022-conference.auckland.ac.nz/" target="_blank">International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</a> in 2022.
+    - Pulkit Verma is an Assistant Professor of <a href="https://www.cse.iitm.ac.in" target="_blank">Computer Science and Engineering</a> at <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>, where he is a Faculty-PI at the <a href="https://cerai.iitm.ac.in/" target="_blank">Centre for Responsible AI (CeRAI)</a>. He is also an affiliate of the <a href="https://humancompatible.ai/" target="_blank">Center for Human-Compatible AI</a> at UC Berkeley. Previously, he was a Postdoctoral Associate in the <a href="https://interactive.mit.edu/" target="_blank">Interactive Robotics Group</a> at <a href="https://csail.mit.edu/" target="_blank">MIT CSAIL</a>. He received his Ph.D. from <a href="https://www.asu.edu/" target="_blank">Arizona State University</a> and his M.Tech. from <a href="https://www.iitg.ac.in/" target="_blank">IIT Guwahati</a>. His research spans AI safety, automated planning, lifelong learning with humans in the loop, and human-robot collaboration. His goal is to build AI agents that remain reliable and adaptable as they work with people. His work has been recognized with the <a href="https://icaps25.icaps-conference.org/program/awards/" target="_blank">ICAPS 2025 Outstanding Dissertation Award</a>, the <a href="https://eaai-conf.github.io/eaai/iaep.html" target="_blank">2025 AAAI/ACM SIGAI Innovative AI Education Award</a>, and the <a href="https://aamas2022-conference.auckland.ac.nz/awards/best-paper-and-demonstration/" target="_blank">AAMAS 2022 Best Demo Award</a>.
 
 - title: Education
   type: time_table
@@ -72,6 +72,7 @@
     - title: Course Instructor
       year: IIT Madras
       description:
+        - 'CS6260: Automated Planning and Learning (Jan-May 2027).'
         - '<a href="https://hails-group.github.io/courses/cs6380/jn26.html" target="_blank">CS6380: Artificial Intelligence</a> (Jul-Nov 2026).'
         - '<a href="https://hails-group.github.io/courses/cs6260/jm26.html" target="_blank">CS6260: Automated Planning and Learning</a> (Jan-May 2026).'
 
@@ -80,6 +81,14 @@
       description:
         - '<a href="https://webapp4.asu.edu/bookstore/viewsyllabus/2221/35294" target="_blank">CSE 571: Artificial Intelligence</a> (Spring&#39;22).'
         - '<a href="https://aair-lab.github.io/teaching/571_f19.html" target="_blank">CSE 571: Artificial Intelligence</a> (Fall&#39;19).'
+
+    - title: Session Lead
+      year: ASU
+      description:
+        - 'CSE 571: Artificial Intelligence (Spring&#39;23).'
+        - 'CSE 471: Introduction to Artificial Intelligence (Fall&#39;22).'
+        - 'CSE 574: Planning and Learning Methods in Artificial Intelligence (Spring&#39;21).'
+        - 'CSE 471: Introduction to Artificial Intelligence (Fall&#39;20).'
 
     - title: Teaching Assistant
       year: IIT Guwahati
@@ -105,17 +114,22 @@
 - title: Service
   type: time_table
   contents:
-    - title: Workshops and Tutorials
+    - title: Workshops
       year: Organizer
       description:
+        - 'Co-organizer, <a href="https://dai-workshop.github.io/" target="_blank">AAAI 2027 Deployable AI Workshop (DAI 2027)</a>.'
         - 'Co-organizer, <a href="https://xplore-workshop.github.io/" target="_blank">ICRA 2026 Workshop on Cross-Disciplinary aspects of Exploration in Robotics, Reinforcement Learning and Search (XPLORE 2026)</a>.'
         - 'Co-organizer, <a href="https://hc-air.github.io/hcair26" target="_blank">ICLR 2026 Workshop - From Human Cognition to AI Reasoning: Models, Methods, and Applications (HCAIR 2026)</a>.'
         - 'Co-organizer, <a href="https://haxp-icaps.web.app" target="_blank">ICAPS 2025 Workshop on Human-Aware and Explainable Planning (HAXP 2025)</a>.'
         - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025" target="_blank">IJCAI 2025 Workshop on User-Aligned Assessment of Adaptive AI Systems (AIA 2025)</a>.'
-        - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025-tutorial" target="_blank">AAAI 2025 Tutorial on User-Driven Capability Assessment of Taskable AI Systems</a>.'
         - 'Co-organizer, <a href="https://aair-lab.github.io/aia2024" target="_blank">AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems (AIA 2024)</a>.'
         - 'Co-organizer, <a href="http://aair-lab.github.io/genplan23" target="_blank">NeurIPS 2023 Workshop on Generalization in Planning (GenPlan 2023)</a>.'
-        - 'Co-organizer, <a href="http://aair-lab.github.io/genplan22" target="_blank">IJCAI-ECAI 2022 Workshop on Generalization in Planning (GenPlan 2022)</a>.'    
+        - 'Co-organizer, <a href="http://aair-lab.github.io/genplan22" target="_blank">IJCAI-ECAI 2022 Workshop on Generalization in Planning (GenPlan 2022)</a>.'
+    - title: Tutorials
+      year: Organizer
+      description:
+        - 'Instructor, <a href="https://bit.ly/icad25-workshop" target="_blank">IEEE ICAD 2025 Tutorial on Interpretable Model Learning for Taskable AI Systems</a>.'
+        - 'Co-organizer, <a href="https://aair-lab.github.io/aia2025-tutorial" target="_blank">AAAI 2025 Tutorial on User-Driven Capability Assessment of Taskable AI Systems</a>.'
     - title: Journals
       year: Editorial Board
       description:
@@ -123,6 +137,7 @@
     - title: Conferences
       year: Org Roles
       description:
+        - 'Workflow Chair, <a href="https://ecai2027.org/" target="_blank">ECAI 2027</a>'
         - 'Doctoral Consortium Chair, <a href="https://icaps27.icaps-conference.org" target="_blank">ICAPS 2027</a>'
         - 'Area Chair, <a href="https://neurips.cc/Conferences/2026" target="_blank">NeurIPS 2026</a>'
         - 'Workflow Chair, <a href="https://icaps26.icaps-conference.org" target="_blank">ICAPS 2026</a>'
@@ -142,12 +157,14 @@
         - 'ICLR: <a href="https://iclr.cc/Conferences/2024" target="_blank">2024</a>, <a href="https://iclr.cc/Conferences/2025" target="_blank">2025</a>, <a href="https://iclr.cc/Conferences/2026" target="_blank">2026</a>.'
         - 'NeurIPS: <a href="https://neurips.cc/Conferences/2023" target="_blank">2023</a>, <a href="https://neurips.cc/Conferences/2024" target="_blank">2024</a>, <a href="https://neurips.cc/Conferences/2025" target="_blank">2025</a>.'
         - 'EAAI: <a href="https://eaai-conf.github.io/year/eaai-27.html" target="_blank">2027</a>.'
+        - 'IASEAI: <a href="/conferences/iaseai27/" target="_blank">2027</a>.'
         - 'ARR: <a href="https://aclrollingreview.org/" target="_blank">May 2026</a>, <a href="https://aclrollingreview.org/" target="_blank">Oct 2026</a>.'
         - 'AAMAS: <a href="https://aamas2023.soton.ac.uk/" target="_blank">2023</a>, <a href="https://www.aamas2024-conference.auckland.ac.nz/" target="_blank">2024</a>, <a href="https://aamas2025.org" target="_blank">2025</a>, <a href="https://warwick.ac.uk/fac/sci/dcs/aamas2027/" target="_blank">2027</a>.'
         - 'HRI: <a href="https://humanrobotinteraction.org/2027/" target="_blank">2027</a>.'
-        - 'ICAPS: <a href="http://icaps24.icaps-conference.org/" target="_blank">2024</a>, <a href="http://icaps25.icaps-conference.org/" target="_blank">2025</a>.'
+        - 'ICAPS: <a href="http://icaps22.icaps-conference.org/" target="_blank">2022</a>, <a href="http://icaps24.icaps-conference.org/" target="_blank">2024</a>, <a href="http://icaps25.icaps-conference.org/" target="_blank">2025</a>.'
+        - 'ICRA: <a href="https://2027.ieee-icra.org" target="_blank">2027</a>.'
         - 'IJCAI: <a href="https://ijcai-23.org/" target="_blank">2023</a>, <a href="https://ijcai24.org/" target="_blank">2024</a>.'
-        - 'R:SS: <a href="https://roboticsconference.org/2024/" target="_blank">2024</a>, <a href="https://roboticsconference.org/2025/" target="_blank">2025</a>, <a href="https://roboticsconference.org/" target="_blank">2026</a>.'
+        - 'R:SS: <a href="https://roboticsconference.org/2024/" target="_blank">2024</a>, <a href="https://roboticsconference.org/2025/" target="_blank">2025</a>, <a href="https://roboticsconference.org/" target="_blank">2026</a>, <a href="https://roboticsconference.org/" target="_blank">2027</a>.'
         - 'ICML: <a href="https://icml.cc/Conferences/2026" target="_blank">2026</a>.'
         - 'ECAI: <a href="https://ecai2025.org" target="_blank">2025</a>.'
         - 'IROS: <a href="https://www.iros25.org" target="_blank">2025</a>.'
@@ -192,6 +209,17 @@
         - '<a href="https://swrobotics.engineering.asu.edu/wp-content/uploads/2019/10/SWRS_Program_2019_final.pdf" target="_blank">Southwest Robotics Symposium 2019</a>, Tempe, AZ.'
         - '<a href="http://reasoning.eas.asu.edu/kr2018/" target="_blank">16th International Conference on Principles of Knowledge Representation and Reasoning (KR 2018)</a>.'
         - '<a href="https://www.iitg.ac.in/eee/gpa3_2014/" target="_blank">National Workshop on GPU Programming and Applications</a>, IIT Guwahati.'
+    - title: Panels
+      year: Panelist
+      description:
+        - '<a href="https://agyeya.com/#fall-2026" target="_blank">Research Career Paths in AI Safety &amp; Interpretability in India</a>, AI Interpretability &amp; Safety Workshop, IISc Bangalore (2026).'
+        - '<a href="https://www.linkedin.com/posts/department-of-hss-iit-tirupati_iittirupati-wriindia-sustainability-activity-7448298861305012225-JPla/" target="_blank">Impact of AI in Indian Economy and its Role in Environmental Sustainability</a>, Workshop on Emerging AI Technologies for a Sustainable Future, Dept. of HSS, IIT Tirupati, in collaboration with WRI India (2026).'
+        - '<a href="https://www.linkedin.com/posts/activity-7437114002817593344-gnqm/" target="_blank">The Last Question: Will We Lose Control of Advanced AI?</a>, AI Safety Connect Day, India AI Summit, New Delhi (2026).'
+    - title: Miscellaneous
+      year: Academic Service
+      description:
+        - 'Member, (Inaugural) PhD Council, School of Computing and AI, ASU (2023-2024).'
+        - 'Award and Grant Reviewer, Graduate and Professional Service Association (GPSA), ASU (2020-2022).'
 
 
 - title: Honors and Awards
@@ -206,6 +234,9 @@
     - year: 2025
       items:
         - '<a href="https://eaai-conf.github.io/eaai/iaep.html" target="_blank">AAAI/ACM SIGAI Innovative AI Education Award 2025</a>.'
+    - year: 2024
+      items:
+        - 'Outstanding Reviewer, CoRL 2024 LEAP Workshop.'
     - year: 2024
       items:
         - 'Spring 2024 <a href="https://eoss.asu.edu/gpsa/funding/jumpstart-research-grant" target="_blank">GPSA Jumpstart Research Grant</a>, ASU.'
@@ -248,6 +279,9 @@
     - year: 2013 - 2015
       items:
         - '<a href="https://www.aicte-india.org/schemes/students-development-schemes/PG-Scholarship-Scheme" target="_blank">Post Graduation Scholarship</a>, All India Council for Technical Education, MHRD, Government of India.'
+    - year: 2012
+      items:
+        - 'TCS ILP Kudos Award, Tata Consultancy Services Ltd. (Best Trainee in the Batch).'
 
 - title: Certifications and Training
   type: list

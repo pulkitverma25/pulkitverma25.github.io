@@ -20,4 +20,40 @@ tracks:
         decision: true
         date: "2027-04-21T23:59:00-12:00"
         display: Apr 21, 2027
+  - name: Special Track on AI4Science
+    deadlines:
+      - label: Paper
+        date: "2027-01-11T23:59:00-12:00"
+        display: Jan 11, 2027
+      - label: Decision
+        decision: true
+        date: "2027-04-21T23:59:00-12:00"
+        display: Apr 21, 2027
+  - name: Special Track on AI and Health
+    deadlines:
+      - label: Paper
+        date: "2027-01-11T23:59:00-12:00"
+        display: Jan 11, 2027
+      - label: Decision
+        decision: true
+        date: "2027-04-21T23:59:00-12:00"
+        display: Apr 21, 2027
+  - name: Special Track on AI, Arts and Creativity
+    deadlines:
+      - label: Paper
+        date: "2027-01-11T23:59:00-12:00"
+        display: Jan 11, 2027
+      - label: Decision
+        decision: true
+        date: "2027-04-21T23:59:00-12:00"
+        display: Apr 21, 2027
+  - name: Special Track on AI for Social Good
+    deadlines:
+      - label: Paper
+        date: "2027-01-11T23:59:00-12:00"
+        display: Jan 11, 2027
+      - label: Decision
+        decision: true
+        date: "2027-04-21T23:59:00-12:00"
+        display: Apr 21, 2027
 ---

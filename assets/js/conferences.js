@@ -81,8 +81,9 @@ function markNextDeadline(track, now) {
 function updateCard(card, now) {
   const allRows = card.querySelectorAll('.conf-deadline-row[data-deadline]');
   const submissionRows = card.querySelectorAll('.conf-deadline-row[data-kind="submission"][data-deadline]');
+  const decisionRows = card.querySelectorAll('.conf-deadline-row[data-kind="decision"][data-deadline]');
   let soonestFuture = Infinity;
-  let latestAny = -Infinity;
+  let soonestFutureDecision = Infinity;
 
   allRows.forEach((row) => {
     const t = Date.parse(row.dataset.deadline);
@@ -100,9 +101,15 @@ function updateCard(card, now) {
   submissionRows.forEach((row) => {
     const t = Date.parse(row.dataset.deadline);
     if (Number.isNaN(t)) return;
-    latestAny = Math.max(latestAny, t);
     const diff = t - now;
     if (diff > 0) soonestFuture = Math.min(soonestFuture, t);
+  });
+
+  decisionRows.forEach((row) => {
+    const t = Date.parse(row.dataset.deadline);
+    if (Number.isNaN(t)) return;
+    const diff = t - now;
+    if (diff > 0) soonestFutureDecision = Math.min(soonestFutureDecision, t);
   });
 
   card.querySelectorAll('.conf-track').forEach((track) => {
@@ -113,7 +120,19 @@ function updateCard(card, now) {
   const badge = card.querySelector('[data-role="status"]');
   const hasUpcoming = soonestFuture !== Infinity;
   const hasAnyDated = submissionRows.length > 0;
-  const sortKey = hasUpcoming ? soonestFuture : (latestAny === -Infinity ? Infinity : latestAny + 1e13);
+
+  // Sort priority: soonest upcoming submission deadline; once every submission
+  // deadline has passed, the soonest upcoming decision date instead; and once
+  // decisions are out too (or there are none), the conference's own start date.
+  let sortKey;
+  if (hasUpcoming) {
+    sortKey = soonestFuture;
+  } else if (soonestFutureDecision !== Infinity) {
+    sortKey = soonestFutureDecision + 1e13;
+  } else {
+    const confStart = Date.parse(card.dataset.start);
+    sortKey = (Number.isNaN(confStart) ? Infinity : confStart) + 2e13;
+  }
   card.dataset.sortKey = String(sortKey);
 
   if (badge) {

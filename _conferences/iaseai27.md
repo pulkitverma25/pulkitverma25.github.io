@@ -15,6 +15,6 @@ tracks:
         display: Oct 5, 2026
       - label: Decision
         decision: true
-        date: "2026-11-20T23:59:00-12:00"
-        display: Nov 20, 2026
+        date: "2026-12-04T23:59:00-12:00"
+        display: Dec 4, 2026
 ---
